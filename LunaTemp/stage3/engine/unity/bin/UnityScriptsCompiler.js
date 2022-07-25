@@ -1,6 +1,6 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","Brick#SetHp","Brick#Start","Brick#OnTriggerEnter2D","Brick#OnCollisionEnter2D","Brick#Update","Brick#Debunk","BrickManager#Start","BrickManager#CreateMap","BrickManager#ParsePNGToMap","BrickManager#CreateBrick","BrickManager#GetBrickLocation","BrickManager#Update","BrickManager#OnDestroy","SingletonMono$1#init","SingletonMono$1#Awake","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","RotateObject#Start","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","Singleton$1#Instance#get","BucketCrusher1#inherits","GlobalInstance#inherits","GlobalInstance#init","SingletonDontDestroyOnLoad$1#Awake"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","Brick#SetHp","Brick#Start","Brick#OnTriggerEnter2D","Brick#OnCollisionEnter2D","Brick#Update","Brick#Debunk","BrickManager#Start","BrickManager#CreateMap","BrickManager#ParsePNGToMap","BrickManager#CreateBrick","BrickManager#GetBrickLocation","BrickManager#Update","BrickManager#OnDestroy","SingletonMono$1#init","SingletonMono$1#Awake","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","Joystick#Horizontal#get","Joystick#Vertical#get","Joystick#Direction#get","Joystick#HandleRange#get","Joystick#HandleRange#set","Joystick#DeadZone#get","Joystick#DeadZone#set","Joystick#AxisOptions#get","Joystick#AxisOptions#set","Joystick#SnapX#get","Joystick#SnapX#set","Joystick#SnapY#get","Joystick#SnapY#set","Joystick#init","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#HandleInput","Joystick#FormatInput","Joystick#SnapFloat","Joystick#OnPointerUp","Joystick#ScreenPointToAnchoredPosition","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","JoystickPlayerExample#FixedUpdate","JoystickSetterExample#ModeChanged","JoystickSetterExample#AxisChanged","JoystickSetterExample#SnapX","JoystickSetterExample#SnapY","JoystickSetterExample#Update","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","RotateObject#Start","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","UltimateJoystick#init","UltimateJoystick#JoystickConfirmed","UltimateJoystick#GetUltimateJoystick","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystick#init","UltimateJoystick#Awake","UltimateJoystick#Start","UltimateJoystick#OnPointerDown","UltimateJoystick#OnDrag","UltimateJoystick#OnPointerUp","UltimateJoystick#UpdateJoystick","UltimateJoystick#ConfigureImagePosition","UltimateJoystick#TensionAccentDisplay","UltimateJoystick#TensionAccentReset","UltimateJoystick#GravityHandler","UltimateJoystick#GetParentCanvas","UltimateJoystick#GetCanvasGroup","UltimateJoystick#FadeLogic","UltimateJoystick#TapCountdown","UltimateJoystick#TapCountDelay","UltimateJoystick#CheckJoystickHighlightForUse","UltimateJoystick#UpdatePositionValues","UltimateJoystick#ResetJoystick","UltimateJoystick#UpdateSizeAndPlacement","UltimateJoystick#UpdatePositioning","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#UpdateHighlightColor","UltimateJoystick#UpdateTensionColors","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystickExample.Spaceship.AsteroidController#init","UltimateJoystickExample.Spaceship.AsteroidController#Setup","UltimateJoystickExample.Spaceship.AsteroidController#DelayInitialDestruction","UltimateJoystickExample.Spaceship.AsteroidController#Update","UltimateJoystickExample.Spaceship.AsteroidController#OnCollisionEnter","UltimateJoystickExample.Spaceship.AsteroidController#Explode","UltimateJoystickExample.Spaceship.GameManager#Instance#get","UltimateJoystickExample.Spaceship.GameManager#init","UltimateJoystickExample.Spaceship.GameManager#Awake","UltimateJoystickExample.Spaceship.GameManager#Start","UltimateJoystickExample.Spaceship.GameManager#SpawnTimer","UltimateJoystickExample.Spaceship.GameManager#SpawnAsteroid","UltimateJoystickExample.Spaceship.GameManager#SpawnDebris","UltimateJoystickExample.Spaceship.GameManager#SpawnExplosion","UltimateJoystickExample.Spaceship.GameManager#ShowDeathScreen","UltimateJoystickExample.Spaceship.GameManager#FadeDeathScreen","UltimateJoystickExample.Spaceship.GameManager#ModifyScore","UltimateJoystickExample.Spaceship.GameManager#UpdateScoreText","UltimateJoystickExample.Spaceship.GameManager#ShakeCamera","UltimateJoystickExample.Spaceship.PlayerController#init","UltimateJoystickExample.Spaceship.PlayerController#Start","UltimateJoystickExample.Spaceship.PlayerController#Update","UltimateJoystickExample.Spaceship.PlayerController#FixedUpdate","UltimateJoystickExample.Spaceship.PlayerController#CheckExitScreen","UltimateJoystickExample.Spaceship.PlayerController#CreateBullets","UltimateJoystickScreenSizeUpdater#OnRectTransformDimensionsChange","UltimateJoystickScreenSizeUpdater#YieldPositioning","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","Singleton$1#Instance#get","DynamicJoystick#MoveThreshold#get","DynamicJoystick#MoveThreshold#set","DynamicJoystick#init","DynamicJoystick#Start","DynamicJoystick#OnPointerDown","DynamicJoystick#OnPointerUp","DynamicJoystick#HandleInput","FloatingJoystick#Start","FloatingJoystick#OnPointerDown","FloatingJoystick#OnPointerUp","VariableJoystick#MoveThreshold#get","VariableJoystick#MoveThreshold#set","VariableJoystick#init","VariableJoystick#SetMode","VariableJoystick#Start","VariableJoystick#OnPointerDown","VariableJoystick#OnPointerUp","VariableJoystick#HandleInput","BucketCrusher1#inherits","GlobalInstance#inherits","GlobalInstance#init","SingletonDontDestroyOnLoad$1#Awake"]' ) ); }
 /**
- * @version 1.0.8241.31029
+ * @version 1.0.8241.35813
  * @copyright anton
  * @compiler Bridge.NET 17.9.19-luna
  */
@@ -147,6 +147,19 @@ if ( TRACE ) { TRACE( "AutoDestructor#OnDisable", this ); }
         }
     });
     /*AutoDestructor+TypeDestroy end.*/
+
+    /*AxisOptions start.*/
+    Bridge.define("AxisOptions", {
+        $kind: "enum",
+        statics: {
+            fields: {
+                Both: 0,
+                Horizontal: 1,
+                Vertical: 2
+            }
+        }
+    });
+    /*AxisOptions end.*/
 
     /*Brick start.*/
     Bridge.define("Brick", {
@@ -305,12 +318,18 @@ if ( TRACE ) { TRACE( "BrickManager#CreateBrick", this ); }
 
                 // TO MAKE BRICK MORE REALISTIC
                 // RANDOM OFFSET COLOR 
-                var offset = Bridge.Int.mul(UnityEngine.Random.Range(0, 1), -1) + UnityEngine.Random.Range$1(0.0, 0.15);
+                //var offset = Random.Range(0, 1) * -1 + Random.Range(0f, .15f);
+                //go.GetComponent<SpriteRenderer>().color =
+                // new Color(
+                //     pixel.r + offset,
+                //     pixel.g + offset,
+                //     pixel.b + offset,
+                //     1);
+                go.GetComponent(UnityEngine.SpriteRenderer).color = new pc.Color( pixel.r, pixel.g, pixel.b, 1 );
 
-                go.GetComponent(UnityEngine.SpriteRenderer).color = new pc.Color( pixel.r + offset, pixel.g + offset, pixel.b + offset, 1 );
 
                 // RANDOM ANGLE
-                go.transform.eulerAngles = new pc.Vec3( 0, 0, UnityEngine.Random.Range$1(-10.0, 10.0) );
+                //go.transform.eulerAngles = new Vector3(0, 0, Random.Range(-10f, 10f));
 
                 // SET HP
                 go.GetComponent(Brick).SetHp(this.brickHealth);
@@ -3510,6 +3529,262 @@ if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathT
         }
     });
     /*Difficult end.*/
+
+    /*Joystick start.*/
+    Bridge.define("Joystick", {
+        inherits: [UnityEngine.MonoBehaviour,UnityEngine.EventSystems.IPointerDownHandler,UnityEngine.EventSystems.IDragHandler,UnityEngine.EventSystems.IPointerUpHandler],
+        fields: {
+            handleRange: 0,
+            deadZone: 0,
+            axisOptions: 0,
+            snapX: false,
+            snapY: false,
+            background: null,
+            handle$1: null,
+            baseRect: null,
+            canvas: null,
+            cam: null,
+            input: null
+        },
+        props: {
+            Horizontal: {
+                get: function () {
+if ( TRACE ) { TRACE( "Joystick#Horizontal#get", this ); }
+
+                    return (this.snapX) ? this.SnapFloat(this.input.x, AxisOptions.Horizontal) : this.input.x;
+                }
+            },
+            Vertical: {
+                get: function () {
+if ( TRACE ) { TRACE( "Joystick#Vertical#get", this ); }
+
+                    return (this.snapY) ? this.SnapFloat(this.input.y, AxisOptions.Vertical) : this.input.y;
+                }
+            },
+            Direction: {
+                get: function () {
+if ( TRACE ) { TRACE( "Joystick#Direction#get", this ); }
+
+                    return new pc.Vec2( this.Horizontal, this.Vertical );
+                }
+            },
+            HandleRange: {
+                get: function () {
+if ( TRACE ) { TRACE( "Joystick#HandleRange#get", this ); }
+
+                    return this.handleRange;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "Joystick#HandleRange#set", this ); }
+
+                    this.handleRange = Math.abs(value);
+                }
+            },
+            DeadZone: {
+                get: function () {
+if ( TRACE ) { TRACE( "Joystick#DeadZone#get", this ); }
+
+                    return this.deadZone;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "Joystick#DeadZone#set", this ); }
+
+                    this.deadZone = Math.abs(value);
+                }
+            },
+            AxisOptions: {
+                get: function () {
+if ( TRACE ) { TRACE( "Joystick#AxisOptions#get", this ); }
+
+                    return this.AxisOptions;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "Joystick#AxisOptions#set", this ); }
+
+                    this.axisOptions = value;
+                }
+            },
+            SnapX: {
+                get: function () {
+if ( TRACE ) { TRACE( "Joystick#SnapX#get", this ); }
+
+                    return this.snapX;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "Joystick#SnapX#set", this ); }
+
+                    this.snapX = value;
+                }
+            },
+            SnapY: {
+                get: function () {
+if ( TRACE ) { TRACE( "Joystick#SnapY#get", this ); }
+
+                    return this.snapY;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "Joystick#SnapY#set", this ); }
+
+                    this.snapY = value;
+                }
+            }
+        },
+        alias: [
+            "OnPointerDown", "UnityEngine$EventSystems$IPointerDownHandler$OnPointerDown",
+            "OnDrag", "UnityEngine$EventSystems$IDragHandler$OnDrag",
+            "OnPointerUp", "UnityEngine$EventSystems$IPointerUpHandler$OnPointerUp"
+        ],
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "Joystick#init", this ); }
+
+                this.input = new UnityEngine.Vector2();
+                this.handleRange = 1;
+                this.deadZone = 0;
+                this.axisOptions = AxisOptions.Both;
+                this.snapX = false;
+                this.snapY = false;
+                this.input = pc.Vec2.ZERO.clone();
+            }
+        },
+        methods: {
+            /*Joystick.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "Joystick#Start", this ); }
+
+                this.HandleRange = this.handleRange;
+                this.DeadZone = this.deadZone;
+                this.baseRect = this.GetComponent(UnityEngine.RectTransform);
+                this.canvas = this.GetComponentInParent(UnityEngine.Canvas);
+                if (UnityEngine.Component.op_Equality(this.canvas, null)) {
+                    UnityEngine.Debug.LogError$2("The Joystick is not placed inside a canvas");
+                }
+
+                var center = new pc.Vec2( 0.5, 0.5 );
+                this.background.pivot = center.$clone();
+                this.handle$1.anchorMin = center.$clone();
+                this.handle$1.anchorMax = center.$clone();
+                this.handle$1.pivot = center.$clone();
+                this.handle$1.anchoredPosition = pc.Vec2.ZERO.clone();
+            },
+            /*Joystick.Start end.*/
+
+            /*Joystick.OnPointerDown start.*/
+            OnPointerDown: function (eventData) {
+if ( TRACE ) { TRACE( "Joystick#OnPointerDown", this ); }
+
+                this.OnDrag(eventData);
+            },
+            /*Joystick.OnPointerDown end.*/
+
+            /*Joystick.OnDrag start.*/
+            OnDrag: function (eventData) {
+if ( TRACE ) { TRACE( "Joystick#OnDrag", this ); }
+
+                this.cam = null;
+                if (this.canvas.renderMode === UnityEngine.RenderMode.ScreenSpaceCamera) {
+                    this.cam = this.canvas.worldCamera;
+                }
+
+                var position = UnityEngine.RectTransformUtility.WorldToScreenPoint(this.cam, this.background.position.$clone());
+                var radius = this.background.sizeDelta.$clone().scale( 1.0 / ( 2 ) );
+                this.input = (eventData.position.$clone().sub( position )).div( (radius.$clone().scale( this.canvas.scaleFactor )) );
+                this.FormatInput();
+                this.HandleInput(this.input.length(), this.input.clone().normalize().$clone(), radius.$clone(), this.cam);
+                this.handle$1.anchoredPosition = this.input.$clone().mul( radius ).scale( this.handleRange );
+            },
+            /*Joystick.OnDrag end.*/
+
+            /*Joystick.HandleInput start.*/
+            HandleInput: function (magnitude, normalised, radius, cam) {
+if ( TRACE ) { TRACE( "Joystick#HandleInput", this ); }
+
+                if (magnitude > this.deadZone) {
+                    if (magnitude > 1) {
+                        this.input = normalised.$clone();
+                    }
+                } else {
+                    this.input = pc.Vec2.ZERO.clone();
+                }
+            },
+            /*Joystick.HandleInput end.*/
+
+            /*Joystick.FormatInput start.*/
+            FormatInput: function () {
+if ( TRACE ) { TRACE( "Joystick#FormatInput", this ); }
+
+                if (this.axisOptions === AxisOptions.Horizontal) {
+                    this.input = new pc.Vec2( this.input.x, 0.0 );
+                } else {
+                    if (this.axisOptions === AxisOptions.Vertical) {
+                        this.input = new pc.Vec2( 0.0, this.input.y );
+                    }
+                }
+            },
+            /*Joystick.FormatInput end.*/
+
+            /*Joystick.SnapFloat start.*/
+            SnapFloat: function (value, snapAxis) {
+if ( TRACE ) { TRACE( "Joystick#SnapFloat", this ); }
+
+                if (value === 0) {
+                    return value;
+                }
+
+                if (this.axisOptions === AxisOptions.Both) {
+                    var angle = pc.Vec2.angle( this.input, pc.Vec2.UP.clone() );
+                    if (snapAxis === AxisOptions.Horizontal) {
+                        if (angle < 22.5 || angle > 157.5) {
+                            return 0;
+                        } else {
+                            return (value > 0) ? 1 : -1;
+                        }
+                    } else if (snapAxis === AxisOptions.Vertical) {
+                        if (angle > 67.5 && angle < 112.5) {
+                            return 0;
+                        } else {
+                            return (value > 0) ? 1 : -1;
+                        }
+                    }
+                    return value;
+                } else {
+                    if (value > 0) {
+                        return 1;
+                    }
+                    if (value < 0) {
+                        return -1;
+                    }
+                }
+                return 0;
+            },
+            /*Joystick.SnapFloat end.*/
+
+            /*Joystick.OnPointerUp start.*/
+            OnPointerUp: function (eventData) {
+if ( TRACE ) { TRACE( "Joystick#OnPointerUp", this ); }
+
+                this.input = pc.Vec2.ZERO.clone();
+                this.handle$1.anchoredPosition = pc.Vec2.ZERO.clone();
+            },
+            /*Joystick.OnPointerUp end.*/
+
+            /*Joystick.ScreenPointToAnchoredPosition start.*/
+            ScreenPointToAnchoredPosition: function (screenPosition) {
+if ( TRACE ) { TRACE( "Joystick#ScreenPointToAnchoredPosition", this ); }
+
+                var localPoint = { v : pc.Vec2.ZERO.clone() };
+                if (UnityEngine.RectTransformUtility.ScreenPointToLocalPointInRectangle(this.baseRect, screenPosition, this.cam, localPoint)) {
+                    var pivotOffset = this.baseRect.pivot.$clone().mul( this.baseRect.sizeDelta );
+                    return localPoint.v.$clone().sub( (this.background.anchorMax.$clone().mul( this.baseRect.sizeDelta )) ).add( pivotOffset );
+                }
+                return pc.Vec2.ZERO.clone();
+            },
+            /*Joystick.ScreenPointToAnchoredPosition end.*/
+
+
+        }
+    });
+    /*Joystick end.*/
     /** @namespace System */
 
     /**
@@ -4827,6 +5102,124 @@ if ( TRACE ) { TRACE( "HelperUtility#PosHandle", this ); }
     });
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty end.*/
 
+    /*JoystickPlayerExample start.*/
+    Bridge.define("JoystickPlayerExample", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            speed: 0,
+            variableJoystick: null,
+            rb: null
+        },
+        methods: {
+            /*JoystickPlayerExample.FixedUpdate start.*/
+            FixedUpdate: function () {
+if ( TRACE ) { TRACE( "JoystickPlayerExample#FixedUpdate", this ); }
+
+                var direction = new pc.Vec3( 0, 0, 1 ).clone().scale( this.variableJoystick.Vertical ).add( pc.Vec3.RIGHT.clone().clone().scale( this.variableJoystick.Horizontal ) );
+                this.rb.AddForce$1(direction.$clone().clone().scale( this.speed ).clone().scale( UnityEngine.Time.fixedDeltaTime ), UnityEngine.ForceMode.VelocityChange);
+            },
+            /*JoystickPlayerExample.FixedUpdate end.*/
+
+
+        }
+    });
+    /*JoystickPlayerExample end.*/
+
+    /*JoystickSetterExample start.*/
+    Bridge.define("JoystickSetterExample", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            variableJoystick: null,
+            valueText: null,
+            background: null,
+            axisSprites: null
+        },
+        methods: {
+            /*JoystickSetterExample.ModeChanged start.*/
+            ModeChanged: function (index) {
+if ( TRACE ) { TRACE( "JoystickSetterExample#ModeChanged", this ); }
+
+                switch (index) {
+                    case 0: 
+                        this.variableJoystick.SetMode(JoystickType.Fixed);
+                        break;
+                    case 1: 
+                        this.variableJoystick.SetMode(JoystickType.Floating);
+                        break;
+                    case 2: 
+                        this.variableJoystick.SetMode(JoystickType.Dynamic);
+                        break;
+                    default: 
+                        break;
+                }
+            },
+            /*JoystickSetterExample.ModeChanged end.*/
+
+            /*JoystickSetterExample.AxisChanged start.*/
+            AxisChanged: function (index) {
+if ( TRACE ) { TRACE( "JoystickSetterExample#AxisChanged", this ); }
+
+                switch (index) {
+                    case 0: 
+                        this.variableJoystick.AxisOptions = AxisOptions.Both;
+                        this.background.sprite = this.axisSprites[index];
+                        break;
+                    case 1: 
+                        this.variableJoystick.AxisOptions = AxisOptions.Horizontal;
+                        this.background.sprite = this.axisSprites[index];
+                        break;
+                    case 2: 
+                        this.variableJoystick.AxisOptions = AxisOptions.Vertical;
+                        this.background.sprite = this.axisSprites[index];
+                        break;
+                    default: 
+                        break;
+                }
+            },
+            /*JoystickSetterExample.AxisChanged end.*/
+
+            /*JoystickSetterExample.SnapX start.*/
+            SnapX: function (value) {
+if ( TRACE ) { TRACE( "JoystickSetterExample#SnapX", this ); }
+
+                this.variableJoystick.SnapX = value;
+            },
+            /*JoystickSetterExample.SnapX end.*/
+
+            /*JoystickSetterExample.SnapY start.*/
+            SnapY: function (value) {
+if ( TRACE ) { TRACE( "JoystickSetterExample#SnapY", this ); }
+
+                this.variableJoystick.SnapY = value;
+            },
+            /*JoystickSetterExample.SnapY end.*/
+
+            /*JoystickSetterExample.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "JoystickSetterExample#Update", this ); }
+
+                this.valueText.text = "Current Value: " + this.variableJoystick.Direction;
+            },
+            /*JoystickSetterExample.Update end.*/
+
+
+        }
+    });
+    /*JoystickSetterExample end.*/
+
+    /*JoystickType start.*/
+    Bridge.define("JoystickType", {
+        $kind: "enum",
+        statics: {
+            fields: {
+                Fixed: 0,
+                Floating: 1,
+                Dynamic: 2
+            }
+        }
+    });
+    /*JoystickType end.*/
+
     /*MMMaths start.*/
     Bridge.define("MMMaths", {
         statics: {
@@ -5539,6 +5932,2525 @@ if ( TRACE ) { TRACE( "SingletonWithouMono$1#Preload", this ); }
     });
     /*TypeDestroy end.*/
 
+    /*UltimateJoystick start.*/
+    Bridge.define("UltimateJoystick", {
+        inherits: [UnityEngine.MonoBehaviour,UnityEngine.EventSystems.IPointerDownHandler,UnityEngine.EventSystems.IDragHandler,UnityEngine.EventSystems.IPointerUpHandler],
+        statics: {
+            fields: {
+                UltimateJoysticks: null
+            },
+            ctors: {
+                init: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#init", this ); }
+
+                    this.UltimateJoysticks = new (System.Collections.Generic.Dictionary$2(System.String,UltimateJoystick)).ctor();
+                }
+            },
+            methods: {
+                /*UltimateJoystick.JoystickConfirmed:static start.*/
+                /**
+                 * Returns with a confirmation about the existence of the targeted Ultimate Joystick.
+                 *
+                 * @static
+                 * @private
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}     joystickName
+                 * @return  {boolean}
+                 */
+                JoystickConfirmed: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#JoystickConfirmed", this ); }
+
+                    if (!UltimateJoystick.UltimateJoysticks.containsKey(joystickName)) {
+                        UnityEngine.Debug.LogWarning$1("Ultimate Joystick - No Ultimate Joystick has been registered with the name: " + (joystickName || "") + ".");
+                        return false;
+                    }
+                    return true;
+                },
+                /*UltimateJoystick.JoystickConfirmed:static end.*/
+
+                /*UltimateJoystick.GetUltimateJoystick:static start.*/
+                /**
+                 * Returns the Ultimate Joystick of the targeted name if it exists within the scene.
+                 *
+                 * @static
+                 * @public
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}              joystickName    The Joystick Name of the desired Ultimate Joystick.
+                 * @return  {UltimateJoystick}
+                 */
+                GetUltimateJoystick: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetUltimateJoystick", this ); }
+
+                    if (!UltimateJoystick.JoystickConfirmed(joystickName)) {
+                        return null;
+                    }
+
+                    return UltimateJoystick.UltimateJoysticks.getItem(joystickName);
+                },
+                /*UltimateJoystick.GetUltimateJoystick:static end.*/
+
+                /*UltimateJoystick.GetHorizontalAxis:static start.*/
+                /**
+                 * Returns a float value between -1 and 1 representing the horizontal value of the Ultimate Joystick.
+                 *
+                 * @static
+                 * @public
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}    joystickName    The name of the desired Ultimate Joystick.
+                 * @return  {number}
+                 */
+                GetHorizontalAxis: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetHorizontalAxis", this ); }
+
+                    if (!UltimateJoystick.JoystickConfirmed(joystickName)) {
+                        return 0.0;
+                    }
+
+                    return UltimateJoystick.UltimateJoysticks.getItem(joystickName).GetHorizontalAxis();
+                },
+                /*UltimateJoystick.GetHorizontalAxis:static end.*/
+
+                /*UltimateJoystick.GetVerticalAxis:static start.*/
+                /**
+                 * Returns a float value between -1 and 1 representing the vertical value of the Ultimate Joystick.
+                 *
+                 * @static
+                 * @public
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}    joystickName    The name of the desired Ultimate Joystick.
+                 * @return  {number}
+                 */
+                GetVerticalAxis: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetVerticalAxis", this ); }
+
+                    if (!UltimateJoystick.JoystickConfirmed(joystickName)) {
+                        return 0.0;
+                    }
+
+                    return UltimateJoystick.UltimateJoysticks.getItem(joystickName).GetVerticalAxis();
+                },
+                /*UltimateJoystick.GetVerticalAxis:static end.*/
+
+                /*UltimateJoystick.GetHorizontalAxisRaw:static start.*/
+                /**
+                 * Returns a value of -1, 0 or 1 representing the raw horizontal value of the Ultimate Joystick.
+                 *
+                 * @static
+                 * @public
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}    joystickName    The name of the desired Ultimate Joystick.
+                 * @return  {number}
+                 */
+                GetHorizontalAxisRaw: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetHorizontalAxisRaw", this ); }
+
+                    if (!UltimateJoystick.JoystickConfirmed(joystickName)) {
+                        return 0.0;
+                    }
+
+                    return UltimateJoystick.UltimateJoysticks.getItem(joystickName).GetHorizontalAxisRaw();
+                },
+                /*UltimateJoystick.GetHorizontalAxisRaw:static end.*/
+
+                /*UltimateJoystick.GetVerticalAxisRaw:static start.*/
+                /**
+                 * Returns a value of -1, 0 or 1 representing the raw vertical value of the Ultimate Joystick.
+                 *
+                 * @static
+                 * @public
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}    joystickName    The name of the desired Ultimate Joystick.
+                 * @return  {number}
+                 */
+                GetVerticalAxisRaw: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetVerticalAxisRaw", this ); }
+
+                    if (!UltimateJoystick.JoystickConfirmed(joystickName)) {
+                        return 0.0;
+                    }
+
+                    return UltimateJoystick.UltimateJoysticks.getItem(joystickName).GetVerticalAxisRaw();
+                },
+                /*UltimateJoystick.GetVerticalAxisRaw:static end.*/
+
+                /*UltimateJoystick.GetDistance:static start.*/
+                /**
+                 * Returns a float value between 0 and 1 representing the distance of the joystick from the base.
+                 *
+                 * @static
+                 * @public
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}    joystickName    The name of the desired Ultimate Joystick.
+                 * @return  {number}
+                 */
+                GetDistance: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetDistance", this ); }
+
+                    if (!UltimateJoystick.JoystickConfirmed(joystickName)) {
+                        return 0.0;
+                    }
+
+                    return UltimateJoystick.UltimateJoysticks.getItem(joystickName).GetDistance();
+                },
+                /*UltimateJoystick.GetDistance:static end.*/
+
+                /*UltimateJoystick.GetJoystickState:static start.*/
+                /**
+                 * Returns the current interaction state of the Ultimate Joystick.
+                 *
+                 * @static
+                 * @public
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}     joystickName    The name of the desired Ultimate Joystick.
+                 * @return  {boolean}
+                 */
+                GetJoystickState: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetJoystickState", this ); }
+
+                    if (!UltimateJoystick.JoystickConfirmed(joystickName)) {
+                        return false;
+                    }
+
+                    return UltimateJoystick.UltimateJoysticks.getItem(joystickName).joystickState;
+                },
+                /*UltimateJoystick.GetJoystickState:static end.*/
+
+                /*UltimateJoystick.GetTapCount:static start.*/
+                /**
+                 * Returns the current state of the tap count according to the options set.
+                 *
+                 * @static
+                 * @public
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}     joystickName    The name of the desired Ultimate Joystick.
+                 * @return  {boolean}
+                 */
+                GetTapCount: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetTapCount", this ); }
+
+                    if (!UltimateJoystick.JoystickConfirmed(joystickName)) {
+                        return false;
+                    }
+
+                    return UltimateJoystick.UltimateJoysticks.getItem(joystickName).GetTapCount();
+                },
+                /*UltimateJoystick.GetTapCount:static end.*/
+
+                /*UltimateJoystick.DisableJoystick:static start.*/
+                /**
+                 * Disables the targeted Ultimate Joystick.
+                 *
+                 * @static
+                 * @public
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}    joystickName    The name of the desired Ultimate Joystick.
+                 * @return  {void}
+                 */
+                DisableJoystick: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#DisableJoystick", this ); }
+
+                    if (!UltimateJoystick.JoystickConfirmed(joystickName)) {
+                        return;
+                    }
+
+                    UltimateJoystick.UltimateJoysticks.getItem(joystickName).DisableJoystick();
+                },
+                /*UltimateJoystick.DisableJoystick:static end.*/
+
+                /*UltimateJoystick.EnableJoystick:static start.*/
+                /**
+                 * Enables the targeted Ultimate Joystick.
+                 *
+                 * @static
+                 * @public
+                 * @this UltimateJoystick
+                 * @memberof UltimateJoystick
+                 * @param   {string}    joystickName    The name of the desired Ultimate Joystick.
+                 * @return  {void}
+                 */
+                EnableJoystick: function (joystickName) {
+if ( TRACE ) { TRACE( "UltimateJoystick#EnableJoystick", this ); }
+
+                    if (!UltimateJoystick.JoystickConfirmed(joystickName)) {
+                        return;
+                    }
+
+                    UltimateJoystick.UltimateJoysticks.getItem(joystickName).EnableJoystick();
+                },
+                /*UltimateJoystick.EnableJoystick:static end.*/
+
+
+            }
+        },
+        fields: {
+            joystick: null,
+            joystickSizeFolder: null,
+            joystickBase: null,
+            baseTrans: null,
+            textureCenter: null,
+            defaultPos: null,
+            joystickCenter: null,
+            highlightBase: null,
+            highlightJoystick: null,
+            tensionAccentUp: null,
+            tensionAccentDown: null,
+            tensionAccentLeft: null,
+            tensionAccentRight: null,
+            scalingAxis: 0,
+            anchor: 0,
+            joystickTouchSize: 0,
+            joystickSize: 0,
+            radiusModifier: 0,
+            radius: 0,
+            dynamicPositioning: false,
+            customTouchSize_X: 0,
+            customTouchSize_Y: 0,
+            customTouchSizePos_X: 0,
+            customTouchSizePos_Y: 0,
+            customSpacing_X: 0,
+            customSpacing_Y: 0,
+            gravity: 0,
+            gravityActive: false,
+            extendRadius: false,
+            axis: 0,
+            boundary: 0,
+            tapCountOption: 0,
+            tapCountDuration: 0,
+            targetTapCount: 0,
+            currentTapTime: 0,
+            tapCount: 0,
+            deadZone: 0,
+            disableVisuals: false,
+            useFade: false,
+            joystickGroup: null,
+            fadeUntouched: 0,
+            fadeTouched: 0,
+            fadeInDuration: 0,
+            fadeOutDuration: 0,
+            fadeInSpeed: 0,
+            fadeOutSpeed: 0,
+            useAnimation: false,
+            joystickAnimator: null,
+            animationID: 0,
+            showHighlight: false,
+            highlightColor: null,
+            showTension: false,
+            tensionColorNone: null,
+            tensionColorFull: null,
+            joystickName: null,
+            joystickState: false,
+            tapCountAchieved: false,
+            updateHighlightPosition: false,
+            _pointerId: 0,
+            /**
+             * Returns the current value of the horizontal axis.
+             *
+             * @instance
+             * @public
+             * @memberof UltimateJoystick
+             * @function HorizontalAxis
+             * @type number
+             */
+            HorizontalAxis: 0,
+            /**
+             * Returns the current value of the vertical axis.
+             *
+             * @instance
+             * @public
+             * @memberof UltimateJoystick
+             * @function VerticalAxis
+             * @type number
+             */
+            VerticalAxis: 0
+        },
+        alias: [
+            "OnPointerDown", "UnityEngine$EventSystems$IPointerDownHandler$OnPointerDown",
+            "OnDrag", "UnityEngine$EventSystems$IDragHandler$OnDrag",
+            "OnPointerUp", "UnityEngine$EventSystems$IPointerUpHandler$OnPointerUp"
+        ],
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#init", this ); }
+
+                this.textureCenter = new UnityEngine.Vector2();
+                this.defaultPos = new UnityEngine.Vector2();
+                this.joystickCenter = new UnityEngine.Vector3();
+                this.highlightColor = new UnityEngine.Color();
+                this.tensionColorNone = new UnityEngine.Color();
+                this.tensionColorFull = new UnityEngine.Color();
+                this.textureCenter = pc.Vec2.ZERO.clone();
+                this.defaultPos = pc.Vec2.ZERO.clone();
+                this.joystickCenter = pc.Vec3.ZERO.clone();
+                this.scalingAxis = UltimateJoystick.ScalingAxis.Height;
+                this.anchor = UltimateJoystick.Anchor.Left;
+                this.joystickTouchSize = UltimateJoystick.JoystickTouchSize.Default;
+                this.joystickSize = 1.75;
+                this.radiusModifier = 4.5;
+                this.radius = 1.0;
+                this.dynamicPositioning = false;
+                this.customTouchSize_X = 50.0;
+                this.customTouchSize_Y = 75.0;
+                this.customTouchSizePos_X = 0.0;
+                this.customTouchSizePos_Y = 0.0;
+                this.customSpacing_X = 5.0;
+                this.customSpacing_Y = 20.0;
+                this.gravity = 60.0;
+                this.gravityActive = false;
+                this.extendRadius = false;
+                this.axis = UltimateJoystick.Axis.Both;
+                this.boundary = UltimateJoystick.Boundary.Circular;
+                this.tapCountOption = UltimateJoystick.TapCountOption.NoCount;
+                this.tapCountDuration = 0.5;
+                this.targetTapCount = 2;
+                this.currentTapTime = 0.0;
+                this.tapCount = 0;
+                this.deadZone = 0.0;
+                this.disableVisuals = false;
+                this.useFade = false;
+                this.fadeUntouched = 1.0;
+                this.fadeTouched = 0.5;
+                this.fadeInDuration = 1.0;
+                this.fadeOutDuration = 1.0;
+                this.fadeInSpeed = 1.0;
+                this.fadeOutSpeed = 1.0;
+                this.useAnimation = false;
+                this.animationID = 0;
+                this.showHighlight = false;
+                this.highlightColor = new pc.Color( 1, 1, 1, 1 );
+                this.showTension = false;
+                this.tensionColorNone = new pc.Color( 1, 1, 1, 1 );
+                this.tensionColorFull = new pc.Color( 1, 1, 1, 1 );
+                this.joystickState = false;
+                this.tapCountAchieved = false;
+                this.updateHighlightPosition = false;
+                this._pointerId = -10;
+            }
+        },
+        methods: {
+            /*UltimateJoystick.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#Awake", this ); }
+
+                // If the game is not being run and the joystick name has been assigned, then register the joystick.
+                if (UnityEngine.Application.isPlaying === true && !Bridge.referenceEquals(this.joystickName, "")) {
+                    if (UltimateJoystick.UltimateJoysticks.containsKey(this.joystickName)) {
+                        UltimateJoystick.UltimateJoysticks.remove(this.joystickName);
+                    }
+
+                    UltimateJoystick.UltimateJoysticks.add(this.joystickName, this.GetComponent(UltimateJoystick));
+                }
+            },
+            /*UltimateJoystick.Awake end.*/
+
+            /*UltimateJoystick.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#Start", this ); }
+
+                // If the game is not running then return.
+                if (UnityEngine.Application.isPlaying === false) {
+                    return;
+                }
+
+                // Update the size and placement of the joystick.
+                this.UpdateSizeAndPlacement();
+
+                // Check all options to see if the joystick highlight image should be moved with use input.
+                this.CheckJoystickHighlightForUse();
+
+                // Set the highlight is the user is wanting to show highlight.
+                if (this.showHighlight === true) {
+                    this.UpdateHighlightColor(this.highlightColor.$clone());
+                }
+
+                // Reset the tension accents if the user is wanting to show tension.
+                if (this.showTension === true) {
+                    this.TensionAccentReset();
+                }
+
+                // If the user is wanting to use fade...
+                if (this.useFade === true) {
+                    // Configure the fade speeds.
+                    this.fadeInSpeed = 1.0 / this.fadeInDuration;
+                    this.fadeOutSpeed = 1.0 / this.fadeOutDuration;
+                }
+
+                // Get the hash ID of the targeted animation if the user is wanting to show animation.
+                if (this.useAnimation === true) {
+                    // If the animator is null, then try to assign it.
+                    if (UnityEngine.Component.op_Equality(this.joystickAnimator, null)) {
+                        this.joystickAnimator = this.GetComponent(UnityEngine.Animator);
+                    }
+
+                    // If it is still null, then set useAnimation to false to avoid errors.
+                    if (UnityEngine.Component.op_Equality(this.joystickAnimator, null)) {
+                        UnityEngine.Debug.LogError$2("Ultimate Joystick - This object does not have an Animator component attached to it. Please make sure to attach an Animator to this object before using the Use Animation option.\n\nObject Name: " + (this.gameObject.name || "") + "\n");
+                        this.useAnimation = false;
+                    } else {
+                        this.animationID = UnityEngine.Animator.StringToHash("Touch");
+                    }
+                }
+
+                // If there is no Updater script attached, then attach an Updater script.
+                if (!UnityEngine.Object.op_Implicit(this.GetParentCanvas().GetComponent(UltimateJoystickScreenSizeUpdater))) {
+                    this.GetParentCanvas().gameObject.AddComponent$1(UltimateJoystickScreenSizeUpdater);
+                }
+            },
+            /*UltimateJoystick.Start end.*/
+
+            /*UltimateJoystick.OnPointerDown start.*/
+            OnPointerDown: function (touchInfo) {
+if ( TRACE ) { TRACE( "UltimateJoystick#OnPointerDown", this ); }
+
+                // If the joystick is already in use, then return.
+                if (this.joystickState === true) {
+                    return;
+                }
+
+                // Set the joystick state since the joystick is being interacted with.
+                this.joystickState = true;
+
+                // Assign the pointerId so that the other functions can know if the pointer calling the function is the correct one.
+                this._pointerId = touchInfo.pointerId;
+
+                // If the throwable option is selected and isThrowing, then stop the current movement.
+                if (this.gravity > 0 && this.gravityActive) {
+                    this.StopCoroutine$1("GravityHandler");
+                }
+
+                // If dynamicPositioning or disableVisuals are enabled...
+                if (this.dynamicPositioning === true || this.disableVisuals === true) {
+                    // Then move the joystickSizeFolder to the position of the touch.
+                    this.joystickSizeFolder.position = UnityEngine.Vector3.FromVector2(touchInfo.position.$clone().sub( this.textureCenter ));
+
+                    // Set the joystickCenter so that the position can be calculated correctly.
+                    this.joystickCenter = UnityEngine.Vector3.FromVector2(touchInfo.position.$clone());
+                }
+
+                // If the user wants animation to be shown, do that here.
+                if (this.useAnimation === true) {
+                    this.joystickAnimator.SetBool(this.animationID, true);
+                }
+
+                // If the user wants the joystick to fade, do that here.
+                if (this.useFade === true && UnityEngine.MonoBehaviour.op_Inequality(this.joystickGroup, null)) {
+                    this.StartCoroutine$2("FadeLogic");
+                }
+
+                // If the user is wanting to use any tap count...
+                if (this.tapCountOption !== UltimateJoystick.TapCountOption.NoCount) {
+                    // If the user is accumulating taps...
+                    if (this.tapCountOption === UltimateJoystick.TapCountOption.Accumulate) {
+                        // If the TapCountdown is not counting down...
+                        if (this.currentTapTime <= 0) {
+                            // Set tapCount to 1 since this is the initial touch and start the TapCountdown.
+                            this.tapCount = 1;
+                            this.StartCoroutine$2("TapCountdown");
+                        } else {
+                            this.tapCount = (this.tapCount + 1) | 0;
+                        }
+
+                        if (this.currentTapTime > 0 && this.tapCount >= this.targetTapCount) {
+                            // Set the current time to 0 to interrupt the coroutine.
+                            this.currentTapTime = 0;
+
+                            // Start the delay of the reference for one frame.
+                            this.StartCoroutine$2("TapCountDelay");
+                        }
+                    } else {
+                        this.StartCoroutine$2("TapCountdown");
+                    }
+                }
+
+                // Call UpdateJoystick with the info from the current PointerEventData.
+                this.UpdateJoystick(touchInfo);
+            },
+            /*UltimateJoystick.OnPointerDown end.*/
+
+            /*UltimateJoystick.OnDrag start.*/
+            OnDrag: function (touchInfo) {
+if ( TRACE ) { TRACE( "UltimateJoystick#OnDrag", this ); }
+
+                // If the pointer event that is calling this function is not the same as the one that initiated the joystick, then return.
+                if (touchInfo.pointerId !== this._pointerId) {
+                    return;
+                }
+
+                // Then call UpdateJoystick with the info from the current PointerEventData.
+                this.UpdateJoystick(touchInfo);
+            },
+            /*UltimateJoystick.OnDrag end.*/
+
+            /*UltimateJoystick.OnPointerUp start.*/
+            OnPointerUp: function (touchInfo) {
+if ( TRACE ) { TRACE( "UltimateJoystick#OnPointerUp", this ); }
+
+                // If the pointer event that is calling this function is not the same as the one that initiated the joystick, then return.
+                if (touchInfo.pointerId !== this._pointerId) {
+                    return;
+                }
+
+                // Since the touch has lifted, set the state to false and reset the local pointerId.
+                this.joystickState = false;
+                this._pointerId = -10;
+
+                // If dynamicPositioning, disableVisuals, or draggable are enabled...
+                if (this.dynamicPositioning === true || this.disableVisuals === true || this.extendRadius === true) {
+                    // The joystickSizeFolder needs to be reset back to the default position.
+                    this.joystickSizeFolder.position = UnityEngine.Vector3.FromVector2(this.defaultPos.$clone());
+
+                    // Reset the joystickCenter since the touch has been released.
+                    this.joystickCenter = this.joystickBase.position.$clone();
+                }
+
+                // If the user has the gravity set to something more than 0 but less than 60, begin GravityHandler().
+                if (this.gravity > 0 && this.gravity < 60) {
+                    this.StartCoroutine$2("GravityHandler");
+                } else {
+                    // Reset the joystick's position back to center.
+                    this.joystick.position = this.joystickCenter.$clone();
+
+                    // If the user has showHighlight enabled, and the highlightJoystick variable is assigned, reset it too.
+                    if (this.updateHighlightPosition === true) {
+                        this.highlightJoystick.transform.position = this.joystickCenter.$clone();
+                    }
+                }
+
+                // If the user has showTension enabled, then reset the tension if throwable is disabled.
+                if (this.showTension === true && (this.gravity <= 0 || this.gravity >= 60)) {
+                    this.TensionAccentReset();
+                }
+
+                // If the user has useAnimation enabled, set that here.
+                if (this.useAnimation === true) {
+                    this.joystickAnimator.SetBool(this.animationID, false);
+                }
+
+                // If the user is wanting to use the TouchAndRelease tap count...
+                if (this.tapCountOption === UltimateJoystick.TapCountOption.TouchRelease) {
+                    // If the tapTime is still above zero, then start the delay function.
+                    if (this.currentTapTime > 0) {
+                        this.StartCoroutine$2("TapCountDelay");
+                    }
+
+                    // Reset the current tap time to zero.
+                    this.currentTapTime = 0;
+                }
+
+                this.UpdatePositionValues();
+            },
+            /*UltimateJoystick.OnPointerUp end.*/
+
+            /*UltimateJoystick.UpdateJoystick start.*/
+            UpdateJoystick: function (touchInfo) {
+if ( TRACE ) { TRACE( "UltimateJoystick#UpdateJoystick", this ); }
+
+                // Create a new Vector2 to equal the vector from the current touch to the center of joystick.
+                var tempVector = touchInfo.position.$clone().sub( UnityEngine.Vector2.FromVector3(this.joystickCenter) );
+
+                // If the user wants only one axis, then zero out the opposite value.
+                if (this.axis === UltimateJoystick.Axis.X) {
+                    tempVector.y = 0;
+                } else {
+                    if (this.axis === UltimateJoystick.Axis.Y) {
+                        tempVector.x = 0;
+                    }
+                }
+
+                // If the user wants a circular boundary for the joystick, then clamp the magnitude by the radius.
+                if (this.boundary === UltimateJoystick.Boundary.Circular) {
+                    tempVector = pc.Vec2.lengthClamp( tempVector, this.radius );
+                } else {
+                    if (this.boundary === UltimateJoystick.Boundary.Square) {
+                        tempVector.x = Math.max(-this.radius, Math.min(tempVector.x, this.radius));
+                        tempVector.y = Math.max(-this.radius, Math.min(tempVector.y, this.radius));
+                    }
+                }
+
+                // Apply the tempVector to the joystick's position.
+                this.joystick.transform.position = UnityEngine.Vector3.FromVector2(UnityEngine.Vector2.FromVector3(this.joystickCenter).add( tempVector ));
+
+                // If the user is showing highlight and the highlightJoystick is assigned, then move the highlight to match the joystick's position.
+                if (this.updateHighlightPosition === true) {
+                    this.highlightJoystick.transform.position = this.joystick.transform.position.$clone();
+                }
+
+                // If the user has showTension enabled, then display the Tension.
+                if (this.showTension === true) {
+                    this.TensionAccentDisplay();
+                }
+
+                // If the user wants to drag the joystick along with the touch...
+                if (this.extendRadius === true) {
+                    // Store the position of the current touch.
+                    var currentTouchPosition = UnityEngine.Vector3.FromVector2(touchInfo.position.$clone());
+
+                    // If the user is using any axis option, then align the current touch position.
+                    if (this.axis !== UltimateJoystick.Axis.Both) {
+                        if (this.axis === UltimateJoystick.Axis.X) {
+                            currentTouchPosition.y = this.joystickCenter.y;
+                        } else {
+                            currentTouchPosition.x = this.joystickCenter.x;
+                        }
+                    }
+                    // Then find the distance that the touch is from the center of the joystick.
+                    var touchDistance = pc.Vec3.distance( this.joystickCenter, currentTouchPosition );
+
+                    // If the touchDistance is greater than the set radius...
+                    if (touchDistance >= this.radius) {
+                        // Figure out the current position of the joystick.
+                        var joystickPosition = UnityEngine.Vector2.FromVector3((this.joystick.position.$clone().sub( this.joystickCenter )).scale( 1.0 / ( this.radius ) ));
+
+                        // Move the joystickSizeFolder in the direction that the joystick is, multiplied by the difference in distance of the max radius.
+                        this.joystickSizeFolder.position = this.joystickSizeFolder.position.$clone().add( new pc.Vec3( joystickPosition.x, joystickPosition.y, 0 ).clone().scale( (touchDistance - this.radius) ) );
+
+                        // Reconfigure the joystickCenter since the joystick has now moved it position.
+                        this.joystickCenter = this.joystickBase.position.$clone();
+                    }
+                }
+
+                this.UpdatePositionValues();
+            },
+            /*UltimateJoystick.UpdateJoystick end.*/
+
+            /*UltimateJoystick.ConfigureImagePosition start.*/
+            ConfigureImagePosition: function (textureSize, customSpacing) {
+if ( TRACE ) { TRACE( "UltimateJoystick#ConfigureImagePosition", this ); }
+
+                // First, fix the customSpacing to be a value between 0.0f and 1.0f.
+                var fixedCustomSpacing = customSpacing.$clone().scale( 1.0 / ( 100 ) );
+
+                // Then configure position spacers according to the screen's dimensions, the fixed spacing and texture size.
+                var positionSpacerX = UnityEngine.Screen.width * fixedCustomSpacing.x - (textureSize.x * fixedCustomSpacing.x);
+                var positionSpacerY = UnityEngine.Screen.height * fixedCustomSpacing.y - (textureSize.y * fixedCustomSpacing.y);
+
+                // Create a temporary Vector2 to modify and return.
+                var tempVector = new UnityEngine.Vector2();
+
+                // If it's left, simply apply the positionxSpacerX, else calculate out from the right side and apply the positionSpaceX.
+                tempVector.x = this.anchor === UltimateJoystick.Anchor.Left ? positionSpacerX : (UnityEngine.Screen.width - textureSize.x) - positionSpacerX;
+
+                // Apply the positionSpacerY variable.
+                tempVector.y = positionSpacerY;
+
+                // Return the updated temporary Vector.
+                return tempVector.$clone();
+            },
+            /*UltimateJoystick.ConfigureImagePosition end.*/
+
+            /*UltimateJoystick.TensionAccentDisplay start.*/
+            TensionAccentDisplay: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#TensionAccentDisplay", this ); }
+
+                // Create a temporary Vector2 for the joystick current position.
+                var tension = UnityEngine.Vector2.FromVector3((this.joystick.position.$clone().sub( this.joystickCenter )).scale( 1.0 / ( this.radius ) ));
+
+                // If the joystick is to the right...
+                if (tension.x > 0) {
+                    // Then lerp the color according to tension's X position.
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentRight, null)) {
+                        this.tensionAccentRight.color = pc.Color.lerp( this.tensionColorNone, this.tensionColorFull, tension.x );
+                    }
+
+                    // If the opposite tension is not tensionColorNone, the make it so.
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentLeft, null) && !pc.Color.equals( this.tensionAccentLeft.color, this.tensionColorNone )) {
+                        this.tensionAccentLeft.color = this.tensionColorNone.$clone();
+                    }
+                } else {
+                    // Mathf.Abs gives a positive number to lerp with.
+                    tension.x = Math.abs(tension.x);
+
+                    // Repeat above steps...
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentLeft, null)) {
+                        this.tensionAccentLeft.color = pc.Color.lerp( this.tensionColorNone, this.tensionColorFull, tension.x );
+                    }
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentRight, null) && !pc.Color.equals( this.tensionAccentRight.color, this.tensionColorNone )) {
+                        this.tensionAccentRight.color = this.tensionColorNone.$clone();
+                    }
+                }
+
+                // If the joystick is up...
+                if (tension.y > 0) {
+                    // Then lerp the color according to tension's Y position.
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentUp, null)) {
+                        this.tensionAccentUp.color = pc.Color.lerp( this.tensionColorNone, this.tensionColorFull, tension.y );
+                    }
+
+                    // If the opposite tension is not tensionColorNone, the make it so.
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentDown, null) && !pc.Color.equals( this.tensionAccentDown.color, this.tensionColorNone )) {
+                        this.tensionAccentDown.color = this.tensionColorNone.$clone();
+                    }
+                } else {
+                    // Mathf.Abs gives a positive number to lerp with.
+                    tension.y = Math.abs(tension.y);
+
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentDown, null)) {
+                        this.tensionAccentDown.color = pc.Color.lerp( this.tensionColorNone, this.tensionColorFull, tension.y );
+                    }
+
+                    // Repeat above steps...
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentUp, null) && !pc.Color.equals( this.tensionAccentUp.color, this.tensionColorNone )) {
+                        this.tensionAccentUp.color = this.tensionColorNone.$clone();
+                    }
+                }
+            },
+            /*UltimateJoystick.TensionAccentDisplay end.*/
+
+            /*UltimateJoystick.TensionAccentReset start.*/
+            TensionAccentReset: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#TensionAccentReset", this ); }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentUp, null)) {
+                    this.tensionAccentUp.color = this.tensionColorNone.$clone();
+                }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentDown, null)) {
+                    this.tensionAccentDown.color = this.tensionColorNone.$clone();
+                }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentLeft, null)) {
+                    this.tensionAccentLeft.color = this.tensionColorNone.$clone();
+                }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.tensionAccentRight, null)) {
+                    this.tensionAccentRight.color = this.tensionColorNone.$clone();
+                }
+            },
+            /*UltimateJoystick.TensionAccentReset end.*/
+
+            /*UltimateJoystick.GravityHandler start.*/
+            GravityHandler: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#GravityHandler", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    speed,
+                    startJoyPos,
+                    t,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    this.gravityActive = true;
+                                        speed = 1.0 / (this.GetDistance() / this.gravity);
+                                        // Store the position of where the joystick is currently.
+                                        startJoyPos = this.joystick.position.$clone();
+                                        t = 0.0;
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 1: {
+                                    if ( t < 1.0 && this.gravityActive ) {
+                                            $step = 2;
+                                            continue;
+                                        }
+                                    $step = 5;
+                                    continue;
+                                }
+                                case 2: {
+                                    // Lerp the joystick's position from where this coroutine started to the center.
+                                        this.joystick.position = new pc.Vec3().lerp( startJoyPos, this.joystickCenter, t );
+
+                                        // If the user a direction display option enabled, then display the direction as the joystick moves.
+                                        if (this.showTension) {
+                                            this.TensionAccentDisplay();
+                                        }
+
+                                        this.UpdatePositionValues();
+
+                                        $enumerator.current = null;
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    $step = 4;
+                                    continue;
+                                }
+                                case 4: {
+                                    t += UnityEngine.Time.deltaTime * speed;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 5: {
+                                    // Finalize the joystick's position.
+                                        if (this.gravityActive) {
+                                            this.joystick.position = this.joystickCenter.$clone();
+
+                                            // Here at the end, reset the direction display.
+                                            if (this.showTension) {
+                                                this.TensionAccentReset();
+                                            }
+
+                                            this.UpdatePositionValues();
+                                        }
+
+                                        this.gravityActive = false;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*UltimateJoystick.GravityHandler end.*/
+
+            /*UltimateJoystick.GetParentCanvas start.*/
+            GetParentCanvas: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetParentCanvas", this ); }
+
+                var parent = this.transform.parent;
+                while (UnityEngine.Component.op_Inequality(parent, null)) {
+                    if (UnityEngine.Object.op_Implicit(parent.transform.GetComponent(UnityEngine.Canvas))) {
+                        return parent.transform.GetComponent(UnityEngine.Canvas);
+                    }
+
+                    parent = parent.transform.parent;
+                }
+                return null;
+            },
+            /*UltimateJoystick.GetParentCanvas end.*/
+
+            /*UltimateJoystick.GetCanvasGroup start.*/
+            GetCanvasGroup: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetCanvasGroup", this ); }
+
+                if (UnityEngine.Object.op_Implicit(this.GetComponent(UnityEngine.CanvasGroup))) {
+                    return this.GetComponent(UnityEngine.CanvasGroup);
+                } else {
+                    this.gameObject.AddComponent(UnityEngine.CanvasGroup);
+                    return this.GetComponent(UnityEngine.CanvasGroup);
+                }
+            },
+            /*UltimateJoystick.GetCanvasGroup end.*/
+
+            /*UltimateJoystick.FadeLogic start.*/
+            FadeLogic: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#FadeLogic", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    currentFade,
+                    fadeIn,
+                    fadeOut,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    // Store the current value for the alpha of the joystickGroup.
+                                        currentFade = this.joystickGroup.alpha;
+
+                                        // If the fadeInSpeed is NaN, then just set the alpha to the desired fade.
+                                        if ((Math.abs(this.fadeInSpeed) === Number.POSITIVE_INFINITY)) {
+                                            $step = 1;
+                                            continue;
+                                        } else  {
+                                            $step = 2;
+                                            continue;
+                                        }
+                                }
+                                case 1: {
+                                    this.joystickGroup.alpha = this.fadeTouched;
+                                    $step = 8;
+                                    continue;
+                                }
+                                case 2: {
+                                    fadeIn = 0.0;
+                                        $step = 3;
+                                        continue;
+                                }
+                                case 3: {
+                                    if ( fadeIn < 1.0 && this.joystickState === true ) {
+                                            $step = 4;
+                                            continue;
+                                        }
+                                    $step = 7;
+                                    continue;
+                                }
+                                case 4: {
+                                    this.joystickGroup.alpha = pc.math.lerp(currentFade, this.fadeTouched, fadeIn);
+                                        $enumerator.current = null;
+                                        $step = 5;
+                                        return true;
+                                }
+                                case 5: {
+                                    $step = 6;
+                                    continue;
+                                }
+                                case 6: {
+                                    fadeIn += UnityEngine.Time.deltaTime * this.fadeInSpeed;
+                                    $step = 3;
+                                    continue;
+                                }
+                                case 7: {
+                                    if (this.joystickState === true) {
+                                            this.joystickGroup.alpha = this.fadeTouched;
+                                        }
+                                    $step = 8;
+                                    continue;
+                                }
+                                case 8: {
+                                    // while loop for while joystickState is true
+                                    $step = 9;
+                                    continue;
+                                }
+                                case 9: {
+                                    if ( this.joystickState === true ) {
+                                            $step = 10;
+                                            continue;
+                                        } 
+                                        $step = 12;
+                                        continue;
+                                }
+                                case 10: {
+                                    $enumerator.current = null;
+                                        $step = 11;
+                                        return true;
+                                }
+                                case 11: {
+                                    
+                                        $step = 9;
+                                        continue;
+                                }
+                                case 12: {
+                                    // Set the current fade value.
+                                        currentFade = this.joystickGroup.alpha;
+
+                                        // If the fadeOutSpeed value is NaN, then apply the desired alpha.
+                                        if ((Math.abs(this.fadeOutSpeed) === Number.POSITIVE_INFINITY)) {
+                                            $step = 13;
+                                            continue;
+                                        } else  {
+                                            $step = 14;
+                                            continue;
+                                        }
+                                }
+                                case 13: {
+                                    this.joystickGroup.alpha = this.fadeUntouched;
+                                    $step = 20;
+                                    continue;
+                                }
+                                case 14: {
+                                    fadeOut = 0.0;
+                                        $step = 15;
+                                        continue;
+                                }
+                                case 15: {
+                                    if ( fadeOut < 1.0 && this.joystickState === false ) {
+                                            $step = 16;
+                                            continue;
+                                        }
+                                    $step = 19;
+                                    continue;
+                                }
+                                case 16: {
+                                    this.joystickGroup.alpha = pc.math.lerp(currentFade, this.fadeUntouched, fadeOut);
+                                        $enumerator.current = null;
+                                        $step = 17;
+                                        return true;
+                                }
+                                case 17: {
+                                    $step = 18;
+                                    continue;
+                                }
+                                case 18: {
+                                    fadeOut += UnityEngine.Time.deltaTime * this.fadeOutSpeed;
+                                    $step = 15;
+                                    continue;
+                                }
+                                case 19: {
+                                    if (this.joystickState === false) {
+                                            this.joystickGroup.alpha = this.fadeUntouched;
+                                        }
+                                    $step = 20;
+                                    continue;
+                                }
+                                case 20: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*UltimateJoystick.FadeLogic end.*/
+
+            /*UltimateJoystick.TapCountdown start.*/
+            /**
+             * This function counts down the tap count duration. The current tap time that is being modified is check within the input functions.
+             *
+             * @instance
+             * @private
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {System.Collections.IEnumerator}
+             */
+            TapCountdown: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#TapCountdown", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    // Set the current tap time to the max.
+                                        this.currentTapTime = this.tapCountDuration;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( this.currentTapTime > 0 ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    // Reduce the current time.
+                                        this.currentTapTime -= UnityEngine.Time.deltaTime;
+                                        $enumerator.current = null;
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*UltimateJoystick.TapCountdown end.*/
+
+            /*UltimateJoystick.TapCountDelay start.*/
+            /**
+             * This function delays for one frame so that it can be correctly referenced as soon as it is achieved.
+             *
+             * @instance
+             * @private
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {System.Collections.IEnumerator}
+             */
+            TapCountDelay: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#TapCountDelay", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    this.tapCountAchieved = true;
+                                        $enumerator.current = new UnityEngine.WaitForEndOfFrame();
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    this.tapCountAchieved = false;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*UltimateJoystick.TapCountDelay end.*/
+
+            /*UltimateJoystick.CheckJoystickHighlightForUse start.*/
+            /**
+             * This function check each option and component in relation to the joystick highlight. It updates the updateHighlightPosition bool according to set options.
+             *
+             * @instance
+             * @private
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {void}
+             */
+            CheckJoystickHighlightForUse: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#CheckJoystickHighlightForUse", this ); }
+
+                if (this.showHighlight === false) {
+                    this.updateHighlightPosition = false;
+                } else {
+                    if (UnityEngine.MonoBehaviour.op_Equality(this.highlightJoystick, null)) {
+                        this.updateHighlightPosition = false;
+                    } else {
+                        if (UnityEngine.MonoBehaviour.op_Equality(this.joystick.GetComponent(UnityEngine.UI.Image), this.highlightJoystick)) {
+                            this.updateHighlightPosition = false;
+                        } else {
+                            this.updateHighlightPosition = true;
+                        }
+                    }
+                }
+            },
+            /*UltimateJoystick.CheckJoystickHighlightForUse end.*/
+
+            /*UltimateJoystick.UpdatePositionValues start.*/
+            UpdatePositionValues: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#UpdatePositionValues", this ); }
+
+                var rawJoystickPosition = UnityEngine.Vector2.FromVector3((this.joystick.position.$clone().sub( this.joystickCenter )).scale( 1.0 / ( this.radius ) ));
+
+                if (this.GetDistance() <= this.deadZone) {
+                    rawJoystickPosition.x = 0.0;
+                    rawJoystickPosition.y = 0.0;
+                }
+
+                this.HorizontalAxis = rawJoystickPosition.x;
+                this.VerticalAxis = rawJoystickPosition.y;
+            },
+            /*UltimateJoystick.UpdatePositionValues end.*/
+
+            /*UltimateJoystick.ResetJoystick start.*/
+            ResetJoystick: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#ResetJoystick", this ); }
+
+                this.gravityActive = false;
+                this.StopCoroutine$1("GravityHandler");
+
+                // Since the touch has lifted, set the state to false and reset the local pointerId.
+                this.joystickState = false;
+                this._pointerId = -10;
+
+                // If dynamicPositioning, disableVisuals, or draggable are enabled...
+                if (this.dynamicPositioning === true || this.disableVisuals === true || this.extendRadius === true) {
+                    // The joystickSizeFolder needs to be reset back to the default position.
+                    this.joystickSizeFolder.position = UnityEngine.Vector3.FromVector2(this.defaultPos.$clone());
+
+                    // Reset the joystickCenter since the touch has been released.
+                    this.joystickCenter = this.joystickBase.position.$clone();
+                }
+                // Reset the joystick's position back to center.
+                this.joystick.position = this.joystickCenter.$clone();
+
+                // If the user has showHighlight enabled, and the highlightJoystick variable is assigned, reset it too.
+                if (this.updateHighlightPosition === true) {
+                    this.highlightJoystick.transform.position = this.joystickCenter.$clone();
+                }
+
+                // If the user has showTension enabled, then reset the tension if throwable is disabled.
+                if (this.showTension === true) {
+                    this.TensionAccentReset();
+                }
+
+                // If the user has useAnimation enabled, set that here.
+                if (this.useAnimation === true) {
+                    this.joystickAnimator.SetBool(this.animationID, false);
+                }
+            },
+            /*UltimateJoystick.ResetJoystick end.*/
+
+            /*UltimateJoystick.UpdateSizeAndPlacement start.*/
+            /**
+             * Updates the Size and Placement of the Ultimate Joystick according to the user's options.
+             *
+             * @instance
+             * @private
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {void}
+             */
+            UpdateSizeAndPlacement: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#UpdateSizeAndPlacement", this ); }
+
+                // If any of the needed components are left unassigned, then inform the user and return.
+                if (UnityEngine.Component.op_Equality(this.joystickSizeFolder, null) || UnityEngine.Component.op_Equality(this.joystickBase, null) || UnityEngine.Component.op_Equality(this.joystick, null)) {
+                    if (UnityEngine.Application.isPlaying) {
+                        UnityEngine.Debug.LogError$2("Ultimate Joystick - There are some needed components that are not currently assigned. Please check the Assigned Variables section and be sure to assign all of the components.");
+                    }
+                    return;
+                }
+
+                // Set the current reference size for scaling.
+                var referenceSize = this.scalingAxis === UltimateJoystick.ScalingAxis.Height ? UnityEngine.Screen.height : UnityEngine.Screen.width;
+
+                // Configure the target size for the joystick graphic.
+                var textureSize = referenceSize * (this.joystickSize / 10);
+
+                // If baseTrans is null, store this object's RectTrans so that it can be positioned.
+                if (UnityEngine.Component.op_Equality(this.baseTrans, null)) {
+                    this.baseTrans = this.GetComponent(UnityEngine.RectTransform);
+                }
+
+                // Get a position for the joystick based on the position variables.
+                var imagePosition = this.ConfigureImagePosition(new pc.Vec2( textureSize, textureSize ), new pc.Vec2( this.customSpacing_X, this.customSpacing_Y ));
+
+                // If the user wants a custom touch size...
+                if (this.joystickTouchSize === UltimateJoystick.JoystickTouchSize.Custom) {
+                    // Fix the custom size variables.
+                    var fixedFBPX = this.customTouchSize_X / 100;
+                    var fixedFBPY = this.customTouchSize_Y / 100;
+
+                    // Depending on the joystickTouchSize options, configure the size.
+                    this.baseTrans.sizeDelta = new pc.Vec2( UnityEngine.Screen.width * fixedFBPX, UnityEngine.Screen.height * fixedFBPY );
+
+                    // Send the size and custom positioning to the ConfigureImagePosition function to get the exact position.
+                    var imagePos = this.ConfigureImagePosition(this.baseTrans.sizeDelta.$clone(), new pc.Vec2( this.customTouchSizePos_X, this.customTouchSizePos_Y ));
+
+                    // Apply the new position.
+                    this.baseTrans.position = UnityEngine.Vector3.FromVector2(imagePos.$clone());
+                } else {
+                    // Temporary float to store a modifier for the touch area size.
+                    var fixedTouchSize = this.joystickTouchSize === UltimateJoystick.JoystickTouchSize.Large ? 2.0 : this.joystickTouchSize === UltimateJoystick.JoystickTouchSize.Medium ? 1.51 : 1.01;
+
+                    // Temporary Vector2 to store the default size of the joystick.
+                    var tempVector = new pc.Vec2( textureSize, textureSize );
+
+                    // Apply the joystick size multiplied by the fixedTouchSize.
+                    this.baseTrans.sizeDelta = tempVector.$clone().scale( fixedTouchSize );
+
+                    // Apply the imagePosition modified with the difference of the sizeDelta divided by 2, multiplied by the scale of the parent canvas.
+                    this.baseTrans.position = UnityEngine.Vector3.FromVector2(imagePosition.$clone().sub( ((this.baseTrans.sizeDelta.$clone().sub( tempVector )).scale( 1.0 / ( 2 ) )) ));
+                }
+
+                // If the options dictate that the default position needs to be stored...
+                if (this.dynamicPositioning === true || this.disableVisuals === true || this.extendRadius === true) {
+                    // Set the texture center so that the joystick can move to the touch position correctly.
+                    this.textureCenter = new pc.Vec2( textureSize / 2, textureSize / 2 );
+
+                    // Also need to store the default position so that it can return after the touch has been lifted.
+                    this.defaultPos = imagePosition.$clone();
+                }
+
+                // Apply the size and position to the joystickSizeFolder.
+                this.joystickSizeFolder.sizeDelta = new pc.Vec2( textureSize, textureSize );
+                this.joystickSizeFolder.position = UnityEngine.Vector3.FromVector2(imagePosition.$clone());
+
+                // Configure the size of the Ultimate Joystick's radius.
+                this.radius = this.joystickSizeFolder.sizeDelta.x * (this.radiusModifier / 10);
+
+                // Store the joystick's center so that JoystickPosition can be configured correctly.
+                this.joystickCenter = this.joystickSizeFolder.position.$clone().add( new pc.Vec3( this.joystickSizeFolder.sizeDelta.x / 2, this.joystickSizeFolder.sizeDelta.y / 2, 0 ) );
+
+                // If the user wants to fade, and the joystickGroup is unassigned, find the CanvasGroup.
+                if (this.useFade === true && UnityEngine.MonoBehaviour.op_Equality(this.joystickGroup, null)) {
+                    this.joystickGroup = this.GetCanvasGroup();
+                }
+            },
+            /*UltimateJoystick.UpdateSizeAndPlacement end.*/
+
+            /*UltimateJoystick.UpdatePositioning start.*/
+            /**
+             * Resets the joystick and updates the size and placement of the Ultimate Joystick. Useful for screen rotations, changing of screen size, or changing of size and placement options.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {void}
+             */
+            UpdatePositioning: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#UpdatePositioning", this ); }
+
+                if (UnityEngine.Application.isPlaying) {
+                    this.ResetJoystick();
+                }
+
+                this.UpdateSizeAndPlacement();
+            },
+            /*UltimateJoystick.UpdatePositioning end.*/
+
+            /*UltimateJoystick.GetHorizontalAxis start.*/
+            /**
+             * Returns a float value between -1 and 1 representing the horizontal value of the Ultimate Joystick.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {number}
+             */
+            GetHorizontalAxis: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetHorizontalAxis", this ); }
+
+                return this.HorizontalAxis;
+            },
+            /*UltimateJoystick.GetHorizontalAxis end.*/
+
+            /*UltimateJoystick.GetVerticalAxis start.*/
+            /**
+             * Returns a float value between -1 and 1 representing the vertical value of the Ultimate Joystick.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {number}
+             */
+            GetVerticalAxis: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetVerticalAxis", this ); }
+
+                return this.VerticalAxis;
+            },
+            /*UltimateJoystick.GetVerticalAxis end.*/
+
+            /*UltimateJoystick.GetHorizontalAxisRaw start.*/
+            /**
+             * Returns a value of -1, 0 or 1 representing the raw horizontal value of the Ultimate Joystick.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {number}
+             */
+            GetHorizontalAxisRaw: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetHorizontalAxisRaw", this ); }
+
+                var temp = this.HorizontalAxis;
+
+                if (Math.abs(temp) <= this.deadZone) {
+                    temp = 0.0;
+                } else {
+                    temp = temp < 0.0 ? -1.0 : 1.0;
+                }
+
+                return temp;
+            },
+            /*UltimateJoystick.GetHorizontalAxisRaw end.*/
+
+            /*UltimateJoystick.GetVerticalAxisRaw start.*/
+            /**
+             * Returns a value of -1, 0 or 1 representing the raw vertical value of the Ultimate Joystick.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {number}
+             */
+            GetVerticalAxisRaw: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetVerticalAxisRaw", this ); }
+
+                var temp = this.VerticalAxis;
+                if (Math.abs(temp) <= this.deadZone) {
+                    temp = 0.0;
+                } else {
+                    temp = temp < 0.0 ? -1.0 : 1.0;
+                }
+
+                return temp;
+            },
+            /*UltimateJoystick.GetVerticalAxisRaw end.*/
+
+            /*UltimateJoystick.GetDistance start.*/
+            /**
+             * Returns a float value between 0 and 1 representing the distance of the joystick from the base.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {number}
+             */
+            GetDistance: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetDistance", this ); }
+
+                return pc.Vec3.distance( this.joystick.position, this.joystickCenter ) / this.radius;
+            },
+            /*UltimateJoystick.GetDistance end.*/
+
+            /*UltimateJoystick.UpdateHighlightColor start.*/
+            /**
+             * Updates the color of the highlights attached to the Ultimate Joystick with the targeted color.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @param   {UnityEngine.Color}    targetColor    New highlight color.
+             * @return  {void}
+             */
+            UpdateHighlightColor: function (targetColor) {
+if ( TRACE ) { TRACE( "UltimateJoystick#UpdateHighlightColor", this ); }
+
+                if (this.showHighlight === false) {
+                    return;
+                }
+
+                this.highlightColor = targetColor.$clone();
+
+                // Check if each variable is assigned so there is not a null reference exception when applying color.
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.highlightBase, null)) {
+                    this.highlightBase.color = this.highlightColor.$clone();
+                }
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.highlightJoystick, null)) {
+                    this.highlightJoystick.color = this.highlightColor.$clone();
+                }
+            },
+            /*UltimateJoystick.UpdateHighlightColor end.*/
+
+            /*UltimateJoystick.UpdateTensionColors start.*/
+            /**
+             * Updates the colors of the tension accents attached to the Ultimate Joystick with the targeted colors.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @param   {UnityEngine.Color}    targetTensionNone    New idle tension color.
+             * @param   {UnityEngine.Color}    targetTensionFull    New full tension color.
+             * @return  {void}
+             */
+            UpdateTensionColors: function (targetTensionNone, targetTensionFull) {
+if ( TRACE ) { TRACE( "UltimateJoystick#UpdateTensionColors", this ); }
+
+                if (this.showTension === false) {
+                    return;
+                }
+
+                this.tensionColorNone = targetTensionNone.$clone();
+                this.tensionColorFull = targetTensionFull.$clone();
+            },
+            /*UltimateJoystick.UpdateTensionColors end.*/
+
+            /*UltimateJoystick.GetJoystickState start.*/
+            /**
+             * Returns the current state of the Ultimate Joystick. This function will return true when the joystick is being interacted with, and false when not.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {boolean}
+             */
+            GetJoystickState: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetJoystickState", this ); }
+
+                return this.joystickState;
+            },
+            /*UltimateJoystick.GetJoystickState end.*/
+
+            /*UltimateJoystick.GetTapCount start.*/
+            /**
+             * Returns the tap count to the Ultimate Joystick.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {boolean}
+             */
+            GetTapCount: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#GetTapCount", this ); }
+
+                return this.tapCountAchieved;
+            },
+            /*UltimateJoystick.GetTapCount end.*/
+
+            /*UltimateJoystick.DisableJoystick start.*/
+            /**
+             * Disables the Ultimate Joystick.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {void}
+             */
+            DisableJoystick: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#DisableJoystick", this ); }
+
+                // Set the states to false.
+                this.joystickState = false;
+                this._pointerId = -10;
+
+                // If the joystick center has been changed, then reset it.
+                if (this.dynamicPositioning === true || this.disableVisuals === true || this.extendRadius === true) {
+                    this.joystickSizeFolder.position = UnityEngine.Vector3.FromVector2(this.defaultPos.$clone());
+                    this.joystickCenter = this.joystickBase.position.$clone();
+                }
+
+                // Reset the position of the joystick.
+                this.joystick.position = this.joystickCenter.$clone();
+
+                // If the highlight image needs to be moved, then reset it's position to center.
+                if (this.updateHighlightPosition === true) {
+                    this.highlightJoystick.transform.position = this.joystickCenter.$clone();
+                }
+
+                // If the user is displaying tension accents, then reset them here.
+                if (this.showTension === true) {
+                    this.TensionAccentReset();
+                }
+
+                // If the user is using animations, the reset the animator.
+                if (this.useAnimation === true) {
+                    this.joystickAnimator.SetBool(this.animationID, false);
+                }
+
+                // If the user is displaying a fade, then reset to the untouched state.
+                if (this.useFade) {
+                    this.joystickGroup.alpha = this.fadeUntouched;
+                }
+
+                this.HorizontalAxis = 0;
+                this.VerticalAxis = 0;
+
+                // Disable the gameObject.
+                this.gameObject.SetActive(false);
+            },
+            /*UltimateJoystick.DisableJoystick end.*/
+
+            /*UltimateJoystick.EnableJoystick start.*/
+            /**
+             * Enables the Ultimate Joystick.
+             *
+             * @instance
+             * @public
+             * @this UltimateJoystick
+             * @memberof UltimateJoystick
+             * @return  {void}
+             */
+            EnableJoystick: function () {
+if ( TRACE ) { TRACE( "UltimateJoystick#EnableJoystick", this ); }
+
+                // Reset the joystick's position again.
+                this.joystick.position = this.joystickCenter.$clone();
+
+                // Enable the gameObject.
+                this.gameObject.SetActive(true);
+            },
+            /*UltimateJoystick.EnableJoystick end.*/
+
+
+        }
+    });
+    /*UltimateJoystick end.*/
+
+    /*UltimateJoystick+Anchor start.*/
+    Bridge.define("UltimateJoystick.Anchor", {
+        $kind: "nested enum",
+        statics: {
+            fields: {
+                Left: 0,
+                Right: 1
+            }
+        }
+    });
+    /*UltimateJoystick+Anchor end.*/
+
+    /*UltimateJoystick+Axis start.*/
+    Bridge.define("UltimateJoystick.Axis", {
+        $kind: "nested enum",
+        statics: {
+            fields: {
+                Both: 0,
+                X: 1,
+                Y: 2
+            }
+        }
+    });
+    /*UltimateJoystick+Axis end.*/
+
+    /*UltimateJoystick+Boundary start.*/
+    Bridge.define("UltimateJoystick.Boundary", {
+        $kind: "nested enum",
+        statics: {
+            fields: {
+                Circular: 0,
+                Square: 1
+            }
+        }
+    });
+    /*UltimateJoystick+Boundary end.*/
+
+    /*UltimateJoystick+JoystickTouchSize start.*/
+    Bridge.define("UltimateJoystick.JoystickTouchSize", {
+        $kind: "nested enum",
+        statics: {
+            fields: {
+                Default: 0,
+                Medium: 1,
+                Large: 2,
+                Custom: 3
+            }
+        }
+    });
+    /*UltimateJoystick+JoystickTouchSize end.*/
+
+    /*UltimateJoystick+ScalingAxis start.*/
+    Bridge.define("UltimateJoystick.ScalingAxis", {
+        $kind: "nested enum",
+        statics: {
+            fields: {
+                Width: 0,
+                Height: 1
+            }
+        }
+    });
+    /*UltimateJoystick+ScalingAxis end.*/
+
+    /*UltimateJoystick+TapCountOption start.*/
+    Bridge.define("UltimateJoystick.TapCountOption", {
+        $kind: "nested enum",
+        statics: {
+            fields: {
+                NoCount: 0,
+                Accumulate: 1,
+                TouchRelease: 2
+            }
+        }
+    });
+    /*UltimateJoystick+TapCountOption end.*/
+
+    /*UltimateJoystickExample.Spaceship.AsteroidController start.*/
+    Bridge.define("UltimateJoystickExample.Spaceship.AsteroidController", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            asteroidManager: null,
+            myRigidbody: null,
+            canDestroy: false,
+            isDestroyed: false,
+            isDebris: false
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.AsteroidController#init", this ); }
+
+                this.canDestroy = false;
+                this.isDestroyed = false;
+                this.isDebris = false;
+            }
+        },
+        methods: {
+            /*UltimateJoystickExample.Spaceship.AsteroidController.Setup start.*/
+            Setup: function (force, torque) {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.AsteroidController#Setup", this ); }
+
+                // Assign the rigidbody component attached to this game object.
+                this.myRigidbody = this.GetComponent(UnityEngine.Rigidbody);
+
+                // Add the force and torque to the rigidbody.
+                this.myRigidbody.AddForce$1(force);
+                this.myRigidbody.AddTorque$1(torque);
+
+                // Delay the time that this asteroid can be destroyed for being out of the screen.
+                this.StartCoroutine$1(this.DelayInitialDestruction(this.isDebris === true ? 0.25 : 1.0));
+            },
+            /*UltimateJoystickExample.Spaceship.AsteroidController.Setup end.*/
+
+            /*UltimateJoystickExample.Spaceship.AsteroidController.DelayInitialDestruction start.*/
+            DelayInitialDestruction: function (delayTime) {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.AsteroidController#DelayInitialDestruction", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    // Wait for the designated time.
+                                        $enumerator.current = new UnityEngine.WaitForSeconds(delayTime);
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    // Allow this asteroid to be destoryed.
+                                        this.canDestroy = true;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*UltimateJoystickExample.Spaceship.AsteroidController.DelayInitialDestruction end.*/
+
+            /*UltimateJoystickExample.Spaceship.AsteroidController.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.AsteroidController#Update", this ); }
+
+                // If the asteroid is out of the screen...
+                if (Math.abs(this.transform.position.x) > UnityEngine.Camera.main.orthographicSize * UnityEngine.Camera.main.aspect * 1.3 || Math.abs(this.transform.position.z) > UnityEngine.Camera.main.orthographicSize * 1.3) {
+                    // If this asteroid can be destoryed, then commence destruction!
+                    if (this.canDestroy === true) {
+                        UnityEngine.MonoBehaviour.Destroy(this.gameObject);
+                    }
+                }
+            },
+            /*UltimateJoystickExample.Spaceship.AsteroidController.Update end.*/
+
+            /*UltimateJoystickExample.Spaceship.AsteroidController.OnCollisionEnter start.*/
+            OnCollisionEnter: function (theCollision) {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.AsteroidController#OnCollisionEnter", this ); }
+
+                // If the collision was from a bullet...
+                if (Bridge.referenceEquals(theCollision.gameObject.name, "Bullet")) {
+                    // Destroy the bullet.
+                    UnityEngine.MonoBehaviour.Destroy(theCollision.gameObject);
+
+                    // Modify the score.
+                    this.asteroidManager.ModifyScore(this.isDebris);
+
+                    // If this object is not debris, then explode.
+                    if (this.isDebris === false) {
+                        this.Explode();
+                    } else {
+                        UnityEngine.MonoBehaviour.Destroy(this.gameObject);
+                    }
+                } else if (Bridge.referenceEquals(theCollision.gameObject.name, "Player")) {
+                    // Spawn an explosion where the player is at.
+                    this.asteroidManager.SpawnExplosion(theCollision.transform.position.$clone());
+
+                    // Destroy the player.
+                    UnityEngine.MonoBehaviour.Destroy(theCollision.gameObject);
+
+                    // If this object is not debris, then explode.
+                    if (this.isDebris === false) {
+                        this.Explode();
+                    } else {
+                        UnityEngine.MonoBehaviour.Destroy(this.gameObject);
+                    }
+
+                    // Show the user the death screen.
+                    this.asteroidManager.ShowDeathScreen();
+                } else {
+                    // If this object is not debris and it can be destroyed, then explode.
+                    if (this.isDebris === false && this.canDestroy === true) {
+                        this.Explode();
+                    } else {
+                        if (this.isDebris === true && this.canDestroy === true) {
+                            UnityEngine.MonoBehaviour.Destroy(this.gameObject);
+                        }
+                    }
+                }
+
+                // Spawn an explosion particle.
+                this.asteroidManager.SpawnExplosion(this.transform.position.$clone());
+            },
+            /*UltimateJoystickExample.Spaceship.AsteroidController.OnCollisionEnter end.*/
+
+            /*UltimateJoystickExample.Spaceship.AsteroidController.Explode start.*/
+            Explode: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.AsteroidController#Explode", this ); }
+
+                // If this asteroid has already been destroyed, then return.
+                if (this.isDestroyed === true) {
+                    return;
+                }
+
+                // Let the script know that this asteroid has already been destroyed.
+                this.isDestroyed = true;
+
+                // Spawn some debris from this asteroids position.
+                this.asteroidManager.SpawnDebris(this.transform.position.$clone());
+
+                // Destory this asteroid.
+                UnityEngine.MonoBehaviour.Destroy(this.gameObject);
+            },
+            /*UltimateJoystickExample.Spaceship.AsteroidController.Explode end.*/
+
+
+        }
+    });
+    /*UltimateJoystickExample.Spaceship.AsteroidController end.*/
+
+    /*UltimateJoystickExample.Spaceship.GameManager start.*/
+    Bridge.define("UltimateJoystickExample.Spaceship.GameManager", {
+        inherits: [UnityEngine.MonoBehaviour],
+        statics: {
+            fields: {
+                instance: null
+            },
+            props: {
+                Instance: {
+                    get: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#Instance#get", this ); }
+
+                        return UltimateJoystickExample.Spaceship.GameManager.instance;
+                    }
+                }
+            }
+        },
+        fields: {
+            astroidPrefab: null,
+            debrisPrefab: null,
+            explosionPrefab: null,
+            playerExplosionPrefab: null,
+            spawning: false,
+            spawnTimeMin: 0,
+            spawnTimeMax: 0,
+            startingAsteroids: 0,
+            scoreText: null,
+            score: 0,
+            asteroidPoints: 0,
+            debrisPoints: 0,
+            gameOverScreen: null,
+            gameOverText: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#init", this ); }
+
+                this.spawning = true;
+                this.spawnTimeMin = 5.0;
+                this.spawnTimeMax = 10.0;
+                this.startingAsteroids = 2;
+                this.score = 0;
+                this.asteroidPoints = 50;
+                this.debrisPoints = 10;
+            }
+        },
+        methods: {
+            /*UltimateJoystickExample.Spaceship.GameManager.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#Awake", this ); }
+
+                // If the instance variable is already assigned...
+                if (UnityEngine.MonoBehaviour.op_Inequality(UltimateJoystickExample.Spaceship.GameManager.instance, null)) {
+                    // If the instance is currently active...
+                    if (UltimateJoystickExample.Spaceship.GameManager.instance.gameObject.activeInHierarchy === true) {
+                        // Warn the user that there are multiple Game Managers within the scene and destroy the old manager.
+                        UnityEngine.Debug.LogWarning$1("There are multiple instances of the Game Manager script. Removing the old manager from the scene.");
+                        UnityEngine.MonoBehaviour.Destroy(UltimateJoystickExample.Spaceship.GameManager.instance.gameObject);
+                    }
+
+                    // Remove the old manager.
+                    UltimateJoystickExample.Spaceship.GameManager.instance = null;
+                }
+
+                // Assign the instance variable as the Game Manager script on this object.
+                UltimateJoystickExample.Spaceship.GameManager.instance = this.GetComponent(UltimateJoystickExample.Spaceship.GameManager);
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.Awake end.*/
+
+            /*UltimateJoystickExample.Spaceship.GameManager.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#Start", this ); }
+
+                // Start spawning the asteroids.
+                this.StartCoroutine$2("SpawnTimer");
+
+                // Update the score text to reflect the current score on start.
+                this.UpdateScoreText();
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.Start end.*/
+
+            /*UltimateJoystickExample.Spaceship.GameManager.SpawnTimer start.*/
+            SpawnTimer: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#SpawnTimer", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    // Wait for a bit before the initial spawn.
+                                        $enumerator.current = new UnityEngine.WaitForSeconds(0.5);
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    // For as many times as the startingAsteroids variable dictates, spawn an asteroid.
+                                        for (var i = 0; i < this.startingAsteroids; i = (i + 1) | 0) {
+                                            this.SpawnAsteroid();
+                                        }
+
+                                        // While spawning is true...
+                                    $step = 2;
+                                    continue;
+                                }
+                                case 2: {
+                                    if ( this.spawning ) {
+                                            $step = 3;
+                                            continue;
+                                        } 
+                                        $step = 5;
+                                        continue;
+                                }
+                                case 3: {
+                                    // Wait for a range of seconds determined my the min and max variables.
+                                        $enumerator.current = new UnityEngine.WaitForSeconds(UnityEngine.Random.Range$1(this.spawnTimeMin, this.spawnTimeMax));
+                                        $step = 4;
+                                        return true;
+                                }
+                                case 4: {
+                                    // Spawn an asteroid.
+                                        this.SpawnAsteroid();
+
+                                        $step = 2;
+                                        continue;
+                                }
+                                case 5: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.SpawnTimer end.*/
+
+            /*UltimateJoystickExample.Spaceship.GameManager.SpawnAsteroid start.*/
+            SpawnAsteroid: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#SpawnAsteroid", this ); }
+
+                // Get a random point within a circle area.
+                var dir = UnityEngine.Random.insideUnitCircle.$clone();
+
+                // Create a Vector3 varaible to store the spawn position.
+                var pos = pc.Vec3.ZERO.clone();
+
+                // If the X value of the spawn direction is greater than the Y, then spawn the asteroid to the left or right of the screen, determined by the value of dir.
+                if (Math.abs(dir.x) > Math.abs(dir.y)) {
+                    pos = new pc.Vec3( (dir.x === 0 ? 1 : Math.sign(dir.x)) * UnityEngine.Camera.main.orthographicSize * UnityEngine.Camera.main.aspect * 1.3, 0, dir.y * UnityEngine.Camera.main.orthographicSize );
+                } else {
+                    pos = new pc.Vec3( dir.x * UnityEngine.Camera.main.orthographicSize * UnityEngine.Camera.main.aspect * 1.3, 0, (dir.y === 0 ? 1 : Math.sign(dir.y)) * UnityEngine.Camera.main.orthographicSize );
+                }
+
+                // Create the asteroid game object at the position( determined above ), and at a random rotation.
+                var ast = UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, this.astroidPrefab, pos.$clone(), new pc.Quat().setFromEulerAngles_Unity( UnityEngine.Random.value * 360.0, UnityEngine.Random.value * 360.0, UnityEngine.Random.value * 360.0 ));
+
+                // Call the setup function on the asteroid with the desired force and torque.
+                ast.GetComponent(UltimateJoystickExample.Spaceship.AsteroidController).Setup(pos.clone().normalize().$clone().scale( -1 ).clone().scale( 1000.0 ), UnityEngine.Random.insideUnitSphere.$clone().clone().scale( UnityEngine.Random.Range$1(500.0, 1500.0) ));
+
+                // Assign the manager component to this instance of the Game Manager.
+                ast.GetComponent(UltimateJoystickExample.Spaceship.AsteroidController).asteroidManager = UltimateJoystickExample.Spaceship.GameManager.instance;
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.SpawnAsteroid end.*/
+
+            /*UltimateJoystickExample.Spaceship.GameManager.SpawnDebris start.*/
+            SpawnDebris: function (pos) {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#SpawnDebris", this ); }
+
+                // Determine how many debris should be created.
+                var numberToSpawn = UnityEngine.Random.Range(3, 6);
+
+                // For each number to spawn...
+                for (var i = 0; i < numberToSpawn; i = (i + 1) | 0) {
+                    // Create a force to make the debris fly away from eachother.
+                    var force = new pc.Quat().setFromEulerAngles_Unity( 0, i * 360.0 / numberToSpawn, 0 ).transformVector( new pc.Vec3( 0, 0, 1 ) ).clone().scale( 5.0 ).clone().scale( 300.0 );
+
+                    // Create the new debris game object at the asteroid's position, plus the forces position to make sure that the debris is positioned correctly. Random rotation as well.
+                    var newGO = UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, this.debrisPrefab, pos.$clone().add( force.clone().normalize().$clone().clone().scale( UnityEngine.Random.Range$1(0.0, 5.0) ) ), new pc.Quat().setFromEulerAngles_Unity( 0, UnityEngine.Random.value * 180.0, 0 ));
+
+                    // Apply a random scale factor to make all the debris different.
+                    newGO.transform.localScale = new pc.Vec3( UnityEngine.Random.Range$1(0.25, 0.5), UnityEngine.Random.Range$1(0.25, 0.5), UnityEngine.Random.Range$1(0.25, 0.5) );
+
+                    // Setup the needed force and torque.
+                    newGO.GetComponent(UltimateJoystickExample.Spaceship.AsteroidController).Setup(force.$clone().scale( 1.0 / ( 2 ) ), UnityEngine.Random.insideUnitSphere.$clone().clone().scale( UnityEngine.Random.Range$1(500.0, 1500.0) ));
+
+                    // Assign the Game Manager component to this instance.
+                    newGO.GetComponent(UltimateJoystickExample.Spaceship.AsteroidController).asteroidManager = UltimateJoystickExample.Spaceship.GameManager.instance;
+                }
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.SpawnDebris end.*/
+
+            /*UltimateJoystickExample.Spaceship.GameManager.SpawnExplosion start.*/
+            SpawnExplosion: function (pos) {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#SpawnExplosion", this ); }
+
+                // Create a new explosion prefab game object at the desired position, with default rotation.
+                var newParticles = UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, this.explosionPrefab, pos.$clone(), pc.Quat.IDENTITY.clone());
+
+                // Destory the particles after one second.
+                this.Destroy(newParticles, 1);
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.SpawnExplosion end.*/
+
+            /*UltimateJoystickExample.Spaceship.GameManager.ShowDeathScreen start.*/
+            ShowDeathScreen: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#ShowDeathScreen", this ); }
+
+                // Enable the game over screen game object.
+                this.gameOverScreen.gameObject.SetActive(true);
+
+                var expl = UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, this.playerExplosionPrefab, UnityEngine.Object.FindObjectOfType(UltimateJoystickExample.Spaceship.PlayerController).transform.position.$clone(), pc.Quat.IDENTITY.clone());
+
+                this.Destroy(expl, 2);
+
+                // Start the ShakeCamera coroutine for a dynamic effect.
+                this.StartCoroutine$2("ShakeCamera");
+
+                // Start the Fade coroutine so that the death screen will fade in.
+                this.StartCoroutine$2("FadeDeathScreen");
+
+                // Set spawning to false so that no more asteroids get spawned.
+                this.spawning = false;
+
+                UltimateJoystick.GetUltimateJoystick("Movement").UpdatePositioning();
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.ShowDeathScreen end.*/
+
+            /*UltimateJoystickExample.Spaceship.GameManager.FadeDeathScreen start.*/
+            FadeDeathScreen: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#FadeDeathScreen", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    imageColor,
+                    textColor,
+                    t,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    // Wait for half a second for a little bit more dynamic effect.
+                                        $enumerator.current = new UnityEngine.WaitForSeconds(0.5);
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    // Set the text to the final score text plus the user's score.
+                                        this.scoreText.text = "Final Score\n" + (Bridge.toString(this.score) || "");
+
+                                        // Create temporary colors to be able to apply a fade to the image and text.
+                                        imageColor = this.gameOverScreen.color.$clone();
+                                        textColor = this.gameOverText.color.$clone();
+
+                                        t = 0.0;
+                                        $step = 2;
+                                        continue;
+                                }
+                                case 2: {
+                                    if ( t < 1.0 ) {
+                                            $step = 3;
+                                            continue;
+                                        }
+                                    $step = 6;
+                                    continue;
+                                }
+                                case 3: {
+                                    // Lerp the alpha of the temp colors from 0 to 0.75 by the amount of t. 
+                                        imageColor.a = pc.math.lerp(0.0, 0.75, t);
+                                        textColor.a = pc.math.lerp(0.0, 1.0, t);
+
+                                        // Apply the temp color to the image and text.
+                                        this.gameOverScreen.color = imageColor.$clone();
+                                        this.gameOverText.color = textColor.$clone();
+
+                                        // Also lerp the font size from 50 to 100 by t.
+                                        this.scoreText.fontSize = Bridge.Int.clip32(pc.math.lerp(50, 100, t));
+
+                                        // Wait for next frame.
+                                        $enumerator.current = null;
+                                        $step = 4;
+                                        return true;
+                                }
+                                case 4: {
+                                    $step = 5;
+                                    continue;
+                                }
+                                case 5: {
+                                    t += UnityEngine.Time.deltaTime * 3.0;
+                                    $step = 2;
+                                    continue;
+                                }
+                                case 6: {
+                                    // Apply a finalized amount to the alpha channels.
+                                        imageColor.a = 0.75;
+                                        textColor.a = 1.0;
+
+                                        // Apply the final color values to the image and text.
+                                        this.gameOverScreen.color = imageColor.$clone();
+                                        this.gameOverText.color = textColor.$clone();
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.FadeDeathScreen end.*/
+
+            /*UltimateJoystickExample.Spaceship.GameManager.ModifyScore start.*/
+            ModifyScore: function (isDebris) {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#ModifyScore", this ); }
+
+                // Increase the score by the appropriate amount.
+                this.score = (this.score + (isDebris === true ? this.debrisPoints : this.asteroidPoints)) | 0;
+
+                // Update the score text to reflect the current score.
+                this.UpdateScoreText();
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.ModifyScore end.*/
+
+            /*UltimateJoystickExample.Spaceship.GameManager.UpdateScoreText start.*/
+            UpdateScoreText: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#UpdateScoreText", this ); }
+
+                // Set the visual score amount to reflect the current score value.
+                this.scoreText.text = Bridge.toString(this.score);
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.UpdateScoreText end.*/
+
+            /*UltimateJoystickExample.Spaceship.GameManager.ShakeCamera start.*/
+            ShakeCamera: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.GameManager#ShakeCamera", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    origPos,
+                    t,
+                    tempVec,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    // Store the original position of the camera.
+                                        origPos = UnityEngine.Vector2.FromVector3(UnityEngine.Camera.main.transform.position.$clone());
+                                        t = 0.0;
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 1: {
+                                    if ( t < 1.0 ) {
+                                            $step = 2;
+                                            continue;
+                                        }
+                                    $step = 5;
+                                    continue;
+                                }
+                                case 2: {
+                                    // Create a temporary vector2 with the camera's original position modified by a random distance from the origin.
+                                        tempVec = origPos.$clone().add( UnityEngine.Random.insideUnitCircle );
+
+                                        // Apply the temporary vector.
+                                        UnityEngine.Camera.main.transform.position = UnityEngine.Vector3.FromVector2(tempVec.$clone());
+
+                                        // Yield until next frame.
+                                        $enumerator.current = null;
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    $step = 4;
+                                    continue;
+                                }
+                                case 4: {
+                                    t += UnityEngine.Time.deltaTime * 2.0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 5: {
+                                    // Return back to the original position.
+                                        UnityEngine.Camera.main.transform.position = UnityEngine.Vector3.FromVector2(origPos.$clone());
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*UltimateJoystickExample.Spaceship.GameManager.ShakeCamera end.*/
+
+
+        }
+    });
+    /*UltimateJoystickExample.Spaceship.GameManager end.*/
+
+    /*UltimateJoystickExample.Spaceship.PlayerController start.*/
+    Bridge.define("UltimateJoystickExample.Spaceship.PlayerController", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            rotationSpeed: 0,
+            accelerationSpeed: 0,
+            maxSpeed: 0,
+            shootingCooldown: 0,
+            bulletPrefab: null,
+            myRigidbody: null,
+            gunTrans: null,
+            bulletSpawnPos: null,
+            playerVisuals: null,
+            shootingTimer: 0,
+            canControl: false,
+            movePosition: null,
+            shootPosition: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.PlayerController#init", this ); }
+
+                this.movePosition = new UnityEngine.Vector3();
+                this.shootPosition = new UnityEngine.Vector3();
+                this.rotationSpeed = 45.0;
+                this.accelerationSpeed = 2.0;
+                this.maxSpeed = 3.0;
+                this.shootingCooldown = 0.2;
+                this.shootingTimer = 0;
+                this.canControl = true;
+            }
+        },
+        methods: {
+            /*UltimateJoystickExample.Spaceship.PlayerController.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.PlayerController#Start", this ); }
+
+                // Store the player's rigidbody.
+                this.myRigidbody = this.GetComponent(UnityEngine.Rigidbody);
+            },
+            /*UltimateJoystickExample.Spaceship.PlayerController.Start end.*/
+
+            /*UltimateJoystickExample.Spaceship.PlayerController.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.PlayerController#Update", this ); }
+
+                // Store the input positions
+                this.movePosition = new pc.Vec3( UltimateJoystick.GetHorizontalAxis("Movement"), UltimateJoystick.GetVerticalAxis("Movement"), 0 );
+                this.shootPosition = new pc.Vec3( UltimateJoystick.GetHorizontalAxis("Shooting"), UltimateJoystick.GetVerticalAxis("Shooting"), 0 );
+
+                // If the user cannot control the player, then return.
+                if (this.canControl === false) {
+                    return;
+                }
+
+                // If the shooting joystick is being used and the shooting timer is ready...
+                if (UltimateJoystick.GetJoystickState("Shooting") && this.shootingTimer <= 0) {
+                    // Then reset the timer and shoot a bullet.
+                    this.shootingTimer = this.shootingCooldown;
+                    this.CreateBullets();
+                }
+
+                // If the shoot timer is above zero, reduce it.
+                if (this.shootingTimer > 0) {
+                    this.shootingTimer -= UnityEngine.Time.deltaTime;
+                }
+            },
+            /*UltimateJoystickExample.Spaceship.PlayerController.Update end.*/
+
+            /*UltimateJoystickExample.Spaceship.PlayerController.FixedUpdate start.*/
+            FixedUpdate: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.PlayerController#FixedUpdate", this ); }
+
+                // If the user cannot control the player...
+                if (this.canControl === false) {
+                    // Then reset the player's rotation, position, velocity and angular vel.
+                    this.myRigidbody.rotation = pc.Quat.IDENTITY.clone();
+                    this.myRigidbody.position = pc.Vec3.ZERO.clone();
+                    this.myRigidbody.velocity = pc.Vec3.ZERO.clone();
+                    this.myRigidbody.angularVelocity = pc.Vec3.ZERO.clone();
+                } else {
+                    // Figure out the rotation that the player should be facing and apply it.
+                    var lookRot = new pc.Vec3( this.movePosition.x, 0, this.movePosition.y );
+                    this.transform.LookAt$2(this.transform.position.$clone().add( lookRot ));
+
+                    // Also figure out the rotation of the player's gun and apply it.
+                    var gunRot = new pc.Vec3( this.shootPosition.x, 0, this.shootPosition.y );
+                    this.gunTrans.LookAt$2(this.gunTrans.position.$clone().add( gunRot ));
+
+                    // Apply the input force to the player.
+                    this.myRigidbody.AddForce$1(this.transform.forward.$clone().clone().scale( UltimateJoystick.GetDistance("Movement") ).clone().scale( 1000.0 ).clone().scale( this.accelerationSpeed ).clone().scale( UnityEngine.Time.deltaTime ));
+
+                    // If the player's force is greater than the max speed, then normalize it.
+                    if (this.myRigidbody.velocity.length() > this.maxSpeed) {
+                        this.myRigidbody.velocity = this.myRigidbody.velocity.clone().normalize().$clone().clone().scale( this.maxSpeed );
+                    }
+
+                    // Run the CheckExitScreen function to see if the player has left the screen.
+                    this.CheckExitScreen();
+                }
+            },
+            /*UltimateJoystickExample.Spaceship.PlayerController.FixedUpdate end.*/
+
+            /*UltimateJoystickExample.Spaceship.PlayerController.CheckExitScreen start.*/
+            CheckExitScreen: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.PlayerController#CheckExitScreen", this ); }
+
+                var $t, $t1;
+                // If the main camera is not assigned, then return.
+                if (UnityEngine.Component.op_Equality(UnityEngine.Camera.main, null)) {
+                    return;
+                }
+
+                // If the absolute value of the player's X position is greater than the ortho size of the camera multiplied by the camera's aspect ratio, then reset the player on the other side.
+                if (Math.abs(this.myRigidbody.position.x) > UnityEngine.Camera.main.orthographicSize * UnityEngine.Camera.main.aspect) {
+                    this.myRigidbody.position = new pc.Vec3( -($t = this.myRigidbody.position.x, ($t === 0 ? 1 : Math.sign($t))) * UnityEngine.Camera.main.orthographicSize * UnityEngine.Camera.main.aspect, 0, this.myRigidbody.position.z );
+                }
+
+                // If the absolute value of the player's Z position is greater than the ortho size, then reset the Z position to the other side.
+                if (Math.abs(this.myRigidbody.position.z) > UnityEngine.Camera.main.orthographicSize) {
+                    this.myRigidbody.position = new pc.Vec3( this.myRigidbody.position.x, this.myRigidbody.position.y, -($t1 = this.myRigidbody.position.z, ($t1 === 0 ? 1 : Math.sign($t1))) * UnityEngine.Camera.main.orthographicSize );
+                }
+            },
+            /*UltimateJoystickExample.Spaceship.PlayerController.CheckExitScreen end.*/
+
+            /*UltimateJoystickExample.Spaceship.PlayerController.CreateBullets start.*/
+            CreateBullets: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickExample.Spaceship.PlayerController#CreateBullets", this ); }
+
+                // Create a new bulletPrefab game object at the barrel's position and rotation.
+                var bullet = UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, this.bulletPrefab, this.bulletSpawnPos.position.$clone(), this.bulletSpawnPos.rotation.$clone());
+
+                // Rename the bullet for reference within the asteroid script.
+                bullet.name = this.bulletPrefab.name;
+
+                // Apply a speed to the bullet's velocity.
+                bullet.GetComponent(UnityEngine.Rigidbody).velocity = bullet.transform.forward.$clone().clone().scale( 200.0 );
+
+                // Destroy the bullet after 3 seconds.
+                this.Destroy(bullet, 3.0);
+            },
+            /*UltimateJoystickExample.Spaceship.PlayerController.CreateBullets end.*/
+
+
+        }
+    });
+    /*UltimateJoystickExample.Spaceship.PlayerController end.*/
+
+    /*UltimateJoystickScreenSizeUpdater start.*/
+    Bridge.define("UltimateJoystickScreenSizeUpdater", {
+        inherits: [UnityEngine.EventSystems.UIBehaviour],
+        methods: {
+            /*UltimateJoystickScreenSizeUpdater.OnRectTransformDimensionsChange start.*/
+            OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickScreenSizeUpdater#OnRectTransformDimensionsChange", this ); }
+
+                this.StartCoroutine$2("YieldPositioning");
+            },
+            /*UltimateJoystickScreenSizeUpdater.OnRectTransformDimensionsChange end.*/
+
+            /*UltimateJoystickScreenSizeUpdater.YieldPositioning start.*/
+            YieldPositioning: function () {
+if ( TRACE ) { TRACE( "UltimateJoystickScreenSizeUpdater#YieldPositioning", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    allJoysticks,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    $enumerator.current = new UnityEngine.WaitForEndOfFrame();
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    allJoysticks = Bridge.as(UnityEngine.Object.FindObjectsOfType$1(UltimateJoystick), System.Array.type(UltimateJoystick));
+
+                                        for (var i = 0; i < allJoysticks.length; i = (i + 1) | 0) {
+                                            allJoysticks[i].UpdatePositioning();
+                                        }
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*UltimateJoystickScreenSizeUpdater.YieldPositioning end.*/
+
+
+        }
+    });
+    /*UltimateJoystickScreenSizeUpdater end.*/
+
     /*VectorUlti start.*/
     Bridge.define("VectorUlti", {
         statics: {
@@ -5635,6 +8547,233 @@ if ( TRACE ) { TRACE( "Singleton$1#Instance#get", this ); }
     }; });
     /*Singleton$1 end.*/
 
+    /*DynamicJoystick start.*/
+    Bridge.define("DynamicJoystick", {
+        inherits: [Joystick],
+        fields: {
+            moveThreshold: 0
+        },
+        props: {
+            MoveThreshold: {
+                get: function () {
+if ( TRACE ) { TRACE( "DynamicJoystick#MoveThreshold#get", this ); }
+
+                    return this.moveThreshold;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "DynamicJoystick#MoveThreshold#set", this ); }
+
+                    this.moveThreshold = Math.abs(value);
+                }
+            }
+        },
+        alias: [
+            "OnPointerDown", "UnityEngine$EventSystems$IPointerDownHandler$OnPointerDown",
+            "OnPointerUp", "UnityEngine$EventSystems$IPointerUpHandler$OnPointerUp"
+        ],
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "DynamicJoystick#init", this ); }
+
+                this.moveThreshold = 1;
+            }
+        },
+        methods: {
+            /*DynamicJoystick.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "DynamicJoystick#Start", this ); }
+
+                this.MoveThreshold = this.moveThreshold;
+                Joystick.prototype.Start.call(this);
+                this.background.gameObject.SetActive(false);
+            },
+            /*DynamicJoystick.Start end.*/
+
+            /*DynamicJoystick.OnPointerDown start.*/
+            OnPointerDown: function (eventData) {
+if ( TRACE ) { TRACE( "DynamicJoystick#OnPointerDown", this ); }
+
+                this.background.anchoredPosition = this.ScreenPointToAnchoredPosition(eventData.position.$clone());
+                this.background.gameObject.SetActive(true);
+                Joystick.prototype.OnPointerDown.call(this, eventData);
+            },
+            /*DynamicJoystick.OnPointerDown end.*/
+
+            /*DynamicJoystick.OnPointerUp start.*/
+            OnPointerUp: function (eventData) {
+if ( TRACE ) { TRACE( "DynamicJoystick#OnPointerUp", this ); }
+
+                this.background.gameObject.SetActive(false);
+                Joystick.prototype.OnPointerUp.call(this, eventData);
+            },
+            /*DynamicJoystick.OnPointerUp end.*/
+
+            /*DynamicJoystick.HandleInput start.*/
+            HandleInput: function (magnitude, normalised, radius, cam) {
+if ( TRACE ) { TRACE( "DynamicJoystick#HandleInput", this ); }
+
+                if (magnitude > this.moveThreshold) {
+                    var difference = normalised.$clone().scale( (magnitude - this.moveThreshold) ).mul( radius );
+                    this.background.anchoredPosition = this.background.anchoredPosition.$clone().add( difference.$clone() );
+                }
+                Joystick.prototype.HandleInput.call(this, magnitude, normalised.$clone(), radius.$clone(), cam);
+            },
+            /*DynamicJoystick.HandleInput end.*/
+
+
+        }
+    });
+    /*DynamicJoystick end.*/
+
+    /*FixedJoystick start.*/
+    Bridge.define("FixedJoystick", {
+        inherits: [Joystick]
+    });
+    /*FixedJoystick end.*/
+
+    /*FloatingJoystick start.*/
+    Bridge.define("FloatingJoystick", {
+        inherits: [Joystick],
+        alias: [
+            "OnPointerDown", "UnityEngine$EventSystems$IPointerDownHandler$OnPointerDown",
+            "OnPointerUp", "UnityEngine$EventSystems$IPointerUpHandler$OnPointerUp"
+        ],
+        methods: {
+            /*FloatingJoystick.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "FloatingJoystick#Start", this ); }
+
+                Joystick.prototype.Start.call(this);
+                //background.gameObject.SetActive(false);
+            },
+            /*FloatingJoystick.Start end.*/
+
+            /*FloatingJoystick.OnPointerDown start.*/
+            OnPointerDown: function (eventData) {
+if ( TRACE ) { TRACE( "FloatingJoystick#OnPointerDown", this ); }
+
+                this.background.anchoredPosition = this.ScreenPointToAnchoredPosition(eventData.position.$clone());
+                //background.gameObject.SetActive(true);
+                Joystick.prototype.OnPointerDown.call(this, eventData);
+            },
+            /*FloatingJoystick.OnPointerDown end.*/
+
+            /*FloatingJoystick.OnPointerUp start.*/
+            OnPointerUp: function (eventData) {
+if ( TRACE ) { TRACE( "FloatingJoystick#OnPointerUp", this ); }
+
+                //background.gameObject.SetActive(false);
+                Joystick.prototype.OnPointerUp.call(this, eventData);
+            },
+            /*FloatingJoystick.OnPointerUp end.*/
+
+
+        }
+    });
+    /*FloatingJoystick end.*/
+
+    /*VariableJoystick start.*/
+    Bridge.define("VariableJoystick", {
+        inherits: [Joystick],
+        fields: {
+            moveThreshold: 0,
+            joystickType: 0,
+            fixedPosition: null
+        },
+        props: {
+            MoveThreshold: {
+                get: function () {
+if ( TRACE ) { TRACE( "VariableJoystick#MoveThreshold#get", this ); }
+
+                    return this.moveThreshold;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "VariableJoystick#MoveThreshold#set", this ); }
+
+                    this.moveThreshold = Math.abs(value);
+                }
+            }
+        },
+        alias: [
+            "OnPointerDown", "UnityEngine$EventSystems$IPointerDownHandler$OnPointerDown",
+            "OnPointerUp", "UnityEngine$EventSystems$IPointerUpHandler$OnPointerUp"
+        ],
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "VariableJoystick#init", this ); }
+
+                this.fixedPosition = new UnityEngine.Vector2();
+                this.moveThreshold = 1;
+                this.joystickType = JoystickType.Fixed;
+                this.fixedPosition = pc.Vec2.ZERO.clone();
+            }
+        },
+        methods: {
+            /*VariableJoystick.SetMode start.*/
+            SetMode: function (joystickType) {
+if ( TRACE ) { TRACE( "VariableJoystick#SetMode", this ); }
+
+                this.joystickType = joystickType;
+                if (joystickType === JoystickType.Fixed) {
+                    this.background.anchoredPosition = this.fixedPosition.$clone();
+                    this.background.gameObject.SetActive(true);
+                } else {
+                    this.background.gameObject.SetActive(false);
+                }
+            },
+            /*VariableJoystick.SetMode end.*/
+
+            /*VariableJoystick.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "VariableJoystick#Start", this ); }
+
+                Joystick.prototype.Start.call(this);
+                this.fixedPosition = this.background.anchoredPosition.$clone();
+                this.SetMode(this.joystickType);
+            },
+            /*VariableJoystick.Start end.*/
+
+            /*VariableJoystick.OnPointerDown start.*/
+            OnPointerDown: function (eventData) {
+if ( TRACE ) { TRACE( "VariableJoystick#OnPointerDown", this ); }
+
+                if (this.joystickType !== JoystickType.Fixed) {
+                    this.background.anchoredPosition = this.ScreenPointToAnchoredPosition(eventData.position.$clone());
+                    this.background.gameObject.SetActive(true);
+                }
+                Joystick.prototype.OnPointerDown.call(this, eventData);
+            },
+            /*VariableJoystick.OnPointerDown end.*/
+
+            /*VariableJoystick.OnPointerUp start.*/
+            OnPointerUp: function (eventData) {
+if ( TRACE ) { TRACE( "VariableJoystick#OnPointerUp", this ); }
+
+                if (this.joystickType !== JoystickType.Fixed) {
+                    this.background.gameObject.SetActive(false);
+                }
+
+                Joystick.prototype.OnPointerUp.call(this, eventData);
+            },
+            /*VariableJoystick.OnPointerUp end.*/
+
+            /*VariableJoystick.HandleInput start.*/
+            HandleInput: function (magnitude, normalised, radius, cam) {
+if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
+
+                if (this.joystickType === JoystickType.Dynamic && magnitude > this.moveThreshold) {
+                    var difference = normalised.$clone().scale( (magnitude - this.moveThreshold) ).mul( radius );
+                    this.background.anchoredPosition = this.background.anchoredPosition.$clone().add( difference.$clone() );
+                }
+                Joystick.prototype.HandleInput.call(this, magnitude, normalised.$clone(), radius.$clone(), cam);
+            },
+            /*VariableJoystick.HandleInput end.*/
+
+
+        }
+    });
+    /*VariableJoystick end.*/
+
     /*BucketCrusher1 start.*/
     Bridge.define("BucketCrusher1", {
         inherits: function () {
@@ -5680,7 +8819,7 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     /*SingletonDontDestroyOnLoad$1 end.*/
 
     var $m = Bridge.setMetadata,
-        $n = ["System","UnityEngine","System.Collections.Generic","System.Collections","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening","DG.Tweening.Plugins.Core.PathCore","UnityEngine.UI","System.Globalization","DG.Tweening.Plugins.Options"];
+        $n = ["System","UnityEngine","System.Collections.Generic","System.Collections","UnityEngine.UI","UnityEngine.EventSystems","UltimateJoystickExample.Spaceship","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
 
     /*Brick start.*/
     $m("Brick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Debunk","t":8,"sn":"Debunk","rt":$n[0].Void},{"a":1,"n":"OnCollisionEnter2D","t":8,"pi":[{"n":"col","pt":$n[1].Collision2D,"ps":0}],"sn":"OnCollisionEnter2D","rt":$n[0].Void,"p":[$n[1].Collision2D]},{"a":1,"n":"OnTriggerEnter2D","t":8,"pi":[{"n":"col","pt":$n[1].Collider2D,"ps":0}],"sn":"OnTriggerEnter2D","rt":$n[0].Void,"p":[$n[1].Collider2D]},{"a":2,"n":"SetHp","t":8,"pi":[{"n":"newHp","pt":$n[0].Int32,"ps":0}],"sn":"SetHp","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"broken","t":4,"rt":$n[0].Boolean,"sn":"broken","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"collidedWithConveyor","t":4,"rt":$n[0].Boolean,"sn":"collidedWithConveyor","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hp","t":4,"rt":$n[0].Int32,"sn":"hp","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"rb","t":4,"rt":$n[1].Rigidbody2D,"sn":"rb"}]}; }, $n);
@@ -5786,72 +8925,152 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     $m("VectorUlti", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"GetAngleFromVector","is":true,"t":8,"pi":[{"n":"dir","pt":$n[1].Vector3,"ps":0}],"sn":"GetAngleFromVector","rt":$n[0].Single,"p":[$n[1].Vector3],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetVectorFromAngle","is":true,"t":8,"pi":[{"n":"angle","pt":$n[0].Single,"ps":0}],"sn":"GetVectorFromAngle","rt":$n[1].Vector3,"p":[$n[0].Single]},{"a":2,"n":"Move","is":true,"t":8,"pi":[{"n":"vector3","pt":$n[1].Vector3,"ps":0},{"n":"direction","pt":$n[1].Vector3,"ps":1}],"sn":"Move","rt":$n[1].Vector3,"p":[$n[1].Vector3,$n[1].Vector3]},{"a":2,"n":"Set","is":true,"t":8,"pi":[{"n":"vector2","pt":$n[1].Vector2,"ps":0},{"n":"x","dv":null,"o":true,"pt":$n[0].Nullable$1(System.Single),"ps":1},{"n":"y","dv":null,"o":true,"pt":$n[0].Nullable$1(System.Single),"ps":2}],"sn":"Set","rt":$n[1].Vector2,"p":[$n[1].Vector2,$n[0].Nullable$1(System.Single),$n[0].Nullable$1(System.Single)]},{"a":2,"n":"Set","is":true,"t":8,"pi":[{"n":"vector3","pt":$n[1].Vector3,"ps":0},{"n":"x","dv":null,"o":true,"pt":$n[0].Nullable$1(System.Single),"ps":1},{"n":"y","dv":null,"o":true,"pt":$n[0].Nullable$1(System.Single),"ps":2},{"n":"z","dv":null,"o":true,"pt":$n[0].Nullable$1(System.Single),"ps":3}],"sn":"Set$1","rt":$n[1].Vector3,"p":[$n[1].Vector3,$n[0].Nullable$1(System.Single),$n[0].Nullable$1(System.Single),$n[0].Nullable$1(System.Single)]},{"a":2,"n":"ToVectorXZ","is":true,"t":8,"pi":[{"n":"vector3","pt":$n[1].Vector3,"ps":0}],"sn":"ToVectorXZ","rt":$n[1].Vector2,"p":[$n[1].Vector3]}]}; }, $n);
     /*VectorUlti end.*/
 
+    /*JoystickPlayerExample start.*/
+    $m("JoystickPlayerExample", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":2,"n":"rb","t":4,"rt":$n[1].Rigidbody,"sn":"rb"},{"a":2,"n":"speed","t":4,"rt":$n[0].Single,"sn":"speed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"variableJoystick","t":4,"rt":VariableJoystick,"sn":"variableJoystick"}]}; }, $n);
+    /*JoystickPlayerExample end.*/
+
+    /*JoystickSetterExample start.*/
+    $m("JoystickSetterExample", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AxisChanged","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"AxisChanged","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"ModeChanged","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"ModeChanged","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"SnapX","t":8,"pi":[{"n":"value","pt":$n[0].Boolean,"ps":0}],"sn":"SnapX","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"SnapY","t":8,"pi":[{"n":"value","pt":$n[0].Boolean,"ps":0}],"sn":"SnapY","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"axisSprites","t":4,"rt":System.Array.type(UnityEngine.Sprite),"sn":"axisSprites"},{"a":2,"n":"background","t":4,"rt":$n[4].Image,"sn":"background"},{"a":2,"n":"valueText","t":4,"rt":$n[4].Text,"sn":"valueText"},{"a":2,"n":"variableJoystick","t":4,"rt":VariableJoystick,"sn":"variableJoystick"}]}; }, $n);
+    /*JoystickSetterExample end.*/
+
+    /*Joystick start.*/
+    $m("Joystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"FormatInput","t":8,"sn":"FormatInput","rt":$n[0].Void},{"v":true,"a":3,"n":"HandleInput","t":8,"pi":[{"n":"magnitude","pt":$n[0].Single,"ps":0},{"n":"normalised","pt":$n[1].Vector2,"ps":1},{"n":"radius","pt":$n[1].Vector2,"ps":2},{"n":"cam","pt":$n[1].Camera,"ps":3}],"sn":"HandleInput","rt":$n[0].Void,"p":[$n[0].Single,$n[1].Vector2,$n[1].Vector2,$n[1].Camera]},{"a":2,"n":"OnDrag","t":8,"pi":[{"n":"eventData","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnDrag","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"v":true,"a":2,"n":"OnPointerDown","t":8,"pi":[{"n":"eventData","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnPointerDown","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"v":true,"a":2,"n":"OnPointerUp","t":8,"pi":[{"n":"eventData","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnPointerUp","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"a":3,"n":"ScreenPointToAnchoredPosition","t":8,"pi":[{"n":"screenPosition","pt":$n[1].Vector2,"ps":0}],"sn":"ScreenPointToAnchoredPosition","rt":$n[1].Vector2,"p":[$n[1].Vector2]},{"a":1,"n":"SnapFloat","t":8,"pi":[{"n":"value","pt":$n[0].Single,"ps":0},{"n":"snapAxis","pt":AxisOptions,"ps":1}],"sn":"SnapFloat","rt":$n[0].Single,"p":[$n[0].Single,AxisOptions],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"AxisOptions","t":16,"rt":AxisOptions,"g":{"a":2,"n":"get_AxisOptions","t":8,"rt":AxisOptions,"fg":"AxisOptions","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}},"s":{"a":2,"n":"set_AxisOptions","t":8,"p":[AxisOptions],"rt":$n[0].Void,"fs":"AxisOptions"},"fn":"AxisOptions"},{"a":2,"n":"DeadZone","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_DeadZone","t":8,"rt":$n[0].Single,"fg":"DeadZone","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_DeadZone","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"DeadZone"},"fn":"DeadZone"},{"a":2,"n":"Direction","t":16,"rt":$n[1].Vector2,"g":{"a":2,"n":"get_Direction","t":8,"rt":$n[1].Vector2,"fg":"Direction"},"fn":"Direction"},{"a":2,"n":"HandleRange","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_HandleRange","t":8,"rt":$n[0].Single,"fg":"HandleRange","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_HandleRange","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"HandleRange"},"fn":"HandleRange"},{"a":2,"n":"Horizontal","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_Horizontal","t":8,"rt":$n[0].Single,"fg":"Horizontal","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Horizontal"},{"a":2,"n":"SnapX","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_SnapX","t":8,"rt":$n[0].Boolean,"fg":"SnapX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_SnapX","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"SnapX"},"fn":"SnapX"},{"a":2,"n":"SnapY","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_SnapY","t":8,"rt":$n[0].Boolean,"fg":"SnapY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_SnapY","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"SnapY"},"fn":"SnapY"},{"a":2,"n":"Vertical","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_Vertical","t":8,"rt":$n[0].Single,"fg":"Vertical","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Vertical"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"axisOptions","t":4,"rt":AxisOptions,"sn":"axisOptions","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"background","t":4,"rt":$n[1].RectTransform,"sn":"background"},{"a":1,"n":"baseRect","t":4,"rt":$n[1].RectTransform,"sn":"baseRect"},{"a":1,"n":"cam","t":4,"rt":$n[1].Camera,"sn":"cam"},{"a":1,"n":"canvas","t":4,"rt":$n[1].Canvas,"sn":"canvas"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"deadZone","t":4,"rt":$n[0].Single,"sn":"deadZone","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"handle","t":4,"rt":$n[1].RectTransform,"sn":"handle$1"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"handleRange","t":4,"rt":$n[0].Single,"sn":"handleRange","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"input","t":4,"rt":$n[1].Vector2,"sn":"input"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"snapX","t":4,"rt":$n[0].Boolean,"sn":"snapX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"snapY","t":4,"rt":$n[0].Boolean,"sn":"snapY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    /*Joystick end.*/
+
+    /*AxisOptions start.*/
+    $m("AxisOptions", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Both","is":true,"t":4,"rt":AxisOptions,"sn":"Both","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}},{"a":2,"n":"Horizontal","is":true,"t":4,"rt":AxisOptions,"sn":"Horizontal","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}},{"a":2,"n":"Vertical","is":true,"t":4,"rt":AxisOptions,"sn":"Vertical","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}}]}; }, $n);
+    /*AxisOptions end.*/
+
+    /*DynamicJoystick start.*/
+    $m("DynamicJoystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"HandleInput","t":8,"pi":[{"n":"magnitude","pt":$n[0].Single,"ps":0},{"n":"normalised","pt":$n[1].Vector2,"ps":1},{"n":"radius","pt":$n[1].Vector2,"ps":2},{"n":"cam","pt":$n[1].Camera,"ps":3}],"sn":"HandleInput","rt":$n[0].Void,"p":[$n[0].Single,$n[1].Vector2,$n[1].Vector2,$n[1].Camera]},{"ov":true,"a":2,"n":"OnPointerDown","t":8,"pi":[{"n":"eventData","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnPointerDown","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"ov":true,"a":2,"n":"OnPointerUp","t":8,"pi":[{"n":"eventData","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnPointerUp","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"MoveThreshold","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_MoveThreshold","t":8,"rt":$n[0].Single,"fg":"MoveThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_MoveThreshold","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"MoveThreshold"},"fn":"MoveThreshold"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"moveThreshold","t":4,"rt":$n[0].Single,"sn":"moveThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*DynamicJoystick end.*/
+
+    /*FixedJoystick start.*/
+    $m("FixedJoystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
+    /*FixedJoystick end.*/
+
+    /*FloatingJoystick start.*/
+    $m("FloatingJoystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"OnPointerDown","t":8,"pi":[{"n":"eventData","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnPointerDown","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"ov":true,"a":2,"n":"OnPointerUp","t":8,"pi":[{"n":"eventData","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnPointerUp","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void}]}; }, $n);
+    /*FloatingJoystick end.*/
+
+    /*VariableJoystick start.*/
+    $m("VariableJoystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"HandleInput","t":8,"pi":[{"n":"magnitude","pt":$n[0].Single,"ps":0},{"n":"normalised","pt":$n[1].Vector2,"ps":1},{"n":"radius","pt":$n[1].Vector2,"ps":2},{"n":"cam","pt":$n[1].Camera,"ps":3}],"sn":"HandleInput","rt":$n[0].Void,"p":[$n[0].Single,$n[1].Vector2,$n[1].Vector2,$n[1].Camera]},{"ov":true,"a":2,"n":"OnPointerDown","t":8,"pi":[{"n":"eventData","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnPointerDown","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"ov":true,"a":2,"n":"OnPointerUp","t":8,"pi":[{"n":"eventData","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnPointerUp","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"a":2,"n":"SetMode","t":8,"pi":[{"n":"joystickType","pt":JoystickType,"ps":0}],"sn":"SetMode","rt":$n[0].Void,"p":[JoystickType]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"MoveThreshold","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_MoveThreshold","t":8,"rt":$n[0].Single,"fg":"MoveThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_MoveThreshold","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"MoveThreshold"},"fn":"MoveThreshold"},{"a":1,"n":"fixedPosition","t":4,"rt":$n[1].Vector2,"sn":"fixedPosition"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"joystickType","t":4,"rt":JoystickType,"sn":"joystickType","box":function ($v) { return Bridge.box($v, JoystickType, System.Enum.toStringFn(JoystickType));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"moveThreshold","t":4,"rt":$n[0].Single,"sn":"moveThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*VariableJoystick end.*/
+
+    /*JoystickType start.*/
+    $m("JoystickType", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Dynamic","is":true,"t":4,"rt":JoystickType,"sn":"Dynamic","box":function ($v) { return Bridge.box($v, JoystickType, System.Enum.toStringFn(JoystickType));}},{"a":2,"n":"Fixed","is":true,"t":4,"rt":JoystickType,"sn":"Fixed","box":function ($v) { return Bridge.box($v, JoystickType, System.Enum.toStringFn(JoystickType));}},{"a":2,"n":"Floating","is":true,"t":4,"rt":JoystickType,"sn":"Floating","box":function ($v) { return Bridge.box($v, JoystickType, System.Enum.toStringFn(JoystickType));}}]}; }, $n);
+    /*JoystickType end.*/
+
+    /*UltimateJoystick start.*/
+    $m("UltimateJoystick", function () { return {"nested":[UltimateJoystick.ScalingAxis,UltimateJoystick.Anchor,UltimateJoystick.JoystickTouchSize,UltimateJoystick.Axis,UltimateJoystick.Boundary,UltimateJoystick.TapCountOption],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteInEditModeAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CheckJoystickHighlightForUse","t":8,"sn":"CheckJoystickHighlightForUse","rt":$n[0].Void},{"a":1,"n":"ConfigureImagePosition","t":8,"pi":[{"n":"textureSize","pt":$n[1].Vector2,"ps":0},{"n":"customSpacing","pt":$n[1].Vector2,"ps":1}],"sn":"ConfigureImagePosition","rt":$n[1].Vector2,"p":[$n[1].Vector2,$n[1].Vector2]},{"a":2,"n":"DisableJoystick","t":8,"sn":"DisableJoystick","rt":$n[0].Void},{"a":2,"n":"DisableJoystick","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"DisableJoystick","rt":$n[0].Void,"p":[$n[0].String]},{"a":2,"n":"EnableJoystick","t":8,"sn":"EnableJoystick","rt":$n[0].Void},{"a":2,"n":"EnableJoystick","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"EnableJoystick","rt":$n[0].Void,"p":[$n[0].String]},{"a":1,"n":"FadeLogic","t":8,"sn":"FadeLogic","rt":$n[3].IEnumerator},{"a":1,"n":"GetCanvasGroup","t":8,"sn":"GetCanvasGroup","rt":$n[1].CanvasGroup},{"a":2,"n":"GetDistance","t":8,"sn":"GetDistance","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetDistance","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"GetDistance","rt":$n[0].Single,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetHorizontalAxis","t":8,"sn":"GetHorizontalAxis","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetHorizontalAxis","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"GetHorizontalAxis","rt":$n[0].Single,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetHorizontalAxisRaw","t":8,"sn":"GetHorizontalAxisRaw","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetHorizontalAxisRaw","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"GetHorizontalAxisRaw","rt":$n[0].Single,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetJoystickState","t":8,"sn":"GetJoystickState","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"GetJoystickState","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"GetJoystickState","rt":$n[0].Boolean,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"GetParentCanvas","t":8,"sn":"GetParentCanvas","rt":$n[1].Canvas},{"a":2,"n":"GetTapCount","t":8,"sn":"GetTapCount","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"GetTapCount","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"GetTapCount","rt":$n[0].Boolean,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"GetUltimateJoystick","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"GetUltimateJoystick","rt":UltimateJoystick,"p":[$n[0].String]},{"a":2,"n":"GetVerticalAxis","t":8,"sn":"GetVerticalAxis","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetVerticalAxis","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"GetVerticalAxis","rt":$n[0].Single,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetVerticalAxisRaw","t":8,"sn":"GetVerticalAxisRaw","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetVerticalAxisRaw","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"GetVerticalAxisRaw","rt":$n[0].Single,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"GravityHandler","t":8,"sn":"GravityHandler","rt":$n[3].IEnumerator},{"a":1,"n":"JoystickConfirmed","is":true,"t":8,"pi":[{"n":"joystickName","pt":$n[0].String,"ps":0}],"sn":"JoystickConfirmed","rt":$n[0].Boolean,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"OnDrag","t":8,"pi":[{"n":"touchInfo","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnDrag","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"a":2,"n":"OnPointerDown","t":8,"pi":[{"n":"touchInfo","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnPointerDown","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"a":2,"n":"OnPointerUp","t":8,"pi":[{"n":"touchInfo","pt":$n[5].PointerEventData,"ps":0}],"sn":"OnPointerUp","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"a":1,"n":"ResetJoystick","t":8,"sn":"ResetJoystick","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"TapCountDelay","t":8,"sn":"TapCountDelay","rt":$n[3].IEnumerator},{"a":1,"n":"TapCountdown","t":8,"sn":"TapCountdown","rt":$n[3].IEnumerator},{"a":1,"n":"TensionAccentDisplay","t":8,"sn":"TensionAccentDisplay","rt":$n[0].Void},{"a":1,"n":"TensionAccentReset","t":8,"sn":"TensionAccentReset","rt":$n[0].Void},{"a":2,"n":"UpdateHighlightColor","t":8,"pi":[{"n":"targetColor","pt":$n[1].Color,"ps":0}],"sn":"UpdateHighlightColor","rt":$n[0].Void,"p":[$n[1].Color]},{"a":1,"n":"UpdateJoystick","t":8,"pi":[{"n":"touchInfo","pt":$n[5].PointerEventData,"ps":0}],"sn":"UpdateJoystick","rt":$n[0].Void,"p":[$n[5].PointerEventData]},{"a":1,"n":"UpdatePositionValues","t":8,"sn":"UpdatePositionValues","rt":$n[0].Void},{"a":2,"n":"UpdatePositioning","t":8,"sn":"UpdatePositioning","rt":$n[0].Void},{"a":1,"n":"UpdateSizeAndPlacement","t":8,"sn":"UpdateSizeAndPlacement","rt":$n[0].Void},{"a":2,"n":"UpdateTensionColors","t":8,"pi":[{"n":"targetTensionNone","pt":$n[1].Color,"ps":0},{"n":"targetTensionFull","pt":$n[1].Color,"ps":1}],"sn":"UpdateTensionColors","rt":$n[0].Void,"p":[$n[1].Color,$n[1].Color]},{"a":2,"n":"HorizontalAxis","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_HorizontalAxis","t":8,"rt":$n[0].Single,"fg":"HorizontalAxis","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":1,"n":"set_HorizontalAxis","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"HorizontalAxis"},"fn":"HorizontalAxis"},{"a":2,"n":"VerticalAxis","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_VerticalAxis","t":8,"rt":$n[0].Single,"fg":"VerticalAxis","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":1,"n":"set_VerticalAxis","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"VerticalAxis"},"fn":"VerticalAxis"},{"a":1,"n":"UltimateJoysticks","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,UltimateJoystick),"sn":"UltimateJoysticks"},{"a":1,"n":"_pointerId","t":4,"rt":$n[0].Int32,"sn":"_pointerId","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"anchor","t":4,"rt":UltimateJoystick.Anchor,"sn":"anchor","box":function ($v) { return Bridge.box($v, UltimateJoystick.Anchor, System.Enum.toStringFn(UltimateJoystick.Anchor));}},{"a":1,"n":"animationID","t":4,"rt":$n[0].Int32,"sn":"animationID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"axis","t":4,"rt":UltimateJoystick.Axis,"sn":"axis","box":function ($v) { return Bridge.box($v, UltimateJoystick.Axis, System.Enum.toStringFn(UltimateJoystick.Axis));}},{"a":1,"n":"baseTrans","t":4,"rt":$n[1].RectTransform,"sn":"baseTrans"},{"a":2,"n":"boundary","t":4,"rt":UltimateJoystick.Boundary,"sn":"boundary","box":function ($v) { return Bridge.box($v, UltimateJoystick.Boundary, System.Enum.toStringFn(UltimateJoystick.Boundary));}},{"a":1,"n":"currentTapTime","t":4,"rt":$n[0].Single,"sn":"currentTapTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"customSpacing_X","t":4,"rt":$n[0].Single,"sn":"customSpacing_X","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"customSpacing_Y","t":4,"rt":$n[0].Single,"sn":"customSpacing_Y","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"customTouchSizePos_X","t":4,"rt":$n[0].Single,"sn":"customTouchSizePos_X","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"customTouchSizePos_Y","t":4,"rt":$n[0].Single,"sn":"customTouchSizePos_Y","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"customTouchSize_X","t":4,"rt":$n[0].Single,"sn":"customTouchSize_X","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"customTouchSize_Y","t":4,"rt":$n[0].Single,"sn":"customTouchSize_Y","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"deadZone","t":4,"rt":$n[0].Single,"sn":"deadZone","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"defaultPos","t":4,"rt":$n[1].Vector2,"sn":"defaultPos"},{"a":2,"n":"disableVisuals","t":4,"rt":$n[0].Boolean,"sn":"disableVisuals","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"dynamicPositioning","t":4,"rt":$n[0].Boolean,"sn":"dynamicPositioning","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"extendRadius","t":4,"rt":$n[0].Boolean,"sn":"extendRadius","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"fadeInDuration","t":4,"rt":$n[0].Single,"sn":"fadeInDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"fadeInSpeed","t":4,"rt":$n[0].Single,"sn":"fadeInSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"fadeOutDuration","t":4,"rt":$n[0].Single,"sn":"fadeOutDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"fadeOutSpeed","t":4,"rt":$n[0].Single,"sn":"fadeOutSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"fadeTouched","t":4,"rt":$n[0].Single,"sn":"fadeTouched","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"fadeUntouched","t":4,"rt":$n[0].Single,"sn":"fadeUntouched","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"gravity","t":4,"rt":$n[0].Single,"sn":"gravity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"gravityActive","t":4,"rt":$n[0].Boolean,"sn":"gravityActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"highlightBase","t":4,"rt":$n[4].Image,"sn":"highlightBase"},{"a":2,"n":"highlightColor","t":4,"rt":$n[1].Color,"sn":"highlightColor"},{"a":2,"n":"highlightJoystick","t":4,"rt":$n[4].Image,"sn":"highlightJoystick"},{"a":2,"n":"joystick","t":4,"rt":$n[1].RectTransform,"sn":"joystick"},{"a":2,"n":"joystickAnimator","t":4,"rt":$n[1].Animator,"sn":"joystickAnimator"},{"a":2,"n":"joystickBase","t":4,"rt":$n[1].RectTransform,"sn":"joystickBase"},{"a":1,"n":"joystickCenter","t":4,"rt":$n[1].Vector3,"sn":"joystickCenter"},{"a":1,"n":"joystickGroup","t":4,"rt":$n[1].CanvasGroup,"sn":"joystickGroup"},{"a":2,"n":"joystickName","t":4,"rt":$n[0].String,"sn":"joystickName"},{"a":2,"n":"joystickSize","t":4,"rt":$n[0].Single,"sn":"joystickSize","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"joystickSizeFolder","t":4,"rt":$n[1].RectTransform,"sn":"joystickSizeFolder"},{"a":1,"n":"joystickState","t":4,"rt":$n[0].Boolean,"sn":"joystickState","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"joystickTouchSize","t":4,"rt":UltimateJoystick.JoystickTouchSize,"sn":"joystickTouchSize","box":function ($v) { return Bridge.box($v, UltimateJoystick.JoystickTouchSize, System.Enum.toStringFn(UltimateJoystick.JoystickTouchSize));}},{"a":1,"n":"radius","t":4,"rt":$n[0].Single,"sn":"radius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"radiusModifier","t":4,"rt":$n[0].Single,"sn":"radiusModifier","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"scalingAxis","t":4,"rt":UltimateJoystick.ScalingAxis,"sn":"scalingAxis","box":function ($v) { return Bridge.box($v, UltimateJoystick.ScalingAxis, System.Enum.toStringFn(UltimateJoystick.ScalingAxis));}},{"a":2,"n":"showHighlight","t":4,"rt":$n[0].Boolean,"sn":"showHighlight","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"showTension","t":4,"rt":$n[0].Boolean,"sn":"showTension","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"tapCount","t":4,"rt":$n[0].Int32,"sn":"tapCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"tapCountAchieved","t":4,"rt":$n[0].Boolean,"sn":"tapCountAchieved","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"tapCountDuration","t":4,"rt":$n[0].Single,"sn":"tapCountDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"tapCountOption","t":4,"rt":UltimateJoystick.TapCountOption,"sn":"tapCountOption","box":function ($v) { return Bridge.box($v, UltimateJoystick.TapCountOption, System.Enum.toStringFn(UltimateJoystick.TapCountOption));}},{"a":2,"n":"targetTapCount","t":4,"rt":$n[0].Int32,"sn":"targetTapCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"tensionAccentDown","t":4,"rt":$n[4].Image,"sn":"tensionAccentDown"},{"a":2,"n":"tensionAccentLeft","t":4,"rt":$n[4].Image,"sn":"tensionAccentLeft"},{"a":2,"n":"tensionAccentRight","t":4,"rt":$n[4].Image,"sn":"tensionAccentRight"},{"a":2,"n":"tensionAccentUp","t":4,"rt":$n[4].Image,"sn":"tensionAccentUp"},{"a":2,"n":"tensionColorFull","t":4,"rt":$n[1].Color,"sn":"tensionColorFull"},{"a":2,"n":"tensionColorNone","t":4,"rt":$n[1].Color,"sn":"tensionColorNone"},{"a":1,"n":"textureCenter","t":4,"rt":$n[1].Vector2,"sn":"textureCenter"},{"a":1,"n":"updateHighlightPosition","t":4,"rt":$n[0].Boolean,"sn":"updateHighlightPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"useAnimation","t":4,"rt":$n[0].Boolean,"sn":"useAnimation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"useFade","t":4,"rt":$n[0].Boolean,"sn":"useFade","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<HorizontalAxis>k__BackingField","t":4,"rt":$n[0].Single,"sn":"HorizontalAxis","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"backing":true,"n":"<VerticalAxis>k__BackingField","t":4,"rt":$n[0].Single,"sn":"VerticalAxis","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*UltimateJoystick end.*/
+
+    /*UltimateJoystick+ScalingAxis start.*/
+    $m("UltimateJoystick.ScalingAxis", function () { return {"td":UltimateJoystick,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Height","is":true,"t":4,"rt":UltimateJoystick.ScalingAxis,"sn":"Height","box":function ($v) { return Bridge.box($v, UltimateJoystick.ScalingAxis, System.Enum.toStringFn(UltimateJoystick.ScalingAxis));}},{"a":2,"n":"Width","is":true,"t":4,"rt":UltimateJoystick.ScalingAxis,"sn":"Width","box":function ($v) { return Bridge.box($v, UltimateJoystick.ScalingAxis, System.Enum.toStringFn(UltimateJoystick.ScalingAxis));}}]}; }, $n);
+    /*UltimateJoystick+ScalingAxis end.*/
+
+    /*UltimateJoystick+Anchor start.*/
+    $m("UltimateJoystick.Anchor", function () { return {"td":UltimateJoystick,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Left","is":true,"t":4,"rt":UltimateJoystick.Anchor,"sn":"Left","box":function ($v) { return Bridge.box($v, UltimateJoystick.Anchor, System.Enum.toStringFn(UltimateJoystick.Anchor));}},{"a":2,"n":"Right","is":true,"t":4,"rt":UltimateJoystick.Anchor,"sn":"Right","box":function ($v) { return Bridge.box($v, UltimateJoystick.Anchor, System.Enum.toStringFn(UltimateJoystick.Anchor));}}]}; }, $n);
+    /*UltimateJoystick+Anchor end.*/
+
+    /*UltimateJoystick+JoystickTouchSize start.*/
+    $m("UltimateJoystick.JoystickTouchSize", function () { return {"td":UltimateJoystick,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Custom","is":true,"t":4,"rt":UltimateJoystick.JoystickTouchSize,"sn":"Custom","box":function ($v) { return Bridge.box($v, UltimateJoystick.JoystickTouchSize, System.Enum.toStringFn(UltimateJoystick.JoystickTouchSize));}},{"a":2,"n":"Default","is":true,"t":4,"rt":UltimateJoystick.JoystickTouchSize,"sn":"Default","box":function ($v) { return Bridge.box($v, UltimateJoystick.JoystickTouchSize, System.Enum.toStringFn(UltimateJoystick.JoystickTouchSize));}},{"a":2,"n":"Large","is":true,"t":4,"rt":UltimateJoystick.JoystickTouchSize,"sn":"Large","box":function ($v) { return Bridge.box($v, UltimateJoystick.JoystickTouchSize, System.Enum.toStringFn(UltimateJoystick.JoystickTouchSize));}},{"a":2,"n":"Medium","is":true,"t":4,"rt":UltimateJoystick.JoystickTouchSize,"sn":"Medium","box":function ($v) { return Bridge.box($v, UltimateJoystick.JoystickTouchSize, System.Enum.toStringFn(UltimateJoystick.JoystickTouchSize));}}]}; }, $n);
+    /*UltimateJoystick+JoystickTouchSize end.*/
+
+    /*UltimateJoystick+Axis start.*/
+    $m("UltimateJoystick.Axis", function () { return {"td":UltimateJoystick,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Both","is":true,"t":4,"rt":UltimateJoystick.Axis,"sn":"Both","box":function ($v) { return Bridge.box($v, UltimateJoystick.Axis, System.Enum.toStringFn(UltimateJoystick.Axis));}},{"a":2,"n":"X","is":true,"t":4,"rt":UltimateJoystick.Axis,"sn":"X","box":function ($v) { return Bridge.box($v, UltimateJoystick.Axis, System.Enum.toStringFn(UltimateJoystick.Axis));}},{"a":2,"n":"Y","is":true,"t":4,"rt":UltimateJoystick.Axis,"sn":"Y","box":function ($v) { return Bridge.box($v, UltimateJoystick.Axis, System.Enum.toStringFn(UltimateJoystick.Axis));}}]}; }, $n);
+    /*UltimateJoystick+Axis end.*/
+
+    /*UltimateJoystick+Boundary start.*/
+    $m("UltimateJoystick.Boundary", function () { return {"td":UltimateJoystick,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Circular","is":true,"t":4,"rt":UltimateJoystick.Boundary,"sn":"Circular","box":function ($v) { return Bridge.box($v, UltimateJoystick.Boundary, System.Enum.toStringFn(UltimateJoystick.Boundary));}},{"a":2,"n":"Square","is":true,"t":4,"rt":UltimateJoystick.Boundary,"sn":"Square","box":function ($v) { return Bridge.box($v, UltimateJoystick.Boundary, System.Enum.toStringFn(UltimateJoystick.Boundary));}}]}; }, $n);
+    /*UltimateJoystick+Boundary end.*/
+
+    /*UltimateJoystick+TapCountOption start.*/
+    $m("UltimateJoystick.TapCountOption", function () { return {"td":UltimateJoystick,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Accumulate","is":true,"t":4,"rt":UltimateJoystick.TapCountOption,"sn":"Accumulate","box":function ($v) { return Bridge.box($v, UltimateJoystick.TapCountOption, System.Enum.toStringFn(UltimateJoystick.TapCountOption));}},{"a":2,"n":"NoCount","is":true,"t":4,"rt":UltimateJoystick.TapCountOption,"sn":"NoCount","box":function ($v) { return Bridge.box($v, UltimateJoystick.TapCountOption, System.Enum.toStringFn(UltimateJoystick.TapCountOption));}},{"a":2,"n":"TouchRelease","is":true,"t":4,"rt":UltimateJoystick.TapCountOption,"sn":"TouchRelease","box":function ($v) { return Bridge.box($v, UltimateJoystick.TapCountOption, System.Enum.toStringFn(UltimateJoystick.TapCountOption));}}]}; }, $n);
+    /*UltimateJoystick+TapCountOption end.*/
+
+    /*UltimateJoystickScreenSizeUpdater start.*/
+    $m("UltimateJoystickScreenSizeUpdater", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"OnRectTransformDimensionsChange","t":8,"sn":"OnRectTransformDimensionsChange","rt":$n[0].Void},{"a":1,"n":"YieldPositioning","t":8,"sn":"YieldPositioning","rt":$n[3].IEnumerator}]}; }, $n);
+    /*UltimateJoystickScreenSizeUpdater end.*/
+
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty start.*/
     $m("IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty end.*/
 
+    /*UltimateJoystickExample.Spaceship.AsteroidController start.*/
+    $m("UltimateJoystickExample.Spaceship.AsteroidController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"DelayInitialDestruction","t":8,"pi":[{"n":"delayTime","pt":$n[0].Single,"ps":0}],"sn":"DelayInitialDestruction","rt":$n[3].IEnumerator,"p":[$n[0].Single]},{"a":1,"n":"Explode","t":8,"sn":"Explode","rt":$n[0].Void},{"a":1,"n":"OnCollisionEnter","t":8,"pi":[{"n":"theCollision","pt":$n[1].Collision,"ps":0}],"sn":"OnCollisionEnter","rt":$n[0].Void,"p":[$n[1].Collision]},{"a":2,"n":"Setup","t":8,"pi":[{"n":"force","pt":$n[1].Vector3,"ps":0},{"n":"torque","pt":$n[1].Vector3,"ps":1}],"sn":"Setup","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].Vector3]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"asteroidManager","t":4,"rt":$n[6].GameManager,"sn":"asteroidManager"},{"a":1,"n":"canDestroy","t":4,"rt":$n[0].Boolean,"sn":"canDestroy","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isDebris","t":4,"rt":$n[0].Boolean,"sn":"isDebris","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isDestroyed","t":4,"rt":$n[0].Boolean,"sn":"isDestroyed","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"myRigidbody","t":4,"rt":$n[1].Rigidbody,"sn":"myRigidbody"}]}; }, $n);
+    /*UltimateJoystickExample.Spaceship.AsteroidController end.*/
+
+    /*UltimateJoystickExample.Spaceship.GameManager start.*/
+    $m("UltimateJoystickExample.Spaceship.GameManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"FadeDeathScreen","t":8,"sn":"FadeDeathScreen","rt":$n[3].IEnumerator},{"a":2,"n":"ModifyScore","t":8,"pi":[{"n":"isDebris","pt":$n[0].Boolean,"ps":0}],"sn":"ModifyScore","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"ShakeCamera","t":8,"sn":"ShakeCamera","rt":$n[3].IEnumerator},{"a":2,"n":"ShowDeathScreen","t":8,"sn":"ShowDeathScreen","rt":$n[0].Void},{"a":1,"n":"SpawnAsteroid","t":8,"sn":"SpawnAsteroid","rt":$n[0].Void},{"a":2,"n":"SpawnDebris","t":8,"pi":[{"n":"pos","pt":$n[1].Vector3,"ps":0}],"sn":"SpawnDebris","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":2,"n":"SpawnExplosion","t":8,"pi":[{"n":"pos","pt":$n[1].Vector3,"ps":0}],"sn":"SpawnExplosion","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"SpawnTimer","t":8,"sn":"SpawnTimer","rt":$n[3].IEnumerator},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"UpdateScoreText","t":8,"sn":"UpdateScoreText","rt":$n[0].Void},{"a":2,"n":"Instance","is":true,"t":16,"rt":$n[6].GameManager,"g":{"a":2,"n":"get_Instance","t":8,"rt":$n[6].GameManager,"fg":"Instance","is":true},"fn":"Instance"},{"a":2,"n":"asteroidPoints","t":4,"rt":$n[0].Int32,"sn":"asteroidPoints","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.HeaderAttribute("Prefabs")],"a":2,"n":"astroidPrefab","t":4,"rt":$n[1].GameObject,"sn":"astroidPrefab"},{"a":2,"n":"debrisPoints","t":4,"rt":$n[0].Int32,"sn":"debrisPoints","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"debrisPrefab","t":4,"rt":$n[1].GameObject,"sn":"debrisPrefab"},{"a":2,"n":"explosionPrefab","t":4,"rt":$n[1].GameObject,"sn":"explosionPrefab"},{"at":[new UnityEngine.HeaderAttribute("Game Over")],"a":2,"n":"gameOverScreen","t":4,"rt":$n[4].Image,"sn":"gameOverScreen"},{"a":2,"n":"gameOverText","t":4,"rt":$n[4].Text,"sn":"gameOverText"},{"a":1,"n":"instance","is":true,"t":4,"rt":$n[6].GameManager,"sn":"instance"},{"a":2,"n":"playerExplosionPrefab","t":4,"rt":$n[1].GameObject,"sn":"playerExplosionPrefab"},{"a":1,"n":"score","t":4,"rt":$n[0].Int32,"sn":"score","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.HeaderAttribute("Score")],"a":2,"n":"scoreText","t":4,"rt":$n[4].Text,"sn":"scoreText"},{"a":2,"n":"spawnTimeMax","t":4,"rt":$n[0].Single,"sn":"spawnTimeMax","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("Spawning")],"a":2,"n":"spawnTimeMin","t":4,"rt":$n[0].Single,"sn":"spawnTimeMin","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"spawning","t":4,"rt":$n[0].Boolean,"sn":"spawning","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"startingAsteroids","t":4,"rt":$n[0].Int32,"sn":"startingAsteroids","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    /*UltimateJoystickExample.Spaceship.GameManager end.*/
+
+    /*UltimateJoystickExample.Spaceship.PlayerController start.*/
+    $m("UltimateJoystickExample.Spaceship.PlayerController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"CheckExitScreen","t":8,"sn":"CheckExitScreen","rt":$n[0].Void},{"a":1,"n":"CreateBullets","t":8,"sn":"CreateBullets","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"accelerationSpeed","t":4,"rt":$n[0].Single,"sn":"accelerationSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("Assigned Variables")],"a":2,"n":"bulletPrefab","t":4,"rt":$n[1].GameObject,"sn":"bulletPrefab"},{"a":2,"n":"bulletSpawnPos","t":4,"rt":$n[1].Transform,"sn":"bulletSpawnPos"},{"a":1,"n":"canControl","t":4,"rt":$n[0].Boolean,"sn":"canControl","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"gunTrans","t":4,"rt":$n[1].Transform,"sn":"gunTrans"},{"a":2,"n":"maxSpeed","t":4,"rt":$n[0].Single,"sn":"maxSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"movePosition","t":4,"rt":$n[1].Vector3,"sn":"movePosition"},{"a":1,"n":"myRigidbody","t":4,"rt":$n[1].Rigidbody,"sn":"myRigidbody"},{"a":2,"n":"playerVisuals","t":4,"rt":$n[1].GameObject,"sn":"playerVisuals"},{"at":[new UnityEngine.HeaderAttribute("Speeds")],"a":2,"n":"rotationSpeed","t":4,"rt":$n[0].Single,"sn":"rotationSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"shootPosition","t":4,"rt":$n[1].Vector3,"sn":"shootPosition"},{"a":2,"n":"shootingCooldown","t":4,"rt":$n[0].Single,"sn":"shootingCooldown","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"shootingTimer","t":4,"rt":$n[0].Single,"sn":"shootingTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*UltimateJoystickExample.Spaceship.PlayerController end.*/
+
     /*DG.Tweening.DOTweenModuleAudio start.*/
-    $m("DG.Tweening.DOTweenModuleAudio", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOComplete","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0},{"n":"withCallbacks","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOComplete","rt":$n[0].Int32,"p":[$n[4].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[5].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlip","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0}],"sn":"DOFlip","rt":$n[0].Int32,"p":[$n[4].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOGoto","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0},{"n":"to","pt":$n[0].Single,"ps":1},{"n":"andPlay","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"DOGoto","rt":$n[0].Int32,"p":[$n[4].AudioMixer,$n[0].Single,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOKill","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0},{"n":"complete","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOKill","rt":$n[0].Int32,"p":[$n[4].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPause","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0}],"sn":"DOPause","rt":$n[0].Int32,"p":[$n[4].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPitch","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPitch","rt":$n[5].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPlay","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0}],"sn":"DOPlay","rt":$n[0].Int32,"p":[$n[4].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayBackwards","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0}],"sn":"DOPlayBackwards","rt":$n[0].Int32,"p":[$n[4].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayForward","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0}],"sn":"DOPlayForward","rt":$n[0].Int32,"p":[$n[4].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORestart","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0}],"sn":"DORestart","rt":$n[0].Int32,"p":[$n[4].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0}],"sn":"DORewind","rt":$n[0].Int32,"p":[$n[4].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOSetFloat","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0},{"n":"floatName","pt":$n[0].String,"ps":1},{"n":"endValue","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOSetFloat","rt":$n[5].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[4].AudioMixer,$n[0].String,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOSmoothRewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0}],"sn":"DOSmoothRewind","rt":$n[0].Int32,"p":[$n[4].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOTogglePause","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].AudioMixer,"ps":0}],"sn":"DOTogglePause","rt":$n[0].Int32,"p":[$n[4].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleAudio", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOComplete","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0},{"n":"withCallbacks","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOComplete","rt":$n[0].Int32,"p":[$n[7].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[8].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlip","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0}],"sn":"DOFlip","rt":$n[0].Int32,"p":[$n[7].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOGoto","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0},{"n":"to","pt":$n[0].Single,"ps":1},{"n":"andPlay","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"DOGoto","rt":$n[0].Int32,"p":[$n[7].AudioMixer,$n[0].Single,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOKill","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0},{"n":"complete","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOKill","rt":$n[0].Int32,"p":[$n[7].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPause","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0}],"sn":"DOPause","rt":$n[0].Int32,"p":[$n[7].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPitch","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPitch","rt":$n[8].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPlay","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0}],"sn":"DOPlay","rt":$n[0].Int32,"p":[$n[7].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayBackwards","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0}],"sn":"DOPlayBackwards","rt":$n[0].Int32,"p":[$n[7].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayForward","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0}],"sn":"DOPlayForward","rt":$n[0].Int32,"p":[$n[7].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORestart","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0}],"sn":"DORestart","rt":$n[0].Int32,"p":[$n[7].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0}],"sn":"DORewind","rt":$n[0].Int32,"p":[$n[7].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOSetFloat","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0},{"n":"floatName","pt":$n[0].String,"ps":1},{"n":"endValue","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOSetFloat","rt":$n[8].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[7].AudioMixer,$n[0].String,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOSmoothRewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0}],"sn":"DOSmoothRewind","rt":$n[0].Int32,"p":[$n[7].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOTogglePause","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].AudioMixer,"ps":0}],"sn":"DOTogglePause","rt":$n[0].Int32,"p":[$n[7].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*DG.Tweening.DOTweenModuleAudio end.*/
 
     /*DG.Tweening.DOTweenModulePhysics start.*/
-    $m("DG.Tweening.DOTweenModulePhysics", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[6].Sequence,"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[7].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[7].Path,$n[0].Single,$n[6].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[6].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[6].PathType,$n[6].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOLookAt","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"towards","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"axisConstraint","dv":0,"o":true,"pt":$n[6].AxisConstraint,"ps":3},{"n":"up","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector3),"ps":4}],"sn":"DOLookAt","rt":$n[5].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[6].AxisConstraint,$n[0].Nullable$1(UnityEngine.Vector3)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveZ","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[7].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[7].Path,$n[0].Single,$n[6].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[6].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[6].PathType,$n[6].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"mode","dv":0,"o":true,"pt":$n[6].RotateMode,"ps":3}],"sn":"DORotate","rt":$n[5].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[6].RotateMode]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModulePhysics", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[9].Sequence,"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[10].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[9].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[10].Path,$n[0].Single,$n[9].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[9].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[9].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[9].PathType,$n[9].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOLookAt","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"towards","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"axisConstraint","dv":0,"o":true,"pt":$n[9].AxisConstraint,"ps":3},{"n":"up","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector3),"ps":4}],"sn":"DOLookAt","rt":$n[8].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[9].AxisConstraint,$n[0].Nullable$1(UnityEngine.Vector3)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveZ","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[10].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[9].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[10].Path,$n[0].Single,$n[9].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[9].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[9].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[9].PathType,$n[9].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"mode","dv":0,"o":true,"pt":$n[9].RotateMode,"ps":3}],"sn":"DORotate","rt":$n[8].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[9].RotateMode]}]}; }, $n);
     /*DG.Tweening.DOTweenModulePhysics end.*/
 
     /*DG.Tweening.DOTweenModulePhysics2D start.*/
-    $m("DG.Tweening.DOTweenModulePhysics2D", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[6].Sequence,"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[7].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[7].Path,$n[0].Single,$n[6].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[6].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[6].PathType,$n[6].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[7].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[7].Path,$n[0].Single,$n[6].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[6].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[6].PathType,$n[6].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DORotate","rt":$n[5].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModulePhysics2D", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[9].Sequence,"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[10].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[9].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[10].Path,$n[0].Single,$n[9].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[9].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[9].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[9].PathType,$n[9].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[10].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[9].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[10].Path,$n[0].Single,$n[9].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[9].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[9].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[9].PathType,$n[9].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DORotate","rt":$n[8].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single]}]}; }, $n);
     /*DG.Tweening.DOTweenModulePhysics2D end.*/
 
     /*DG.Tweening.DOTweenModuleSprite start.*/
-    $m("DG.Tweening.DOTweenModuleSprite", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[6].Tweener,"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[5].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[5].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"gradient","pt":$n[1].Gradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[6].Sequence,"p":[$n[1].SpriteRenderer,$n[1].Gradient,$n[0].Single]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleSprite", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[9].Tweener,"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[8].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[8].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"gradient","pt":$n[1].Gradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[9].Sequence,"p":[$n[1].SpriteRenderer,$n[1].Gradient,$n[0].Single]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleSprite end.*/
 
     /*DG.Tweening.DOTweenModuleUI start.*/
-    $m("DG.Tweening.DOTweenModuleUI", function () { return {"nested":[$n[6].DOTweenModuleUI.Utils],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOAnchorMax","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMax","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorMin","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMin","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3D","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DX","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DY","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DZ","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosX","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosY","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[6].Tweener,"p":[$n[8].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$1","rt":$n[6].Tweener,"p":[$n[8].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$2","rt":$n[6].Tweener,"p":[$n[8].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[5].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[8].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$1","rt":$n[5].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[8].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Outline,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$2","rt":$n[5].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[8].Outline,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$3","rt":$n[5].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[8].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOCounter","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Text,"ps":0},{"n":"fromValue","pt":$n[0].Int32,"ps":1},{"n":"endValue","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"addThousandsSeparator","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"culture","dv":null,"o":true,"pt":$n[9].CultureInfo,"ps":5}],"sn":"DOCounter","rt":$n[5].TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions),"p":[$n[8].Text,$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[9].CultureInfo]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].CanvasGroup,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[5].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].CanvasGroup,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Graphic,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$1","rt":$n[5].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[8].Graphic,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$2","rt":$n[5].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[8].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Outline,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$3","rt":$n[5].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[8].Outline,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Text,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$4","rt":$n[5].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[8].Text,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFillAmount","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFillAmount","rt":$n[5].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[8].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlexibleSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOFlexibleSize","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[8].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Image,"ps":0},{"n":"gradient","pt":$n[1].Gradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[6].Sequence,"p":[$n[8].Image,$n[1].Gradient,$n[0].Single]},{"a":2,"n":"DOHorizontalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOHorizontalNormalizedPos","rt":$n[6].Tweener,"p":[$n[8].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOJumpAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJumpAnchorPos","rt":$n[6].Sequence,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMinSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMinSize","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[8].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DONormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].ScrollRect,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DONormalizedPos","rt":$n[6].Tweener,"p":[$n[8].ScrollRect,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPivot","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivot","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOPivotX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotX","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPivotY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotY","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPreferredSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOPreferredSize","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[8].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPunchAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"punch","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"elasticity","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOPunchAnchorPos","rt":$n[6].Tweener,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOScale","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Outline,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOScale","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[8].Outline,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","dv":100.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"DOShakeAnchorPos","rt":$n[6].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","pt":$n[1].Vector2,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"DOShakeAnchorPos$1","rt":$n[6].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[1].Vector2,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOShapeCircle","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"center","pt":$n[1].Vector2,"ps":1},{"n":"endValueDegrees","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"relativeCenter","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOShapeCircle","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.CircleOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOSizeDelta","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOSizeDelta","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOText","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Text,"ps":0},{"n":"endValue","pt":$n[0].String,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"richTextEnabled","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scrambleMode","dv":0,"o":true,"pt":$n[6].ScrambleMode,"ps":4},{"n":"scrambleChars","dv":null,"o":true,"pt":$n[0].String,"ps":5}],"sn":"DOText","rt":$n[5].TweenerCore$3(System.String,System.String,DG.Tweening.Plugins.Options.StringOptions),"p":[$n[8].Text,$n[0].String,$n[0].Single,$n[0].Boolean,$n[6].ScrambleMode,$n[0].String]},{"a":2,"n":"DOValue","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].Slider,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOValue","rt":$n[5].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[8].Slider,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOVerticalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOVerticalNormalizedPos","rt":$n[6].Tweener,"p":[$n[8].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUI", function () { return {"nested":[$n[9].DOTweenModuleUI.Utils],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOAnchorMax","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMax","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorMin","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMin","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3D","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DX","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DY","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DZ","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosX","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosY","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[9].Tweener,"p":[$n[4].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$1","rt":$n[9].Tweener,"p":[$n[4].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$2","rt":$n[9].Tweener,"p":[$n[4].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[8].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$1","rt":$n[8].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Outline,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$2","rt":$n[8].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Outline,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$3","rt":$n[8].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOCounter","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"fromValue","pt":$n[0].Int32,"ps":1},{"n":"endValue","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"addThousandsSeparator","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"culture","dv":null,"o":true,"pt":$n[11].CultureInfo,"ps":5}],"sn":"DOCounter","rt":$n[8].TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions),"p":[$n[4].Text,$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[11].CultureInfo]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].CanvasGroup,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[8].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].CanvasGroup,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Graphic,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$1","rt":$n[8].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Graphic,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$2","rt":$n[8].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Outline,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$3","rt":$n[8].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Outline,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$4","rt":$n[8].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Text,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFillAmount","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFillAmount","rt":$n[8].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[4].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlexibleSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOFlexibleSize","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"gradient","pt":$n[1].Gradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[9].Sequence,"p":[$n[4].Image,$n[1].Gradient,$n[0].Single]},{"a":2,"n":"DOHorizontalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOHorizontalNormalizedPos","rt":$n[9].Tweener,"p":[$n[4].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOJumpAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJumpAnchorPos","rt":$n[9].Sequence,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMinSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMinSize","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DONormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].ScrollRect,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DONormalizedPos","rt":$n[9].Tweener,"p":[$n[4].ScrollRect,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPivot","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivot","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOPivotX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotX","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPivotY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotY","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPreferredSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOPreferredSize","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPunchAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"punch","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"elasticity","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOPunchAnchorPos","rt":$n[9].Tweener,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOScale","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Outline,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOScale","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].Outline,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","dv":100.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"DOShakeAnchorPos","rt":$n[9].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","pt":$n[1].Vector2,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"DOShakeAnchorPos$1","rt":$n[9].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[1].Vector2,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOShapeCircle","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"center","pt":$n[1].Vector2,"ps":1},{"n":"endValueDegrees","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"relativeCenter","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOShapeCircle","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.CircleOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOSizeDelta","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOSizeDelta","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOText","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[0].String,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"richTextEnabled","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scrambleMode","dv":0,"o":true,"pt":$n[9].ScrambleMode,"ps":4},{"n":"scrambleChars","dv":null,"o":true,"pt":$n[0].String,"ps":5}],"sn":"DOText","rt":$n[8].TweenerCore$3(System.String,System.String,DG.Tweening.Plugins.Options.StringOptions),"p":[$n[4].Text,$n[0].String,$n[0].Single,$n[0].Boolean,$n[9].ScrambleMode,$n[0].String]},{"a":2,"n":"DOValue","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Slider,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOValue","rt":$n[8].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[4].Slider,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOVerticalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOVerticalNormalizedPos","rt":$n[9].Tweener,"p":[$n[4].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUI end.*/
 
     /*DG.Tweening.DOTweenModuleUI+Utils start.*/
-    $m("DG.Tweening.DOTweenModuleUI.Utils", function () { return {"td":$n[6].DOTweenModuleUI,"att":1048962,"a":2,"s":true,"m":[{"a":2,"n":"SwitchToRectTransform","is":true,"t":8,"pi":[{"n":"from","pt":$n[1].RectTransform,"ps":0},{"n":"to","pt":$n[1].RectTransform,"ps":1}],"sn":"SwitchToRectTransform","rt":$n[1].Vector2,"p":[$n[1].RectTransform,$n[1].RectTransform]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUI.Utils", function () { return {"td":$n[9].DOTweenModuleUI,"att":1048962,"a":2,"s":true,"m":[{"a":2,"n":"SwitchToRectTransform","is":true,"t":8,"pi":[{"n":"from","pt":$n[1].RectTransform,"ps":0},{"n":"to","pt":$n[1].RectTransform,"ps":1}],"sn":"SwitchToRectTransform","rt":$n[1].Vector2,"p":[$n[1].RectTransform,$n[1].RectTransform]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUI+Utils end.*/
 
     /*DG.Tweening.DOTweenModuleUnityVersion start.*/
-    $m("DG.Tweening.DOTweenModuleUnityVersion", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":$n[1].Gradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[6].Sequence,"p":[$n[1].Material,$n[1].Gradient,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":$n[1].Gradient,"ps":1},{"n":"property","pt":$n[0].String,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOGradientColor$1","rt":$n[6].Sequence,"p":[$n[1].Material,$n[1].Gradient,$n[0].String,$n[0].Single]},{"a":2,"n":"DOOffset","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOOffset","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"DOTiling","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOTiling","rt":$n[5].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"WaitForCompletion","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForCompletion","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForElapsedLoops","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForElapsedLoops","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Int32,$n[0].Boolean]},{"a":2,"n":"WaitForKill","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForKill","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForPosition","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForPosition","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"WaitForRewind","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForRewind","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForStart","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForStart","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Boolean]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUnityVersion", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":$n[1].Gradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[9].Sequence,"p":[$n[1].Material,$n[1].Gradient,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":$n[1].Gradient,"ps":1},{"n":"property","pt":$n[0].String,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOGradientColor$1","rt":$n[9].Sequence,"p":[$n[1].Material,$n[1].Gradient,$n[0].String,$n[0].Single]},{"a":2,"n":"DOOffset","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOOffset","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"DOTiling","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOTiling","rt":$n[8].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"WaitForCompletion","is":true,"t":8,"pi":[{"n":"t","pt":$n[9].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForCompletion","rt":$n[1].CustomYieldInstruction,"p":[$n[9].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForElapsedLoops","is":true,"t":8,"pi":[{"n":"t","pt":$n[9].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForElapsedLoops","rt":$n[1].CustomYieldInstruction,"p":[$n[9].Tween,$n[0].Int32,$n[0].Boolean]},{"a":2,"n":"WaitForKill","is":true,"t":8,"pi":[{"n":"t","pt":$n[9].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForKill","rt":$n[1].CustomYieldInstruction,"p":[$n[9].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForPosition","is":true,"t":8,"pi":[{"n":"t","pt":$n[9].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForPosition","rt":$n[1].CustomYieldInstruction,"p":[$n[9].Tween,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"WaitForRewind","is":true,"t":8,"pi":[{"n":"t","pt":$n[9].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForRewind","rt":$n[1].CustomYieldInstruction,"p":[$n[9].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForStart","is":true,"t":8,"pi":[{"n":"t","pt":$n[9].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForStart","rt":$n[1].CustomYieldInstruction,"p":[$n[9].Tween,$n[0].Boolean]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUnityVersion end.*/
 
     /*DG.Tweening.DOTweenCYInstruction start.*/
-    $m("DG.Tweening.DOTweenCYInstruction", function () { return {"nested":[$n[6].DOTweenCYInstruction.WaitForCompletion,$n[6].DOTweenCYInstruction.WaitForRewind,$n[6].DOTweenCYInstruction.WaitForKill,$n[6].DOTweenCYInstruction.WaitForElapsedLoops,$n[6].DOTweenCYInstruction.WaitForPosition,$n[6].DOTweenCYInstruction.WaitForStart],"att":1048961,"a":2,"s":true}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction", function () { return {"nested":[$n[9].DOTweenCYInstruction.WaitForCompletion,$n[9].DOTweenCYInstruction.WaitForRewind,$n[9].DOTweenCYInstruction.WaitForKill,$n[9].DOTweenCYInstruction.WaitForElapsedLoops,$n[9].DOTweenCYInstruction.WaitForPosition,$n[9].DOTweenCYInstruction.WaitForStart],"att":1048961,"a":2,"s":true}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForCompletion start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForCompletion", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForCompletion", function () { return {"td":$n[9].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[9].Tween],"pi":[{"n":"tween","pt":$n[9].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[9].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForCompletion end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForRewind start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForRewind", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForRewind", function () { return {"td":$n[9].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[9].Tween],"pi":[{"n":"tween","pt":$n[9].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[9].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForRewind end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForKill start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForKill", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForKill", function () { return {"td":$n[9].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[9].Tween],"pi":[{"n":"tween","pt":$n[9].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[9].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForKill end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween,$n[0].Int32],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"elapsedLoops","t":4,"rt":$n[0].Int32,"sn":"elapsedLoops","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops", function () { return {"td":$n[9].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[9].Tween,$n[0].Int32],"pi":[{"n":"tween","pt":$n[9].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"elapsedLoops","t":4,"rt":$n[0].Int32,"sn":"elapsedLoops","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"t","t":4,"rt":$n[9].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForPosition start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForPosition", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween,$n[0].Single],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"position","t":4,"rt":$n[0].Single,"sn":"position","ro":true,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForPosition", function () { return {"td":$n[9].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[9].Tween,$n[0].Single],"pi":[{"n":"tween","pt":$n[9].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"position","t":4,"rt":$n[0].Single,"sn":"position","ro":true,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"t","t":4,"rt":$n[9].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForPosition end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForStart start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForStart", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForStart", function () { return {"td":$n[9].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[9].Tween],"pi":[{"n":"tween","pt":$n[9].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[9].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForStart end.*/
 
     /*DG.Tweening.DOTweenModuleUtils start.*/
-    $m("DG.Tweening.DOTweenModuleUtils", function () { return {"nested":[$n[6].DOTweenModuleUtils.Physics],"att":1048961,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"Init","is":true,"t":8,"sn":"Init","rt":$n[0].Void},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":1,"n":"Preserver","is":true,"t":8,"sn":"Preserver","rt":$n[0].Void},{"a":1,"n":"_initialized","is":true,"t":4,"rt":$n[0].Boolean,"sn":"_initialized","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUtils", function () { return {"nested":[$n[9].DOTweenModuleUtils.Physics],"att":1048961,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"Init","is":true,"t":8,"sn":"Init","rt":$n[0].Void},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":1,"n":"Preserver","is":true,"t":8,"sn":"Preserver","rt":$n[0].Void},{"a":1,"n":"_initialized","is":true,"t":4,"rt":$n[0].Boolean,"sn":"_initialized","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUtils end.*/
 
     /*DG.Tweening.DOTweenModuleUtils+Physics start.*/
-    $m("DG.Tweening.DOTweenModuleUtils.Physics", function () { return {"td":$n[6].DOTweenModuleUtils,"att":1048962,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"CreateDOTweenPathTween","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].MonoBehaviour,"ps":0},{"n":"tweenRigidbody","pt":$n[0].Boolean,"ps":1},{"n":"isLocal","pt":$n[0].Boolean,"ps":2},{"n":"path","pt":$n[7].Path,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"pathMode","pt":$n[6].PathMode,"ps":5}],"sn":"CreateDOTweenPathTween","rt":$n[5].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].MonoBehaviour,$n[0].Boolean,$n[0].Boolean,$n[7].Path,$n[0].Single,$n[6].PathMode]},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"HasRigidbody","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"HasRigidbody2D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody2D","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SetOrientationOnPath","is":true,"t":8,"pi":[{"n":"options","pt":$n[10].PathOptions,"ps":0},{"n":"t","pt":$n[6].Tween,"ps":1},{"n":"newRot","pt":$n[1].Quaternion,"ps":2},{"n":"trans","pt":$n[1].Transform,"ps":3}],"sn":"SetOrientationOnPath","rt":$n[0].Void,"p":[$n[10].PathOptions,$n[6].Tween,$n[1].Quaternion,$n[1].Transform]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUtils.Physics", function () { return {"td":$n[9].DOTweenModuleUtils,"att":1048962,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"CreateDOTweenPathTween","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].MonoBehaviour,"ps":0},{"n":"tweenRigidbody","pt":$n[0].Boolean,"ps":1},{"n":"isLocal","pt":$n[0].Boolean,"ps":2},{"n":"path","pt":$n[10].Path,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"pathMode","pt":$n[9].PathMode,"ps":5}],"sn":"CreateDOTweenPathTween","rt":$n[8].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].MonoBehaviour,$n[0].Boolean,$n[0].Boolean,$n[10].Path,$n[0].Single,$n[9].PathMode]},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"HasRigidbody","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"HasRigidbody2D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody2D","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SetOrientationOnPath","is":true,"t":8,"pi":[{"n":"options","pt":$n[12].PathOptions,"ps":0},{"n":"t","pt":$n[9].Tween,"ps":1},{"n":"newRot","pt":$n[1].Quaternion,"ps":2},{"n":"trans","pt":$n[1].Transform,"ps":3}],"sn":"SetOrientationOnPath","rt":$n[0].Void,"p":[$n[12].PathOptions,$n[9].Tween,$n[1].Quaternion,$n[1].Transform]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUtils+Physics end.*/
 
 });

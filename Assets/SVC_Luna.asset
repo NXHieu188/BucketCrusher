@@ -226,7 +226,7 @@ MonoBehaviour:
     keywords: []
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 38
+  version: 57
   _shaderParsedShaders:
   - "\u2015\u2027":
     - "\u2036\u2001": 0

@@ -1,0 +1,38 @@
+{
+    "BuildID": "8b683984-3a2a-4fe8-a207-6ca5b6ccf6b3",
+    "Command": "project:re",
+    "ProjectID": "9b18bd58-01ec-4dc1-8077-7f305e1fd3f0",
+    "ProjectStateHash": "7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff7361c04bed4e0bc0220977b09525ac1ca27e065597e1ef4873eb42c23e76fbff",
+    "StageCompletedAt": 2,
+    "EarliestFatalError": 0,
+    "StartTime": 1658753712133,
+    "EndTime": 1658753718101,
+    "PlaygroundUserID": 2611,
+    "OperatingSystem": "win32",
+    "UnityVersion": "2020.3.29f1",
+    "LunaVersion": "3.11.0",
+    "LogCount": 1,
+    "Logs": [
+        {
+            "LogID": "d373c383-b23c-445b-98dc-a6dba32e4a5d",
+            "Order": 0,
+            "Timestamp": 1658753715681,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 7,
+            "ErrorSubType": 8,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Code > Runtime Analysis tab and hit \"Start Analysis\""
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        }
+    ]
+}

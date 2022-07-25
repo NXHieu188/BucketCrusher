@@ -43,7 +43,7 @@ public class BrickManager : MonoBehaviour
         for (int x = 0; x < image.width; ++x)
             for (int y = 0; y < image.height; ++y)
                 CreateBrick(x, y, image.GetPixel(x, y));
-        brickHolder.transform.position = new Vector3(-3.3f, -2.63f, 10);
+        brickHolder.transform.position = new Vector3(-5.89f, -2.37f, 10);
     }
 
     void CreateBrick(int x, int y, Color pixel)
@@ -57,17 +57,23 @@ public class BrickManager : MonoBehaviour
 
         // TO MAKE BRICK MORE REALISTIC
         // RANDOM OFFSET COLOR 
-        var offset = Random.Range(0, 1) * -1 + Random.Range(0f, .15f);
-
+        //var offset = Random.Range(0, 1) * -1 + Random.Range(0f, .15f);
+        //go.GetComponent<SpriteRenderer>().color =
+        // new Color(
+        //     pixel.r + offset,
+        //     pixel.g + offset,
+        //     pixel.b + offset,
+        //     1);
         go.GetComponent<SpriteRenderer>().color =
             new Color(
-                pixel.r + offset,
-                pixel.g + offset,
-                pixel.b + offset,
+                pixel.r,
+                pixel.g,
+                pixel.b,
                 1);
 
+
         // RANDOM ANGLE
-        go.transform.eulerAngles = new Vector3(0, 0, Random.Range(-10f, 10f));
+        //go.transform.eulerAngles = new Vector3(0, 0, Random.Range(-10f, 10f));
 
         // SET HP
         go.GetComponent<Brick>().SetHp(brickHealth);
