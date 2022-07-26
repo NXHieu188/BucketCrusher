@@ -9,12 +9,15 @@ public enum Difficult
 }
 public class DefineHelper
 {
+    public const string JoyStick = "JoyStick";
 }
 public class NameTag
 {
-    public const string ObjectPick = "ObjectPick";
-    public const string ObjectWin = "ObjectWin";
-    public const string CheckWin = "CheckWin";
+    public const string Brick = "Brick";
+    public const string Saw = "Saw";
+    public const string Conveyor = "Conveyor";
+    public const string Destroyer = "Destroyer";
+
 }
 public enum EventID
 {

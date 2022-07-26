@@ -22,9 +22,9 @@ public class Brick : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("Inner Saw"))
-            hp -= 30;
-        if (col.gameObject.CompareTag("Destroyer"))
+        if (col.gameObject.CompareTag(NameTag.Saw))
+            hp -= 1;
+        if (col.gameObject.CompareTag(NameTag.Destroyer))
         {
             Destroy(gameObject);
 
@@ -35,10 +35,12 @@ public class Brick : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Inner Saw"))
-            hp -= 30;
-        else if (col.gameObject.CompareTag("Conveyor"))
+        if (col.gameObject.CompareTag(NameTag.Saw))
+            hp -= 1;
+        else if (col.gameObject.CompareTag(NameTag.Conveyor))
+        {
             collidedWithConveyor = true;
+        }
     }
 
     private void Update()

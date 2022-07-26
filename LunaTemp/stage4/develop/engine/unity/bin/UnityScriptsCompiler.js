@@ -1,11 +1,17 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","Brick#SetHp","Brick#Start","Brick#OnTriggerEnter2D","Brick#OnCollisionEnter2D","Brick#Update","Brick#Debunk","BrickManager#Start","BrickManager#CreateMap","BrickManager#ParsePNGToMap","BrickManager#CreateBrick","BrickManager#GetBrickLocation","BrickManager#Update","BrickManager#OnDestroy","SingletonMono$1#init","SingletonMono$1#Awake","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","Joystick#Horizontal#get","Joystick#Vertical#get","Joystick#Direction#get","Joystick#HandleRange#get","Joystick#HandleRange#set","Joystick#DeadZone#get","Joystick#DeadZone#set","Joystick#AxisOptions#get","Joystick#AxisOptions#set","Joystick#SnapX#get","Joystick#SnapX#set","Joystick#SnapY#get","Joystick#SnapY#set","Joystick#init","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#HandleInput","Joystick#FormatInput","Joystick#SnapFloat","Joystick#OnPointerUp","Joystick#ScreenPointToAnchoredPosition","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","JoystickPlayerExample#FixedUpdate","JoystickSetterExample#ModeChanged","JoystickSetterExample#AxisChanged","JoystickSetterExample#SnapX","JoystickSetterExample#SnapY","JoystickSetterExample#Update","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","RotateObject#Start","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","UltimateJoystick#init","UltimateJoystick#JoystickConfirmed","UltimateJoystick#GetUltimateJoystick","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystick#init","UltimateJoystick#Awake","UltimateJoystick#Start","UltimateJoystick#OnPointerDown","UltimateJoystick#OnDrag","UltimateJoystick#OnPointerUp","UltimateJoystick#UpdateJoystick","UltimateJoystick#ConfigureImagePosition","UltimateJoystick#TensionAccentDisplay","UltimateJoystick#TensionAccentReset","UltimateJoystick#GravityHandler","UltimateJoystick#GetParentCanvas","UltimateJoystick#GetCanvasGroup","UltimateJoystick#FadeLogic","UltimateJoystick#TapCountdown","UltimateJoystick#TapCountDelay","UltimateJoystick#CheckJoystickHighlightForUse","UltimateJoystick#UpdatePositionValues","UltimateJoystick#ResetJoystick","UltimateJoystick#UpdateSizeAndPlacement","UltimateJoystick#UpdatePositioning","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#UpdateHighlightColor","UltimateJoystick#UpdateTensionColors","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystickExample.Spaceship.AsteroidController#init","UltimateJoystickExample.Spaceship.AsteroidController#Setup","UltimateJoystickExample.Spaceship.AsteroidController#DelayInitialDestruction","UltimateJoystickExample.Spaceship.AsteroidController#Update","UltimateJoystickExample.Spaceship.AsteroidController#OnCollisionEnter","UltimateJoystickExample.Spaceship.AsteroidController#Explode","UltimateJoystickExample.Spaceship.GameManager#Instance#get","UltimateJoystickExample.Spaceship.GameManager#init","UltimateJoystickExample.Spaceship.GameManager#Awake","UltimateJoystickExample.Spaceship.GameManager#Start","UltimateJoystickExample.Spaceship.GameManager#SpawnTimer","UltimateJoystickExample.Spaceship.GameManager#SpawnAsteroid","UltimateJoystickExample.Spaceship.GameManager#SpawnDebris","UltimateJoystickExample.Spaceship.GameManager#SpawnExplosion","UltimateJoystickExample.Spaceship.GameManager#ShowDeathScreen","UltimateJoystickExample.Spaceship.GameManager#FadeDeathScreen","UltimateJoystickExample.Spaceship.GameManager#ModifyScore","UltimateJoystickExample.Spaceship.GameManager#UpdateScoreText","UltimateJoystickExample.Spaceship.GameManager#ShakeCamera","UltimateJoystickExample.Spaceship.PlayerController#init","UltimateJoystickExample.Spaceship.PlayerController#Start","UltimateJoystickExample.Spaceship.PlayerController#Update","UltimateJoystickExample.Spaceship.PlayerController#FixedUpdate","UltimateJoystickExample.Spaceship.PlayerController#CheckExitScreen","UltimateJoystickExample.Spaceship.PlayerController#CreateBullets","UltimateJoystickScreenSizeUpdater#OnRectTransformDimensionsChange","UltimateJoystickScreenSizeUpdater#YieldPositioning","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","Singleton$1#Instance#get","DynamicJoystick#MoveThreshold#get","DynamicJoystick#MoveThreshold#set","DynamicJoystick#init","DynamicJoystick#Start","DynamicJoystick#OnPointerDown","DynamicJoystick#OnPointerUp","DynamicJoystick#HandleInput","FloatingJoystick#Start","FloatingJoystick#OnPointerDown","FloatingJoystick#OnPointerUp","VariableJoystick#MoveThreshold#get","VariableJoystick#MoveThreshold#set","VariableJoystick#init","VariableJoystick#SetMode","VariableJoystick#Start","VariableJoystick#OnPointerDown","VariableJoystick#OnPointerUp","VariableJoystick#HandleInput","BucketCrusher1#inherits","GlobalInstance#inherits","GlobalInstance#init","SingletonDontDestroyOnLoad$1#Awake"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","Brick#SetHp","Brick#Start","Brick#OnTriggerEnter2D","Brick#OnCollisionEnter2D","Brick#Update","Brick#Debunk","BrickManager#init","BrickManager#Init","BrickManager#CreateMap","BrickManager#ParsePNGToMap","BrickManager#CreateBrick","BrickManager#GetBrickLocation","BrickManager#Update","BrickManager#OnDestroy","SingletonMono$1#init","SingletonMono$1#Awake","Conveyor#Init","Conveyor#Accept","Conveyor#UpdateConveyor","Conveyor#Resize","DefineHelper#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","Joystick#Horizontal#get","Joystick#Vertical#get","Joystick#Direction#get","Joystick#HandleRange#get","Joystick#HandleRange#set","Joystick#DeadZone#get","Joystick#DeadZone#set","Joystick#AxisOptions#get","Joystick#AxisOptions#set","Joystick#SnapX#get","Joystick#SnapX#set","Joystick#SnapY#get","Joystick#SnapY#set","Joystick#init","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#HandleInput","Joystick#FormatInput","Joystick#SnapFloat","Joystick#OnPointerUp","Joystick#ScreenPointToAnchoredPosition","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","GameController#Init","GameController#Update","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","JoystickPlayerExample#FixedUpdate","JoystickSetterExample#ModeChanged","JoystickSetterExample#AxisChanged","JoystickSetterExample#SnapX","JoystickSetterExample#SnapY","JoystickSetterExample#Update","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","RotateObject#Start","Saw#init","Saw#SetMovementSpeed","Saw#SetDurability","Saw#Start","Saw#MoveToPosition","Saw#FixedUpdate","Saw#OnTriggerEnter2D","Saw#OnTriggerExit2D","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","UltimateJoystick#init","UltimateJoystick#JoystickConfirmed","UltimateJoystick#GetUltimateJoystick","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystick#init","UltimateJoystick#Awake","UltimateJoystick#Start","UltimateJoystick#OnPointerDown","UltimateJoystick#OnDrag","UltimateJoystick#OnPointerUp","UltimateJoystick#UpdateJoystick","UltimateJoystick#ConfigureImagePosition","UltimateJoystick#TensionAccentDisplay","UltimateJoystick#TensionAccentReset","UltimateJoystick#GravityHandler","UltimateJoystick#GetParentCanvas","UltimateJoystick#GetCanvasGroup","UltimateJoystick#FadeLogic","UltimateJoystick#TapCountdown","UltimateJoystick#TapCountDelay","UltimateJoystick#CheckJoystickHighlightForUse","UltimateJoystick#UpdatePositionValues","UltimateJoystick#ResetJoystick","UltimateJoystick#UpdateSizeAndPlacement","UltimateJoystick#UpdatePositioning","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#UpdateHighlightColor","UltimateJoystick#UpdateTensionColors","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystickExample.Spaceship.AsteroidController#init","UltimateJoystickExample.Spaceship.AsteroidController#Setup","UltimateJoystickExample.Spaceship.AsteroidController#DelayInitialDestruction","UltimateJoystickExample.Spaceship.AsteroidController#Update","UltimateJoystickExample.Spaceship.AsteroidController#OnCollisionEnter","UltimateJoystickExample.Spaceship.AsteroidController#Explode","UltimateJoystickExample.Spaceship.GameManager#Instance#get","UltimateJoystickExample.Spaceship.GameManager#init","UltimateJoystickExample.Spaceship.GameManager#Awake","UltimateJoystickExample.Spaceship.GameManager#Start","UltimateJoystickExample.Spaceship.GameManager#SpawnTimer","UltimateJoystickExample.Spaceship.GameManager#SpawnAsteroid","UltimateJoystickExample.Spaceship.GameManager#SpawnDebris","UltimateJoystickExample.Spaceship.GameManager#SpawnExplosion","UltimateJoystickExample.Spaceship.GameManager#ShowDeathScreen","UltimateJoystickExample.Spaceship.GameManager#FadeDeathScreen","UltimateJoystickExample.Spaceship.GameManager#ModifyScore","UltimateJoystickExample.Spaceship.GameManager#UpdateScoreText","UltimateJoystickExample.Spaceship.GameManager#ShakeCamera","UltimateJoystickExample.Spaceship.PlayerController#init","UltimateJoystickExample.Spaceship.PlayerController#Start","UltimateJoystickExample.Spaceship.PlayerController#Update","UltimateJoystickExample.Spaceship.PlayerController#FixedUpdate","UltimateJoystickExample.Spaceship.PlayerController#CheckExitScreen","UltimateJoystickExample.Spaceship.PlayerController#CreateBullets","UltimateJoystickScreenSizeUpdater#OnRectTransformDimensionsChange","UltimateJoystickScreenSizeUpdater#YieldPositioning","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","ArmController#init","ArmController#Accept","ArmController#Init","ArmController#UpdateArm","ArmController#AddRoot","ArmController#AddChild","ArmController#AddSaw","Singleton$1#Instance#get","DynamicJoystick#MoveThreshold#get","DynamicJoystick#MoveThreshold#set","DynamicJoystick#init","DynamicJoystick#Start","DynamicJoystick#OnPointerDown","DynamicJoystick#OnPointerUp","DynamicJoystick#HandleInput","FloatingJoystick#Start","FloatingJoystick#OnPointerDown","FloatingJoystick#OnPointerUp","MoveToPosition#ctor","MoveToPosition#Execute","SawController#Init","SawController#Accept","SawController#UpdateSaw","VariableJoystick#MoveThreshold#get","VariableJoystick#MoveThreshold#set","VariableJoystick#init","VariableJoystick#SetMode","VariableJoystick#Start","VariableJoystick#OnPointerDown","VariableJoystick#OnPointerUp","VariableJoystick#HandleInput","BucketCrusher1#inherits","BucketCrusher1#Start","GlobalInstance#inherits","GlobalInstance#init","SingletonDontDestroyOnLoad$1#Awake"]' ) ); }
 /**
- * @version 1.0.8241.35813
+ * @version 1.0.8242.30762
  * @copyright anton
  * @compiler Bridge.NET 17.9.19-luna
  */
 Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     "use strict";
+
+    /*IRobotElement start.*/
+    Bridge.define("IRobotElement", {
+        $kind: "interface"
+    });
+    /*IRobotElement end.*/
 
     /*AutoDestroy start.*/
     Bridge.define("AutoDestroy", {
@@ -191,10 +197,10 @@ if ( TRACE ) { TRACE( "Brick#Start", this ); }
             OnTriggerEnter2D: function (col) {
 if ( TRACE ) { TRACE( "Brick#OnTriggerEnter2D", this ); }
 
-                if (col.gameObject.CompareTag("Inner Saw")) {
-                    this.hp = (this.hp - 30) | 0;
+                if (col.gameObject.CompareTag(NameTag.Saw)) {
+                    this.hp = (this.hp - 1) | 0;
                 }
-                if (col.gameObject.CompareTag("Destroyer")) {
+                if (col.gameObject.CompareTag(NameTag.Destroyer)) {
                     UnityEngine.MonoBehaviour.Destroy(this.gameObject);
 
                     // INVOKE OnBrickDestroyed EVENT FOR CoinManager TO GET COINS
@@ -207,10 +213,10 @@ if ( TRACE ) { TRACE( "Brick#OnTriggerEnter2D", this ); }
             OnCollisionEnter2D: function (col) {
 if ( TRACE ) { TRACE( "Brick#OnCollisionEnter2D", this ); }
 
-                if (col.gameObject.CompareTag("Inner Saw")) {
-                    this.hp = (this.hp - 30) | 0;
+                if (col.gameObject.CompareTag(NameTag.Saw)) {
+                    this.hp = (this.hp - 1) | 0;
                 } else {
-                    if (col.gameObject.CompareTag("Conveyor")) {
+                    if (col.gameObject.CompareTag(NameTag.Conveyor)) {
                         this.collidedWithConveyor = true;
                     }
                 }
@@ -268,19 +274,27 @@ if ( TRACE ) { TRACE( "Brick#Debunk", this ); }
             imageLoader: null,
             brickPrefab: null,
             brickHolder: null,
+            positionBrickHold: null,
             brickSize: 0,
             brickHealth: 0,
             xOffset: 0
         },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "BrickManager#init", this ); }
+
+                this.positionBrickHold = new UnityEngine.Vector3();
+            }
+        },
         methods: {
-            /*BrickManager.Start start.*/
-            Start: function () {
-if ( TRACE ) { TRACE( "BrickManager#Start", this ); }
+            /*BrickManager.Init start.*/
+            Init: function () {
+if ( TRACE ) { TRACE( "BrickManager#Init", this ); }
 
                 this.brickPrefab.transform.localScale = new pc.Vec3( 1, 1, 1 ).clone().scale( this.brickSize );
                 this.CreateMap();
             },
-            /*BrickManager.Start end.*/
+            /*BrickManager.Init end.*/
 
             /*BrickManager.CreateMap start.*/
             CreateMap: function () {
@@ -300,7 +314,7 @@ if ( TRACE ) { TRACE( "BrickManager#ParsePNGToMap", this ); }
                         this.CreateBrick(x, y, image.GetPixel(x, y));
                     }
                 }
-                this.brickHolder.transform.position = new pc.Vec3( -3.3, -2.63, 10 );
+                this.brickHolder.transform.position = this.positionBrickHold.$clone();
             },
             /*BrickManager.ParsePNGToMap end.*/
 
@@ -314,6 +328,14 @@ if ( TRACE ) { TRACE( "BrickManager#CreateBrick", this ); }
                 }
 
                 var go = UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, this.brickPrefab, UnityEngine.Vector3.FromVector2(this.GetBrickLocation(x, y)), pc.Quat.IDENTITY.clone());
+                //#if UNITY_EDITOR
+                go.transform.localScale = new pc.Vec3( 0.28, 0.28, 0.28 );
+                //        Debug.Log("a");
+                //#endif
+                //#if UNITY_LUNA
+                //                go.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
+                //                  Debug.Log("b");
+                //#endif
                 go.transform.SetParent(this.brickHolder.transform);
 
                 // TO MAKE BRICK MORE REALISTIC
@@ -416,8 +438,68 @@ if ( TRACE ) { TRACE( "SingletonMono$1#Awake", this ); }
     }; });
     /*SingletonMono$1 end.*/
 
+    /*Conveyor start.*/
+    Bridge.define("Conveyor", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            conveyor: null,
+            length: 0
+        },
+        methods: {
+            /*Conveyor.Init start.*/
+            Init: function () {
+if ( TRACE ) { TRACE( "Conveyor#Init", this ); }
+
+                this.UpdateConveyor();
+            },
+            /*Conveyor.Init end.*/
+
+            /*Conveyor.Accept start.*/
+            Accept: function (visitor) {
+if ( TRACE ) { TRACE( "Conveyor#Accept", this ); }
+
+                visitor.IRobotVisitor$Visit$1(this);
+                this.UpdateConveyor();
+            },
+            /*Conveyor.Accept end.*/
+
+            /*Conveyor.UpdateConveyor start.*/
+            UpdateConveyor: function () {
+if ( TRACE ) { TRACE( "Conveyor#UpdateConveyor", this ); }
+
+                this.Resize(this.length, pc.Vec3.RIGHT.clone());
+            },
+            /*Conveyor.UpdateConveyor end.*/
+
+            /*Conveyor.Resize start.*/
+            Resize: function (amount, direction) {
+if ( TRACE ) { TRACE( "Conveyor#Resize", this ); }
+
+                this.conveyor.transform.position = this.conveyor.transform.position.$clone().add( direction.$clone().clone().scale( amount ).scale( 1.0 / ( 2 ) ) );
+                this.conveyor.transform.localScale = this.conveyor.transform.localScale.$clone().add( direction.$clone().clone().scale( amount ) );
+            },
+            /*Conveyor.Resize end.*/
+
+
+        }
+    });
+    /*Conveyor end.*/
+
     /*DefineHelper start.*/
-    Bridge.define("DefineHelper");
+    Bridge.define("DefineHelper", {
+        statics: {
+            fields: {
+                JoyStick: null
+            },
+            ctors: {
+                init: function () {
+if ( TRACE ) { TRACE( "DefineHelper#init", this ); }
+
+                    this.JoyStick = "JoyStick";
+                }
+            }
+        }
+    });
     /*DefineHelper end.*/
 
     /*DG.Tweening.DOTweenCYInstruction start.*/
@@ -4093,6 +4175,39 @@ if ( TRACE ) { TRACE( "EventDispatcherExtension#RemoveListener", this ); }
         }
     });
     /*EventID end.*/
+
+    /*GameController start.*/
+    Bridge.define("GameController", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            moveToPosition: null,
+            saw: null,
+            ultiJoyStick: null
+        },
+        methods: {
+            /*GameController.Init start.*/
+            Init: function () {
+if ( TRACE ) { TRACE( "GameController#Init", this ); }
+
+                this.saw = UnityEngine.Object.FindObjectOfType(Saw);
+                this.moveToPosition = new MoveToPosition(this.saw);
+            },
+            /*GameController.Init end.*/
+
+            /*GameController.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "GameController#Update", this ); }
+
+                var input = new pc.Vec2( UltimateJoystick.GetHorizontalAxis(DefineHelper.JoyStick), UltimateJoystick.GetVerticalAxis(DefineHelper.JoyStick) );
+
+                this.moveToPosition.ICommand$Execute(input.$clone());
+            },
+            /*GameController.Update end.*/
+
+
+        }
+    });
+    /*GameController end.*/
     /**
      * @memberof System
      * @callback System.Func
@@ -5102,6 +5217,18 @@ if ( TRACE ) { TRACE( "HelperUtility#PosHandle", this ); }
     });
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty end.*/
 
+    /*ICommand start.*/
+    Bridge.define("ICommand", {
+        $kind: "interface"
+    });
+    /*ICommand end.*/
+
+    /*IRobotVisitor start.*/
+    Bridge.define("IRobotVisitor", {
+        $kind: "interface"
+    });
+    /*IRobotVisitor end.*/
+
     /*JoystickPlayerExample start.*/
     Bridge.define("JoystickPlayerExample", {
         inherits: [UnityEngine.MonoBehaviour],
@@ -5448,17 +5575,19 @@ if ( TRACE ) { TRACE( "MMMaths#Approach", this ); }
     Bridge.define("NameTag", {
         statics: {
             fields: {
-                ObjectPick: null,
-                ObjectWin: null,
-                CheckWin: null
+                Brick: null,
+                Saw: null,
+                Conveyor: null,
+                Destroyer: null
             },
             ctors: {
                 init: function () {
 if ( TRACE ) { TRACE( "NameTag#init", this ); }
 
-                    this.ObjectPick = "ObjectPick";
-                    this.ObjectWin = "ObjectWin";
-                    this.CheckWin = "CheckWin";
+                    this.Brick = "Brick";
+                    this.Saw = "Saw";
+                    this.Conveyor = "Conveyor";
+                    this.Destroyer = "Destroyer";
                 }
             }
         }
@@ -5477,6 +5606,12 @@ if ( TRACE ) { TRACE( "NameTag#init", this ); }
         }
     });
     /*Rarity end.*/
+
+    /*RobotController start.*/
+    Bridge.define("RobotController", {
+        inherits: [UnityEngine.MonoBehaviour]
+    });
+    /*RobotController end.*/
 
     /*RotateObject start.*/
     Bridge.define("RotateObject", {
@@ -5498,6 +5633,108 @@ if ( TRACE ) { TRACE( "RotateObject#Start", this ); }
         }
     });
     /*RotateObject end.*/
+
+    /*Saw start.*/
+    Bridge.define("Saw", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            rb: null,
+            movementSpeed: 0,
+            durability: 0,
+            timer: 0,
+            reset: 0,
+            isCollingBrick: false
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "Saw#init", this ); }
+
+                this.timer = 1.0;
+                this.reset = 1.0;
+            }
+        },
+        methods: {
+            /*Saw.SetMovementSpeed start.*/
+            SetMovementSpeed: function (newMovementSpeed) {
+if ( TRACE ) { TRACE( "Saw#SetMovementSpeed", this ); }
+
+                this.movementSpeed = newMovementSpeed;
+            },
+            /*Saw.SetMovementSpeed end.*/
+
+            /*Saw.SetDurability start.*/
+            SetDurability: function (newDurability) {
+if ( TRACE ) { TRACE( "Saw#SetDurability", this ); }
+
+                this.durability = newDurability;
+            },
+            /*Saw.SetDurability end.*/
+
+            /*Saw.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "Saw#Start", this ); }
+
+                this.rb = this.GetComponent(UnityEngine.Rigidbody2D);
+            },
+            /*Saw.Start end.*/
+
+            /*Saw.MoveToPosition start.*/
+            MoveToPosition: function (position) {
+if ( TRACE ) { TRACE( "Saw#MoveToPosition", this ); }
+
+                if (pc.Vec2.equals( position, pc.Vec2.ZERO.clone() )) {
+                    this.rb.constraints = UnityEngine.RigidbodyConstraints2D.FreezeAll;
+                } else {
+                    this.rb.constraints = UnityEngine.RigidbodyConstraints2D.None;
+
+                    var movePosition = pc.Vec3.moveTowards( this.transform.position, UnityEngine.Vector3.FromVector2(position.clone().normalize().$clone().scale( 99 )), UnityEngine.Time.deltaTime * this.movementSpeed );
+
+                    this.rb.MovePosition$1(movePosition.$clone());
+                }
+            },
+            /*Saw.MoveToPosition end.*/
+
+            /*Saw.FixedUpdate start.*/
+            FixedUpdate: function () {
+if ( TRACE ) { TRACE( "Saw#FixedUpdate", this ); }
+
+                if (this.isCollingBrick) {
+                    this.timer -= UnityEngine.Time.fixedDeltaTime;
+
+                    if (this.timer <= 0) {
+                        //if (_durability-- < 0)
+                        //GameManager.Instance.UpdateGameState(GameState.Lose);
+                        this.timer = this.reset;
+                        // Debug.Log(_durability);
+                    }
+                }
+            },
+            /*Saw.FixedUpdate end.*/
+
+            /*Saw.OnTriggerEnter2D start.*/
+            OnTriggerEnter2D: function (col) {
+if ( TRACE ) { TRACE( "Saw#OnTriggerEnter2D", this ); }
+
+                if (col.gameObject.CompareTag("Brick")) {
+                    this.isCollingBrick = true;
+                }
+            },
+            /*Saw.OnTriggerEnter2D end.*/
+
+            /*Saw.OnTriggerExit2D start.*/
+            OnTriggerExit2D: function (col) {
+if ( TRACE ) { TRACE( "Saw#OnTriggerExit2D", this ); }
+
+                if (col.gameObject.CompareTag("Brick")) {
+                    this.isCollingBrick = false;
+                }
+            },
+            /*Saw.OnTriggerExit2D end.*/
+
+
+        }
+    });
+    /*Saw end.*/
 
     /*SelfDefine start.*/
     Bridge.define("SelfDefine", {
@@ -8522,6 +8759,133 @@ if ( TRACE ) { TRACE( "VectorUlti#ToVectorXZ", this ); }
     });
     /*VectorUlti end.*/
 
+    /*ArmController start.*/
+    Bridge.define("ArmController", {
+        inherits: [UnityEngine.MonoBehaviour,IRobotElement],
+        fields: {
+            joints: 0,
+            initPosition: null,
+            jointPrefab: null,
+            sawPrefab: null
+        },
+        alias: ["Accept", "IRobotElement$Accept"],
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "ArmController#init", this ); }
+
+                this.initPosition = new UnityEngine.Vector3();
+            }
+        },
+        methods: {
+            /*ArmController.Accept start.*/
+            Accept: function (visitor) {
+if ( TRACE ) { TRACE( "ArmController#Accept", this ); }
+
+                visitor.IRobotVisitor$Visit(this);
+                this.UpdateArm();
+            },
+            /*ArmController.Accept end.*/
+
+            /*ArmController.Init start.*/
+            Init: function () {
+if ( TRACE ) { TRACE( "ArmController#Init", this ); }
+
+                this.UpdateArm();
+            },
+            /*ArmController.Init end.*/
+
+            /*ArmController.UpdateArm start.*/
+            UpdateArm: function () {
+if ( TRACE ) { TRACE( "ArmController#UpdateArm", this ); }
+
+                var $t;
+                // DESTROY ALL CHILDREN BEFORE ADDING BACK
+                $t = Bridge.getEnumerator(this.transform);
+                try {
+                    while ($t.moveNext()) {
+                        var child = Bridge.cast($t.Current, UnityEngine.Transform);
+                        if (!Bridge.referenceEquals(child.name, "conveyor")) {
+                            UnityEngine.MonoBehaviour.Destroy(child.gameObject);
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+
+                var current = this.AddRoot(-20, 90);
+
+                for (var i = 1; i < this.joints; i = (i + 1) | 0) {
+                    var child1 = this.AddChild(current, 0, 360);
+                    current = child1;
+                }
+
+                this.AddSaw(current, 0, 360);
+            },
+            /*ArmController.UpdateArm end.*/
+
+            /*ArmController.AddRoot start.*/
+            AddRoot: function (lower, upper) {
+if ( TRACE ) { TRACE( "ArmController#AddRoot", this ); }
+
+                var root = UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, this.jointPrefab, this.initPosition.$clone(), pc.Quat.IDENTITY.clone()).GetComponent(UnityEngine.HingeJoint2D);
+                root.transform.localScale = new pc.Vec3( 0.15, 0.15, 1 );
+                var limits = root.limits.$clone();
+                limits.min = lower;
+                limits.max = upper;
+                root.attachedRigidbody.constraints = UnityEngine.RigidbodyConstraints2D.FreezePosition;
+                root.limits = limits.$clone();
+                root.useLimits = true;
+
+                root.connectedAnchor = UnityEngine.Vector2.FromVector3(this.initPosition.$clone());
+
+                root.transform.parent = this.gameObject.transform;
+                return root;
+            },
+            /*ArmController.AddRoot end.*/
+
+            /*ArmController.AddChild start.*/
+            AddChild: function (parent, lower, upper) {
+if ( TRACE ) { TRACE( "ArmController#AddChild", this ); }
+
+                var child = UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, this.jointPrefab, this.initPosition.$clone(), pc.Quat.IDENTITY.clone()).GetComponent(UnityEngine.HingeJoint2D);
+                child.connectedBody = parent.attachedRigidbody;
+
+                var limits = child.limits.$clone();
+                limits.min = lower;
+                limits.max = upper;
+                child.limits = limits.$clone();
+                child.useLimits = true;
+
+                child.transform.parent = this.gameObject.transform;
+                return child;
+            },
+            /*ArmController.AddChild end.*/
+
+            /*ArmController.AddSaw start.*/
+            AddSaw: function (parent, lower, upper) {
+if ( TRACE ) { TRACE( "ArmController#AddSaw", this ); }
+
+                var saw = UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, this.sawPrefab, this.initPosition.$clone().add( pc.Vec3.UP.clone().clone().scale( 10 ) ), pc.Quat.IDENTITY.clone()).GetComponent(UnityEngine.HingeJoint2D);
+
+                saw.connectedBody = parent.attachedRigidbody;
+                saw.transform.localScale = new pc.Vec3( 0.35, 0.35, 1 );
+                var limits = saw.limits.$clone();
+                limits.min = lower;
+                limits.max = upper;
+                saw.limits = limits.$clone();
+                saw.useLimits = true;
+
+                saw.transform.parent = this.gameObject.transform;
+            },
+            /*ArmController.AddSaw end.*/
+
+
+        }
+    });
+    /*ArmController end.*/
+
     /*Singleton$1 start.*/
     Bridge.define("Singleton$1", function (T) { return {
         inherits: [SingletonMono$1(T)],
@@ -8672,6 +9036,90 @@ if ( TRACE ) { TRACE( "FloatingJoystick#OnPointerUp", this ); }
     });
     /*FloatingJoystick end.*/
 
+    /*MoveToPosition start.*/
+    Bridge.define("MoveToPosition", {
+        inherits: [ICommand],
+        fields: {
+            controller: null
+        },
+        alias: ["Execute", "ICommand$Execute"],
+        ctors: {
+            ctor: function (saw) {
+if ( TRACE ) { TRACE( "MoveToPosition#ctor", this ); }
+
+                this.$initialize();
+                this.controller = saw;
+            }
+        },
+        methods: {
+            /*MoveToPosition.Execute start.*/
+            Execute: function (position) {
+if ( TRACE ) { TRACE( "MoveToPosition#Execute", this ); }
+
+                this.controller.MoveToPosition(position.$clone());
+            },
+            /*MoveToPosition.Execute end.*/
+
+
+        }
+    });
+    /*MoveToPosition end.*/
+
+    /*SawController start.*/
+    Bridge.define("SawController", {
+        inherits: [UnityEngine.MonoBehaviour,IRobotElement],
+        fields: {
+            saw: null,
+            size: 0,
+            rotationSpeed: 0,
+            durability: 0,
+            movementSpeed: 0,
+            mass: 0
+        },
+        alias: ["Accept", "IRobotElement$Accept"],
+        methods: {
+            /*SawController.Init start.*/
+            Init: function () {
+if ( TRACE ) { TRACE( "SawController#Init", this ); }
+
+                this.saw = this.transform.Find("Saw(Clone)").gameObject;
+
+                // ONE TIME CALL
+                this.saw.GetComponent(Saw).SetMovementSpeed(this.movementSpeed);
+                this.saw.GetComponent(UnityEngine.Rigidbody2D).mass = this.mass;
+                this.UpdateSaw();
+            },
+            /*SawController.Init end.*/
+
+            /*SawController.Accept start.*/
+            Accept: function (visitor) {
+if ( TRACE ) { TRACE( "SawController#Accept", this ); }
+
+                visitor.IRobotVisitor$Visit$2(this);
+                this.UpdateSaw();
+            },
+            /*SawController.Accept end.*/
+
+            /*SawController.UpdateSaw start.*/
+            UpdateSaw: function () {
+if ( TRACE ) { TRACE( "SawController#UpdateSaw", this ); }
+
+                // SIZE
+                this.saw.transform.localScale = new pc.Vec3( 1, 1, 1 ).clone().scale( this.size );
+
+                // ROTATION SPEED
+                this.saw.GetComponent(UnityEngine.Animator).speed = this.rotationSpeed;
+
+                // DURABILITY
+                this.saw.GetComponent(Saw).SetDurability(this.durability);
+            },
+            /*SawController.UpdateSaw end.*/
+
+
+        }
+    });
+    /*SawController end.*/
+
     /*VariableJoystick start.*/
     Bridge.define("VariableJoystick", {
         inherits: [Joystick],
@@ -8778,7 +9226,28 @@ if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
     Bridge.define("BucketCrusher1", {
         inherits: function () {
 if ( TRACE ) { TRACE( "BucketCrusher1#inherits", this ); }
- return [Singleton$1(BucketCrusher1)]; }
+ return [Singleton$1(BucketCrusher1)]; },
+        fields: {
+            gameController: null,
+            armController: null,
+            sawController: null,
+            conveyor: null
+        },
+        methods: {
+            /*BucketCrusher1.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "BucketCrusher1#Start", this ); }
+
+                //brickManager.Init();
+                this.armController.Init();
+                this.sawController.Init();
+                this.gameController.Init();
+                this.conveyor.Init();
+            },
+            /*BucketCrusher1.Start end.*/
+
+
+        }
     });
     /*BucketCrusher1 end.*/
 
@@ -8830,11 +9299,51 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     /*Rarity end.*/
 
     /*BrickManager start.*/
-    $m("BrickManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"CreateBrick","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"pixel","pt":$n[1].Color,"ps":2}],"sn":"CreateBrick","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[1].Color]},{"a":1,"n":"CreateMap","t":8,"sn":"CreateMap","rt":$n[0].Void},{"a":1,"n":"GetBrickLocation","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"GetBrickLocation","rt":$n[1].Vector2,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"ParsePNGToMap","t":8,"pi":[{"n":"image","pt":$n[1].Texture2D,"ps":0}],"sn":"ParsePNGToMap","rt":$n[0].Void,"p":[$n[1].Texture2D]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brickHealth","t":4,"rt":$n[0].Int32,"sn":"brickHealth","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brickHolder","t":4,"rt":$n[1].GameObject,"sn":"brickHolder"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brickPrefab","t":4,"rt":$n[1].GameObject,"sn":"brickPrefab"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brickSize","t":4,"rt":$n[0].Single,"sn":"brickSize","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"imageLoader","t":4,"rt":$n[1].Texture2D,"sn":"imageLoader"},{"a":2,"n":"onBrickDestroyed","is":true,"t":4,"rt":Function,"sn":"onBrickDestroyed"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"xOffset","t":4,"rt":$n[0].Int32,"sn":"xOffset","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("BrickManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"CreateBrick","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"pixel","pt":$n[1].Color,"ps":2}],"sn":"CreateBrick","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[1].Color]},{"a":1,"n":"CreateMap","t":8,"sn":"CreateMap","rt":$n[0].Void},{"a":1,"n":"GetBrickLocation","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"GetBrickLocation","rt":$n[1].Vector2,"p":[$n[0].Int32,$n[0].Int32]},{"a":2,"n":"Init","t":8,"sn":"Init","rt":$n[0].Void},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"ParsePNGToMap","t":8,"pi":[{"n":"image","pt":$n[1].Texture2D,"ps":0}],"sn":"ParsePNGToMap","rt":$n[0].Void,"p":[$n[1].Texture2D]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brickHealth","t":4,"rt":$n[0].Int32,"sn":"brickHealth","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brickHolder","t":4,"rt":$n[1].GameObject,"sn":"brickHolder"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brickPrefab","t":4,"rt":$n[1].GameObject,"sn":"brickPrefab"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brickSize","t":4,"rt":$n[0].Single,"sn":"brickSize","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"imageLoader","t":4,"rt":$n[1].Texture2D,"sn":"imageLoader"},{"a":2,"n":"onBrickDestroyed","is":true,"t":4,"rt":Function,"sn":"onBrickDestroyed"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"positionBrickHold","t":4,"rt":$n[1].Vector3,"sn":"positionBrickHold"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"xOffset","t":4,"rt":$n[0].Int32,"sn":"xOffset","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*BrickManager end.*/
 
+    /*GameController start.*/
+    $m("GameController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Init","t":8,"sn":"Init","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"moveToPosition","t":4,"rt":ICommand,"sn":"moveToPosition"},{"a":1,"n":"saw","t":4,"rt":Saw,"sn":"saw"},{"a":2,"n":"ultiJoyStick","t":4,"rt":UltimateJoystick,"sn":"ultiJoyStick"}]}; }, $n);
+    /*GameController end.*/
+
+    /*ArmController start.*/
+    $m("ArmController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Accept","t":8,"pi":[{"n":"visitor","pt":IRobotVisitor,"ps":0}],"sn":"Accept","rt":$n[0].Void,"p":[IRobotVisitor]},{"a":1,"n":"AddChild","t":8,"pi":[{"n":"parent","pt":$n[1].HingeJoint2D,"ps":0},{"n":"lower","pt":$n[0].Int32,"ps":1},{"n":"upper","pt":$n[0].Int32,"ps":2}],"sn":"AddChild","rt":$n[1].HingeJoint2D,"p":[$n[1].HingeJoint2D,$n[0].Int32,$n[0].Int32]},{"a":1,"n":"AddRoot","t":8,"pi":[{"n":"lower","pt":$n[0].Int32,"ps":0},{"n":"upper","pt":$n[0].Int32,"ps":1}],"sn":"AddRoot","rt":$n[1].HingeJoint2D,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"AddSaw","t":8,"pi":[{"n":"parent","pt":$n[1].HingeJoint2D,"ps":0},{"n":"lower","pt":$n[0].Int32,"ps":1},{"n":"upper","pt":$n[0].Int32,"ps":2}],"sn":"AddSaw","rt":$n[0].Void,"p":[$n[1].HingeJoint2D,$n[0].Int32,$n[0].Int32]},{"a":2,"n":"Init","t":8,"sn":"Init","rt":$n[0].Void},{"a":1,"n":"UpdateArm","t":8,"sn":"UpdateArm","rt":$n[0].Void},{"a":2,"n":"initPosition","t":4,"rt":$n[1].Vector3,"sn":"initPosition"},{"at":[new UnityEngine.HeaderAttribute("Authorized personnel only")],"a":2,"n":"jointPrefab","t":4,"rt":$n[1].GameObject,"sn":"jointPrefab"},{"a":2,"n":"joints","t":4,"rt":$n[0].Int32,"sn":"joints","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"sawPrefab","t":4,"rt":$n[1].GameObject,"sn":"sawPrefab"}]}; }, $n);
+    /*ArmController end.*/
+
+    /*Conveyor start.*/
+    $m("Conveyor", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Accept","t":8,"pi":[{"n":"visitor","pt":IRobotVisitor,"ps":0}],"sn":"Accept","rt":$n[0].Void,"p":[IRobotVisitor]},{"a":2,"n":"Init","t":8,"sn":"Init","rt":$n[0].Void},{"a":1,"n":"Resize","t":8,"pi":[{"n":"amount","pt":$n[0].Single,"ps":0},{"n":"direction","pt":$n[1].Vector3,"ps":1}],"sn":"Resize","rt":$n[0].Void,"p":[$n[0].Single,$n[1].Vector3]},{"a":1,"n":"UpdateConveyor","t":8,"sn":"UpdateConveyor","rt":$n[0].Void},{"a":2,"n":"conveyor","t":4,"rt":$n[1].GameObject,"sn":"conveyor"},{"a":2,"n":"length","t":4,"rt":$n[0].Int32,"sn":"length","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    /*Conveyor end.*/
+
+    /*ICommand start.*/
+    $m("ICommand", function () { return {"att":161,"a":2,"m":[{"ab":true,"a":2,"n":"Execute","t":8,"pi":[{"n":"position","pt":$n[1].Vector2,"ps":0}],"sn":"ICommand$Execute","rt":$n[0].Void,"p":[$n[1].Vector2]}]}; }, $n);
+    /*ICommand end.*/
+
+    /*IRobotElement start.*/
+    $m("IRobotElement", function () { return {"att":161,"a":2,"m":[{"ab":true,"a":2,"n":"Accept","t":8,"pi":[{"n":"visitor","pt":IRobotVisitor,"ps":0}],"sn":"IRobotElement$Accept","rt":$n[0].Void,"p":[IRobotVisitor]}]}; }, $n);
+    /*IRobotElement end.*/
+
+    /*IRobotVisitor start.*/
+    $m("IRobotVisitor", function () { return {"att":161,"a":2,"m":[{"ab":true,"a":2,"n":"Visit","t":8,"pi":[{"n":"arm","pt":ArmController,"ps":0}],"sn":"IRobotVisitor$Visit","rt":$n[0].Void,"p":[ArmController]},{"ab":true,"a":2,"n":"Visit","t":8,"pi":[{"n":"conveyor","pt":Conveyor,"ps":0}],"sn":"IRobotVisitor$Visit$1","rt":$n[0].Void,"p":[Conveyor]},{"ab":true,"a":2,"n":"Visit","t":8,"pi":[{"n":"saw","pt":SawController,"ps":0}],"sn":"IRobotVisitor$Visit$2","rt":$n[0].Void,"p":[SawController]}]}; }, $n);
+    /*IRobotVisitor end.*/
+
+    /*MoveToPosition start.*/
+    $m("MoveToPosition", function () { return {"att":1048577,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[Saw],"pi":[{"n":"saw","pt":Saw,"ps":0}],"sn":"ctor"},{"a":2,"n":"Execute","t":8,"pi":[{"n":"position","pt":$n[1].Vector2,"ps":0}],"sn":"Execute","rt":$n[0].Void,"p":[$n[1].Vector2]},{"a":1,"n":"controller","t":4,"rt":Saw,"sn":"controller"}]}; }, $n);
+    /*MoveToPosition end.*/
+
+    /*RobotController start.*/
+    $m("RobotController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
+    /*RobotController end.*/
+
+    /*Saw start.*/
+    $m("Saw", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":2,"n":"MoveToPosition","t":8,"pi":[{"n":"position","pt":$n[1].Vector2,"ps":0}],"sn":"MoveToPosition","rt":$n[0].Void,"p":[$n[1].Vector2]},{"a":1,"n":"OnTriggerEnter2D","t":8,"pi":[{"n":"col","pt":$n[1].Collider2D,"ps":0}],"sn":"OnTriggerEnter2D","rt":$n[0].Void,"p":[$n[1].Collider2D]},{"a":1,"n":"OnTriggerExit2D","t":8,"pi":[{"n":"col","pt":$n[1].Collider2D,"ps":0}],"sn":"OnTriggerExit2D","rt":$n[0].Void,"p":[$n[1].Collider2D]},{"a":2,"n":"SetDurability","t":8,"pi":[{"n":"newDurability","pt":$n[0].Int32,"ps":0}],"sn":"SetDurability","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"SetMovementSpeed","t":8,"pi":[{"n":"newMovementSpeed","pt":$n[0].Single,"ps":0}],"sn":"SetMovementSpeed","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"durability","t":4,"rt":$n[0].Int32,"sn":"durability","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"isCollingBrick","t":4,"rt":$n[0].Boolean,"sn":"isCollingBrick","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"movementSpeed","t":4,"rt":$n[0].Single,"sn":"movementSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"rb","t":4,"rt":$n[1].Rigidbody2D,"sn":"rb"},{"a":1,"n":"reset","t":4,"rt":$n[0].Single,"sn":"reset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"timer","t":4,"rt":$n[0].Single,"sn":"timer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*Saw end.*/
+
+    /*SawController start.*/
+    $m("SawController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Accept","t":8,"pi":[{"n":"visitor","pt":IRobotVisitor,"ps":0}],"sn":"Accept","rt":$n[0].Void,"p":[IRobotVisitor]},{"a":2,"n":"Init","t":8,"sn":"Init","rt":$n[0].Void},{"a":1,"n":"UpdateSaw","t":8,"sn":"UpdateSaw","rt":$n[0].Void},{"a":2,"n":"durability","t":4,"rt":$n[0].Int32,"sn":"durability","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"mass","t":4,"rt":$n[0].Single,"sn":"mass","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("Default value. These values are in-game un-upgradable")],"a":2,"n":"movementSpeed","t":4,"rt":$n[0].Single,"sn":"movementSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"rotationSpeed","t":4,"rt":$n[0].Single,"sn":"rotationSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"saw","t":4,"rt":$n[1].GameObject,"sn":"saw"},{"a":2,"n":"size","t":4,"rt":$n[0].Single,"sn":"size","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*SawController end.*/
+
     /*BucketCrusher1 start.*/
-    $m("BucketCrusher1", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
+    $m("BucketCrusher1", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"armController","t":4,"rt":ArmController,"sn":"armController"},{"a":2,"n":"conveyor","t":4,"rt":Conveyor,"sn":"conveyor"},{"a":2,"n":"gameController","t":4,"rt":GameController,"sn":"gameController"},{"a":2,"n":"sawController","t":4,"rt":SawController,"sn":"sawController"}]}; }, $n);
     /*BucketCrusher1 end.*/
 
     /*TypeDestroy start.*/
@@ -8858,11 +9367,11 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     /*Difficult end.*/
 
     /*DefineHelper start.*/
-    $m("DefineHelper", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
+    $m("DefineHelper", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"JoyStick","is":true,"t":4,"rt":$n[0].String,"sn":"JoyStick"}]}; }, $n);
     /*DefineHelper end.*/
 
     /*NameTag start.*/
-    $m("NameTag", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CheckWin","is":true,"t":4,"rt":$n[0].String,"sn":"CheckWin"},{"a":2,"n":"ObjectPick","is":true,"t":4,"rt":$n[0].String,"sn":"ObjectPick"},{"a":2,"n":"ObjectWin","is":true,"t":4,"rt":$n[0].String,"sn":"ObjectWin"}]}; }, $n);
+    $m("NameTag", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Brick","is":true,"t":4,"rt":$n[0].String,"sn":"Brick"},{"a":2,"n":"Conveyor","is":true,"t":4,"rt":$n[0].String,"sn":"Conveyor"},{"a":2,"n":"Destroyer","is":true,"t":4,"rt":$n[0].String,"sn":"Destroyer"},{"a":2,"n":"Saw","is":true,"t":4,"rt":$n[0].String,"sn":"Saw"}]}; }, $n);
     /*NameTag end.*/
 
     /*EventID start.*/

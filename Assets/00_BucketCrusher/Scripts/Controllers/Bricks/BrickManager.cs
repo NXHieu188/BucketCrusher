@@ -11,12 +11,13 @@ public class BrickManager : MonoBehaviour
 {
     [SerializeField] private Texture2D imageLoader;
     [SerializeField] private GameObject brickPrefab, brickHolder;
+    [SerializeField] private Vector3 positionBrickHold;
     [SerializeField] private float brickSize;
     [SerializeField] private int brickHealth;
     [SerializeField] private int xOffset;
     public static Action<Rarity> onBrickDestroyed;
 
-    private void Start()
+    public void Init()
     {
         brickPrefab.transform.localScale = Vector3.one * brickSize;
         CreateMap();
@@ -43,7 +44,7 @@ public class BrickManager : MonoBehaviour
         for (int x = 0; x < image.width; ++x)
             for (int y = 0; y < image.height; ++y)
                 CreateBrick(x, y, image.GetPixel(x, y));
-        brickHolder.transform.position = new Vector3(-5.89f, -2.37f, 10);
+        brickHolder.transform.position = positionBrickHold;
     }
 
     void CreateBrick(int x, int y, Color pixel)
@@ -53,6 +54,14 @@ public class BrickManager : MonoBehaviour
             return;
 
         var go = Instantiate(brickPrefab, GetBrickLocation(x, y), Quaternion.identity);
+        //#if UNITY_EDITOR
+        go.transform.localScale = new Vector3(0.28f, 0.28f, 0.28f);
+        //        Debug.Log("a");
+        //#endif
+        //#if UNITY_LUNA
+        //                go.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
+        //                  Debug.Log("b");
+        //#endif
         go.transform.SetParent(brickHolder.transform);
 
         // TO MAKE BRICK MORE REALISTIC
