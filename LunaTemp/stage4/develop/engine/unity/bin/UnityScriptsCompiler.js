@@ -1,6 +1,6 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","Brick#SetHp","Brick#Start","Brick#OnTriggerEnter2D","Brick#OnCollisionEnter2D","Brick#Update","Brick#Debunk","BrickManager#init","BrickManager#Init","BrickManager#CreateMap","BrickManager#ParsePNGToMap","BrickManager#CreateBrick","BrickManager#GetBrickLocation","BrickManager#Update","BrickManager#OnDestroy","SingletonMono$1#init","SingletonMono$1#Awake","Conveyor#Init","Conveyor#Accept","Conveyor#UpdateConveyor","Conveyor#Resize","DefineHelper#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","Joystick#Horizontal#get","Joystick#Vertical#get","Joystick#Direction#get","Joystick#HandleRange#get","Joystick#HandleRange#set","Joystick#DeadZone#get","Joystick#DeadZone#set","Joystick#AxisOptions#get","Joystick#AxisOptions#set","Joystick#SnapX#get","Joystick#SnapX#set","Joystick#SnapY#get","Joystick#SnapY#set","Joystick#init","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#HandleInput","Joystick#FormatInput","Joystick#SnapFloat","Joystick#OnPointerUp","Joystick#ScreenPointToAnchoredPosition","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","GameController#Init","GameController#Update","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","JoystickPlayerExample#FixedUpdate","JoystickSetterExample#ModeChanged","JoystickSetterExample#AxisChanged","JoystickSetterExample#SnapX","JoystickSetterExample#SnapY","JoystickSetterExample#Update","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","RotateObject#Start","Saw#init","Saw#SetMovementSpeed","Saw#SetDurability","Saw#Start","Saw#MoveToPosition","Saw#FixedUpdate","Saw#OnTriggerEnter2D","Saw#OnTriggerExit2D","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","UltimateJoystick#init","UltimateJoystick#JoystickConfirmed","UltimateJoystick#GetUltimateJoystick","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystick#init","UltimateJoystick#Awake","UltimateJoystick#Start","UltimateJoystick#OnPointerDown","UltimateJoystick#OnDrag","UltimateJoystick#OnPointerUp","UltimateJoystick#UpdateJoystick","UltimateJoystick#ConfigureImagePosition","UltimateJoystick#TensionAccentDisplay","UltimateJoystick#TensionAccentReset","UltimateJoystick#GravityHandler","UltimateJoystick#GetParentCanvas","UltimateJoystick#GetCanvasGroup","UltimateJoystick#FadeLogic","UltimateJoystick#TapCountdown","UltimateJoystick#TapCountDelay","UltimateJoystick#CheckJoystickHighlightForUse","UltimateJoystick#UpdatePositionValues","UltimateJoystick#ResetJoystick","UltimateJoystick#UpdateSizeAndPlacement","UltimateJoystick#UpdatePositioning","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#UpdateHighlightColor","UltimateJoystick#UpdateTensionColors","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystickExample.Spaceship.AsteroidController#init","UltimateJoystickExample.Spaceship.AsteroidController#Setup","UltimateJoystickExample.Spaceship.AsteroidController#DelayInitialDestruction","UltimateJoystickExample.Spaceship.AsteroidController#Update","UltimateJoystickExample.Spaceship.AsteroidController#OnCollisionEnter","UltimateJoystickExample.Spaceship.AsteroidController#Explode","UltimateJoystickExample.Spaceship.GameManager#Instance#get","UltimateJoystickExample.Spaceship.GameManager#init","UltimateJoystickExample.Spaceship.GameManager#Awake","UltimateJoystickExample.Spaceship.GameManager#Start","UltimateJoystickExample.Spaceship.GameManager#SpawnTimer","UltimateJoystickExample.Spaceship.GameManager#SpawnAsteroid","UltimateJoystickExample.Spaceship.GameManager#SpawnDebris","UltimateJoystickExample.Spaceship.GameManager#SpawnExplosion","UltimateJoystickExample.Spaceship.GameManager#ShowDeathScreen","UltimateJoystickExample.Spaceship.GameManager#FadeDeathScreen","UltimateJoystickExample.Spaceship.GameManager#ModifyScore","UltimateJoystickExample.Spaceship.GameManager#UpdateScoreText","UltimateJoystickExample.Spaceship.GameManager#ShakeCamera","UltimateJoystickExample.Spaceship.PlayerController#init","UltimateJoystickExample.Spaceship.PlayerController#Start","UltimateJoystickExample.Spaceship.PlayerController#Update","UltimateJoystickExample.Spaceship.PlayerController#FixedUpdate","UltimateJoystickExample.Spaceship.PlayerController#CheckExitScreen","UltimateJoystickExample.Spaceship.PlayerController#CreateBullets","UltimateJoystickScreenSizeUpdater#OnRectTransformDimensionsChange","UltimateJoystickScreenSizeUpdater#YieldPositioning","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","ArmController#init","ArmController#Accept","ArmController#Init","ArmController#UpdateArm","ArmController#AddRoot","ArmController#AddChild","ArmController#AddSaw","Singleton$1#Instance#get","DynamicJoystick#MoveThreshold#get","DynamicJoystick#MoveThreshold#set","DynamicJoystick#init","DynamicJoystick#Start","DynamicJoystick#OnPointerDown","DynamicJoystick#OnPointerUp","DynamicJoystick#HandleInput","FloatingJoystick#Start","FloatingJoystick#OnPointerDown","FloatingJoystick#OnPointerUp","MoveToPosition#ctor","MoveToPosition#Execute","SawController#Init","SawController#Accept","SawController#UpdateSaw","VariableJoystick#MoveThreshold#get","VariableJoystick#MoveThreshold#set","VariableJoystick#init","VariableJoystick#SetMode","VariableJoystick#Start","VariableJoystick#OnPointerDown","VariableJoystick#OnPointerUp","VariableJoystick#HandleInput","BucketCrusher1#inherits","BucketCrusher1#Start","GlobalInstance#inherits","GlobalInstance#init","SingletonDontDestroyOnLoad$1#Awake"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","Brick#SetHp","Brick#Start","Brick#OnTriggerEnter2D","Brick#OnCollisionEnter2D","Brick#Update","Brick#Debunk","BrickManager#init","BrickManager#Init","BrickManager#CreateMap","BrickManager#ParsePNGToMap","BrickManager#CreateBrick","BrickManager#GetBrickLocation","BrickManager#Update","BrickManager#OnDestroy","SingletonMono$1#init","SingletonMono$1#Awake","BucketCrusher2#init","BucketCrusher2#Start","BucketCrusher2#AnimationCap","BucketCrusher2#AnimationCandy","BucketCrusher2#AnimationWillMid","BucketCrusher2#ChangeCaptain","BucketCrusher2#ChangeCandy","BucketCrusher2#ChangeWildMill","BucketCrusher2#Update","BucketCrusher2#ChooseCaptain","BucketCrusher2#ChooseCandy","BucketCrusher2#ChooseWindMill","BucketCrusher2#EndGame","BucketCrusher2#InstallFullGame","Conveyor#Init","Conveyor#Accept","Conveyor#UpdateConveyor","Conveyor#Resize","DefineHelper#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","Joystick#Horizontal#get","Joystick#Vertical#get","Joystick#Direction#get","Joystick#HandleRange#get","Joystick#HandleRange#set","Joystick#DeadZone#get","Joystick#DeadZone#set","Joystick#AxisOptions#get","Joystick#AxisOptions#set","Joystick#SnapX#get","Joystick#SnapX#set","Joystick#SnapY#get","Joystick#SnapY#set","Joystick#init","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#HandleInput","Joystick#FormatInput","Joystick#SnapFloat","Joystick#OnPointerUp","Joystick#ScreenPointToAnchoredPosition","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","GameController#Init","GameController#Update","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","JoystickPlayerExample#FixedUpdate","JoystickSetterExample#ModeChanged","JoystickSetterExample#AxisChanged","JoystickSetterExample#SnapX","JoystickSetterExample#SnapY","JoystickSetterExample#Update","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","RotateObject#Start","Saw#init","Saw#SetMovementSpeed","Saw#SetDurability","Saw#Start","Saw#MoveToPosition","Saw#FixedUpdate","Saw#OnTriggerEnter2D","Saw#OnTriggerExit2D","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","UltimateJoystick#init","UltimateJoystick#JoystickConfirmed","UltimateJoystick#GetUltimateJoystick","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystick#init","UltimateJoystick#Awake","UltimateJoystick#Start","UltimateJoystick#OnPointerDown","UltimateJoystick#OnDrag","UltimateJoystick#OnPointerUp","UltimateJoystick#UpdateJoystick","UltimateJoystick#ConfigureImagePosition","UltimateJoystick#TensionAccentDisplay","UltimateJoystick#TensionAccentReset","UltimateJoystick#GravityHandler","UltimateJoystick#GetParentCanvas","UltimateJoystick#GetCanvasGroup","UltimateJoystick#FadeLogic","UltimateJoystick#TapCountdown","UltimateJoystick#TapCountDelay","UltimateJoystick#CheckJoystickHighlightForUse","UltimateJoystick#UpdatePositionValues","UltimateJoystick#ResetJoystick","UltimateJoystick#UpdateSizeAndPlacement","UltimateJoystick#UpdatePositioning","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#UpdateHighlightColor","UltimateJoystick#UpdateTensionColors","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystickExample.Spaceship.AsteroidController#init","UltimateJoystickExample.Spaceship.AsteroidController#Setup","UltimateJoystickExample.Spaceship.AsteroidController#DelayInitialDestruction","UltimateJoystickExample.Spaceship.AsteroidController#Update","UltimateJoystickExample.Spaceship.AsteroidController#OnCollisionEnter","UltimateJoystickExample.Spaceship.AsteroidController#Explode","UltimateJoystickExample.Spaceship.GameManager#Instance#get","UltimateJoystickExample.Spaceship.GameManager#init","UltimateJoystickExample.Spaceship.GameManager#Awake","UltimateJoystickExample.Spaceship.GameManager#Start","UltimateJoystickExample.Spaceship.GameManager#SpawnTimer","UltimateJoystickExample.Spaceship.GameManager#SpawnAsteroid","UltimateJoystickExample.Spaceship.GameManager#SpawnDebris","UltimateJoystickExample.Spaceship.GameManager#SpawnExplosion","UltimateJoystickExample.Spaceship.GameManager#ShowDeathScreen","UltimateJoystickExample.Spaceship.GameManager#FadeDeathScreen","UltimateJoystickExample.Spaceship.GameManager#ModifyScore","UltimateJoystickExample.Spaceship.GameManager#UpdateScoreText","UltimateJoystickExample.Spaceship.GameManager#ShakeCamera","UltimateJoystickExample.Spaceship.PlayerController#init","UltimateJoystickExample.Spaceship.PlayerController#Start","UltimateJoystickExample.Spaceship.PlayerController#Update","UltimateJoystickExample.Spaceship.PlayerController#FixedUpdate","UltimateJoystickExample.Spaceship.PlayerController#CheckExitScreen","UltimateJoystickExample.Spaceship.PlayerController#CreateBullets","UltimateJoystickScreenSizeUpdater#OnRectTransformDimensionsChange","UltimateJoystickScreenSizeUpdater#YieldPositioning","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","ArmController#init","ArmController#Accept","ArmController#Init","ArmController#UpdateArm","ArmController#AddRoot","ArmController#AddChild","ArmController#AddSaw","Singleton$1#Instance#get","DynamicJoystick#MoveThreshold#get","DynamicJoystick#MoveThreshold#set","DynamicJoystick#init","DynamicJoystick#Start","DynamicJoystick#OnPointerDown","DynamicJoystick#OnPointerUp","DynamicJoystick#HandleInput","FloatingJoystick#Start","FloatingJoystick#OnPointerDown","FloatingJoystick#OnPointerUp","MoveToPosition#ctor","MoveToPosition#Execute","SawController#Init","SawController#Accept","SawController#UpdateSaw","VariableJoystick#MoveThreshold#get","VariableJoystick#MoveThreshold#set","VariableJoystick#init","VariableJoystick#SetMode","VariableJoystick#Start","VariableJoystick#OnPointerDown","VariableJoystick#OnPointerUp","VariableJoystick#HandleInput","BucketCrusher1#inherits","BucketCrusher1#Start","GlobalInstance#inherits","GlobalInstance#init","SingletonDontDestroyOnLoad$1#Awake","SoundController#inherits","SoundController#PlaySounClick","SoundController#PlaySoundFX","SoundController#PlaySoundBG","SoundController#StopSound"]' ) ); }
 /**
- * @version 1.0.8242.30762
+ * @version 1.0.8243.20535
  * @copyright anton
  * @compiler Bridge.NET 17.9.19-luna
  */
@@ -437,6 +437,213 @@ if ( TRACE ) { TRACE( "SingletonMono$1#Awake", this ); }
         }
     }; });
     /*SingletonMono$1 end.*/
+
+    /*BucketCrusher2 start.*/
+    Bridge.define("BucketCrusher2", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            brickManager: null,
+            lstSaw: null,
+            lstTruc: null,
+            lstTam: null,
+            lstBorder: null,
+            lstMateCaptain: null,
+            lstMateCandy: null,
+            lstWindMill: null,
+            soundControll: null,
+            guideChooseGroup: null,
+            guideDrag: null,
+            isChoosed: false,
+            isEndGame: false
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#init", this ); }
+
+                this.isChoosed = false;
+                this.isEndGame = false;
+            }
+        },
+        methods: {
+            /*BucketCrusher2.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#Start", this ); }
+
+                Luna.Unity.LifeCycle.GameStarted();
+                this.brickManager.Init();
+                this.AnimationCap();
+            },
+            /*BucketCrusher2.Start end.*/
+
+            /*BucketCrusher2.AnimationCap start.*/
+            AnimationCap: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#AnimationCap", this ); }
+
+                if (this.isChoosed) {
+                    return;
+                }
+                this.ChangeCaptain();
+                this.StartCoroutine$1(HelperUtility.StartAction$1(Bridge.fn.cacheBind(this, this.AnimationCandy), 1.15));
+            },
+            /*BucketCrusher2.AnimationCap end.*/
+
+            /*BucketCrusher2.AnimationCandy start.*/
+            AnimationCandy: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#AnimationCandy", this ); }
+
+                if (this.isChoosed) {
+                    return;
+                }
+                this.ChangeCandy();
+                this.StartCoroutine$1(HelperUtility.StartAction$1(Bridge.fn.cacheBind(this, this.AnimationWillMid), 1.15));
+            },
+            /*BucketCrusher2.AnimationCandy end.*/
+
+            /*BucketCrusher2.AnimationWillMid start.*/
+            AnimationWillMid: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#AnimationWillMid", this ); }
+
+                if (this.isChoosed) {
+                    return;
+                }
+                this.ChangeWildMill();
+                this.StartCoroutine$1(HelperUtility.StartAction$1(Bridge.fn.cacheBind(this, this.AnimationCap), 0.7));
+            },
+            /*BucketCrusher2.AnimationWillMid end.*/
+
+            /*BucketCrusher2.ChangeCaptain start.*/
+            ChangeCaptain: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#ChangeCaptain", this ); }
+
+                this.lstSaw.getItem(0).SetActive(true);
+                this.lstSaw.getItem(1).SetActive(false);
+                this.lstSaw.getItem(2).SetActive(false);
+                for (var i = 0; i < this.lstTam.Count; i = (i + 1) | 0) {
+                    this.lstTam.getItem(i).material = this.lstMateCaptain.getItem(0);
+                }
+                for (var i1 = 0; i1 < this.lstBorder.Count; i1 = (i1 + 1) | 0) {
+                    this.lstBorder.getItem(i1).material = this.lstMateCaptain.getItem(1);
+                }
+                for (var i2 = 0; i2 < this.lstTruc.Count; i2 = (i2 + 1) | 0) {
+                    this.lstTruc.getItem(i2).material = this.lstMateCaptain.getItem(2);
+                }
+            },
+            /*BucketCrusher2.ChangeCaptain end.*/
+
+            /*BucketCrusher2.ChangeCandy start.*/
+            ChangeCandy: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#ChangeCandy", this ); }
+
+                this.lstSaw.getItem(0).SetActive(false);
+                this.lstSaw.getItem(1).SetActive(true);
+                this.lstSaw.getItem(2).SetActive(false);
+                for (var i = 0; i < this.lstTam.Count; i = (i + 1) | 0) {
+                    this.lstTam.getItem(i).material = this.lstMateCandy.getItem(0);
+                }
+                for (var i1 = 0; i1 < this.lstBorder.Count; i1 = (i1 + 1) | 0) {
+                    this.lstBorder.getItem(i1).material = this.lstMateCandy.getItem(1);
+                }
+                for (var i2 = 0; i2 < this.lstTruc.Count; i2 = (i2 + 1) | 0) {
+                    this.lstTruc.getItem(i2).material = this.lstMateCandy.getItem(2);
+                }
+            },
+            /*BucketCrusher2.ChangeCandy end.*/
+
+            /*BucketCrusher2.ChangeWildMill start.*/
+            ChangeWildMill: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#ChangeWildMill", this ); }
+
+                this.lstSaw.getItem(0).SetActive(false);
+                this.lstSaw.getItem(1).SetActive(false);
+                this.lstSaw.getItem(2).SetActive(true);
+                for (var i = 0; i < this.lstTam.Count; i = (i + 1) | 0) {
+                    this.lstTam.getItem(i).material = this.lstWindMill.getItem(0);
+                }
+                for (var i1 = 0; i1 < this.lstBorder.Count; i1 = (i1 + 1) | 0) {
+                    this.lstBorder.getItem(i1).material = this.lstWindMill.getItem(1);
+                }
+                for (var i2 = 0; i2 < this.lstTruc.Count; i2 = (i2 + 1) | 0) {
+                    this.lstTruc.getItem(i2).material = this.lstWindMill.getItem(2);
+                }
+            },
+            /*BucketCrusher2.ChangeWildMill end.*/
+
+            /*BucketCrusher2.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#Update", this ); }
+
+                if (this.isEndGame) {
+                    if (UnityEngine.Input.GetMouseButtonDown(0)) {
+                        this.InstallFullGame();
+                    }
+                }
+            },
+            /*BucketCrusher2.Update end.*/
+
+            /*BucketCrusher2.ChooseCaptain start.*/
+            ChooseCaptain: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#ChooseCaptain", this ); }
+
+                this.guideChooseGroup.SetActive(false);
+                Luna.Unity.Analytics.LogEvent$1("Choose Saw Captian", 0);
+                this.ChangeCaptain();
+                this.guideDrag.SetActive(true);
+                this.guideDrag.GetComponent(UnityEngine.Animation).Play();
+                this.soundControll.PlaySounClick();
+                this.EndGame();
+            },
+            /*BucketCrusher2.ChooseCaptain end.*/
+
+            /*BucketCrusher2.ChooseCandy start.*/
+            ChooseCandy: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#ChooseCandy", this ); }
+
+                this.guideChooseGroup.SetActive(false);
+                Luna.Unity.Analytics.LogEvent$1("Choose Saw Candy", 0);
+                this.ChangeCandy();
+                this.guideDrag.SetActive(true);
+                this.guideDrag.GetComponent(UnityEngine.Animation).Play();
+                this.soundControll.PlaySounClick();
+                this.EndGame();
+            },
+            /*BucketCrusher2.ChooseCandy end.*/
+
+            /*BucketCrusher2.ChooseWindMill start.*/
+            ChooseWindMill: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#ChooseWindMill", this ); }
+
+                this.guideChooseGroup.SetActive(false);
+                Luna.Unity.Analytics.LogEvent$1("Choose Saw WindMill", 0);
+                this.ChangeWildMill();
+                this.guideDrag.SetActive(true);
+                this.guideDrag.GetComponent(UnityEngine.Animation).Play();
+                this.soundControll.PlaySounClick();
+                this.EndGame();
+            },
+            /*BucketCrusher2.ChooseWindMill end.*/
+
+            /*BucketCrusher2.EndGame start.*/
+            EndGame: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#EndGame", this ); }
+
+                Luna.Unity.LifeCycle.GameEnded();
+                this.isEndGame = true;
+                this.isChoosed = true;
+            },
+            /*BucketCrusher2.EndGame end.*/
+
+            /*BucketCrusher2.InstallFullGame start.*/
+            InstallFullGame: function () {
+if ( TRACE ) { TRACE( "BucketCrusher2#InstallFullGame", this ); }
+
+                Luna.Unity.Playable.InstallFullGame();
+            },
+            /*BucketCrusher2.InstallFullGame end.*/
+
+
+        }
+    });
+    /*BucketCrusher2 end.*/
 
     /*Conveyor start.*/
     Bridge.define("Conveyor", {
@@ -9287,6 +9494,55 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     }; });
     /*SingletonDontDestroyOnLoad$1 end.*/
 
+    /*SoundController start.*/
+    Bridge.define("SoundController", {
+        inherits: function () {
+if ( TRACE ) { TRACE( "SoundController#inherits", this ); }
+ return [Singleton$1(SoundController)]; },
+        fields: {
+            audioSourceFX: null,
+            audioSourceBG: null,
+            clipClick: null
+        },
+        methods: {
+            /*SoundController.PlaySounClick start.*/
+            PlaySounClick: function () {
+if ( TRACE ) { TRACE( "SoundController#PlaySounClick", this ); }
+
+                this.PlaySoundFX(this.clipClick);
+            },
+            /*SoundController.PlaySounClick end.*/
+
+            /*SoundController.PlaySoundFX start.*/
+            PlaySoundFX: function (audioClip) {
+if ( TRACE ) { TRACE( "SoundController#PlaySoundFX", this ); }
+
+                this.audioSourceFX.PlayOneShot(audioClip);
+            },
+            /*SoundController.PlaySoundFX end.*/
+
+            /*SoundController.PlaySoundBG start.*/
+            PlaySoundBG: function () {
+if ( TRACE ) { TRACE( "SoundController#PlaySoundBG", this ); }
+
+                this.audioSourceBG.Play();
+            },
+            /*SoundController.PlaySoundBG end.*/
+
+            /*SoundController.StopSound start.*/
+            StopSound: function () {
+if ( TRACE ) { TRACE( "SoundController#StopSound", this ); }
+
+                this.audioSourceBG.Stop();
+                //audioSourceFX.Stop();
+            },
+            /*SoundController.StopSound end.*/
+
+
+        }
+    });
+    /*SoundController end.*/
+
     var $m = Bridge.setMetadata,
         $n = ["System","UnityEngine","System.Collections.Generic","System.Collections","UnityEngine.UI","UnityEngine.EventSystems","UltimateJoystickExample.Spaceship","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
 
@@ -9342,9 +9598,17 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     $m("SawController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Accept","t":8,"pi":[{"n":"visitor","pt":IRobotVisitor,"ps":0}],"sn":"Accept","rt":$n[0].Void,"p":[IRobotVisitor]},{"a":2,"n":"Init","t":8,"sn":"Init","rt":$n[0].Void},{"a":1,"n":"UpdateSaw","t":8,"sn":"UpdateSaw","rt":$n[0].Void},{"a":2,"n":"durability","t":4,"rt":$n[0].Int32,"sn":"durability","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"mass","t":4,"rt":$n[0].Single,"sn":"mass","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("Default value. These values are in-game un-upgradable")],"a":2,"n":"movementSpeed","t":4,"rt":$n[0].Single,"sn":"movementSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"rotationSpeed","t":4,"rt":$n[0].Single,"sn":"rotationSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"saw","t":4,"rt":$n[1].GameObject,"sn":"saw"},{"a":2,"n":"size","t":4,"rt":$n[0].Single,"sn":"size","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*SawController end.*/
 
+    /*SoundController start.*/
+    $m("SoundController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"PlaySounClick","t":8,"sn":"PlaySounClick","rt":$n[0].Void},{"a":2,"n":"PlaySoundBG","t":8,"sn":"PlaySoundBG","rt":$n[0].Void},{"a":1,"n":"PlaySoundFX","t":8,"pi":[{"n":"audioClip","pt":$n[1].AudioClip,"ps":0}],"sn":"PlaySoundFX","rt":$n[0].Void,"p":[$n[1].AudioClip]},{"a":2,"n":"StopSound","t":8,"sn":"StopSound","rt":$n[0].Void},{"a":2,"n":"audioSourceBG","t":4,"rt":$n[1].AudioSource,"sn":"audioSourceBG"},{"a":2,"n":"audioSourceFX","t":4,"rt":$n[1].AudioSource,"sn":"audioSourceFX"},{"a":2,"n":"clipClick","t":4,"rt":$n[1].AudioClip,"sn":"clipClick"}]}; }, $n);
+    /*SoundController end.*/
+
     /*BucketCrusher1 start.*/
     $m("BucketCrusher1", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"armController","t":4,"rt":ArmController,"sn":"armController"},{"a":2,"n":"conveyor","t":4,"rt":Conveyor,"sn":"conveyor"},{"a":2,"n":"gameController","t":4,"rt":GameController,"sn":"gameController"},{"a":2,"n":"sawController","t":4,"rt":SawController,"sn":"sawController"}]}; }, $n);
     /*BucketCrusher1 end.*/
+
+    /*BucketCrusher2 start.*/
+    $m("BucketCrusher2", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AnimationCandy","t":8,"sn":"AnimationCandy","rt":$n[0].Void},{"a":1,"n":"AnimationCap","t":8,"sn":"AnimationCap","rt":$n[0].Void},{"a":1,"n":"AnimationWillMid","t":8,"sn":"AnimationWillMid","rt":$n[0].Void},{"a":1,"n":"ChangeCandy","t":8,"sn":"ChangeCandy","rt":$n[0].Void},{"a":1,"n":"ChangeCaptain","t":8,"sn":"ChangeCaptain","rt":$n[0].Void},{"a":1,"n":"ChangeWildMill","t":8,"sn":"ChangeWildMill","rt":$n[0].Void},{"a":2,"n":"ChooseCandy","t":8,"sn":"ChooseCandy","rt":$n[0].Void},{"a":2,"n":"ChooseCaptain","t":8,"sn":"ChooseCaptain","rt":$n[0].Void},{"a":2,"n":"ChooseWindMill","t":8,"sn":"ChooseWindMill","rt":$n[0].Void},{"a":1,"n":"EndGame","t":8,"sn":"EndGame","rt":$n[0].Void},{"a":2,"n":"InstallFullGame","t":8,"sn":"InstallFullGame","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"brickManager","t":4,"rt":BrickManager,"sn":"brickManager"},{"a":2,"n":"guideChooseGroup","t":4,"rt":$n[1].GameObject,"sn":"guideChooseGroup"},{"a":2,"n":"guideDrag","t":4,"rt":$n[1].GameObject,"sn":"guideDrag"},{"a":1,"n":"isChoosed","t":4,"rt":$n[0].Boolean,"sn":"isChoosed","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isEndGame","t":4,"rt":$n[0].Boolean,"sn":"isEndGame","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"lstBorder","t":4,"rt":$n[2].List$1(UnityEngine.MeshRenderer),"sn":"lstBorder"},{"a":2,"n":"lstMateCandy","t":4,"rt":$n[2].List$1(UnityEngine.Material),"sn":"lstMateCandy"},{"a":2,"n":"lstMateCaptain","t":4,"rt":$n[2].List$1(UnityEngine.Material),"sn":"lstMateCaptain"},{"a":2,"n":"lstSaw","t":4,"rt":$n[2].List$1(UnityEngine.GameObject),"sn":"lstSaw"},{"a":2,"n":"lstTam","t":4,"rt":$n[2].List$1(UnityEngine.MeshRenderer),"sn":"lstTam"},{"a":2,"n":"lstTruc","t":4,"rt":$n[2].List$1(UnityEngine.MeshRenderer),"sn":"lstTruc"},{"a":2,"n":"lstWindMill","t":4,"rt":$n[2].List$1(UnityEngine.Material),"sn":"lstWindMill"},{"a":2,"n":"soundControll","t":4,"rt":SoundController,"sn":"soundControll"}]}; }, $n);
+    /*BucketCrusher2 end.*/
 
     /*TypeDestroy start.*/
     $m("TypeDestroy", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"DESTROY","is":true,"t":4,"rt":TypeDestroy,"sn":"DESTROY","box":function ($v) { return Bridge.box($v, TypeDestroy, System.Enum.toStringFn(TypeDestroy));}},{"a":2,"n":"DISABLE","is":true,"t":4,"rt":TypeDestroy,"sn":"DISABLE","box":function ($v) { return Bridge.box($v, TypeDestroy, System.Enum.toStringFn(TypeDestroy));}},{"a":2,"n":"RESPAWNER","is":true,"t":4,"rt":TypeDestroy,"sn":"RESPAWNER","box":function ($v) { return Bridge.box($v, TypeDestroy, System.Enum.toStringFn(TypeDestroy));}}]}; }, $n);
