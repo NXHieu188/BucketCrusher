@@ -9,10 +9,11 @@ public enum Rarity
 }
 public class BrickManager : MonoBehaviour
 {
-    [SerializeField] private Texture2D imageLoader;
+    [HideInInspector] public Texture2D imageLoader;
     [SerializeField] private GameObject brickPrefab, brickHolder;
     [SerializeField] private Vector3 positionBrickHold;
     [SerializeField] private float brickSize;
+    [SerializeField] private float brickScale;
     [SerializeField] private int brickHealth;
     [SerializeField] private int xOffset;
     public static Action<Rarity> onBrickDestroyed;
@@ -55,7 +56,7 @@ public class BrickManager : MonoBehaviour
 
         var go = Instantiate(brickPrefab, GetBrickLocation(x, y), Quaternion.identity);
         //#if UNITY_EDITOR
-        go.transform.localScale = new Vector3(0.28f, 0.28f, 0.28f);
+        go.transform.localScale = new Vector3(brickScale, brickScale, brickScale); //0.41f //0.58
         //        Debug.Log("a");
         //#endif
         //#if UNITY_LUNA
@@ -73,7 +74,7 @@ public class BrickManager : MonoBehaviour
         //     pixel.g + offset,
         //     pixel.b + offset,
         //     1);
-        go.GetComponent<SpriteRenderer>().color =
+        go.GetComponent<MeshRenderer>().material.color =
             new Color(
                 pixel.r,
                 pixel.g,
@@ -85,7 +86,9 @@ public class BrickManager : MonoBehaviour
         //go.transform.eulerAngles = new Vector3(0, 0, Random.Range(-10f, 10f));
 
         // SET HP
-        go.GetComponent<Brick>().SetHp(brickHealth);
+        Brick brick = go.GetComponent<Brick>();
+        brick.SetHp(brickHealth);
+        GlobalInstance.Instance.gameManagerInstance.lstBrick.Add(brick);
     }
 
     Vector2 GetBrickLocation(int x, int y)

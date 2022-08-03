@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00_BucketCrusher/Scenes/2.unity
     guid: 84b5b6e27c930c044a4ede1d92df4b9b
+  - enabled: 1
+    path: Assets/01_BucketCrusherATSoft/Scenes/AT1.unity
+    guid: 5b701a9e88737ab4a87508e0bd8b8b59
+  - enabled: 1
+    path: Assets/01_BucketCrusherATSoft/Scenes/AT2.unity
+    guid: b70828f559854644e895440db2c2fb97
   m_configObjects: {}

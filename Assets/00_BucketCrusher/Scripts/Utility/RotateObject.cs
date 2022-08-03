@@ -8,7 +8,8 @@ public class RotateObject : MonoBehaviour
     [SerializeField] private float angle;
     private void Start()
     {
-        transform.DORotate(new Vector3(0, angle, 0), duration, RotateMode.LocalAxisAdd).SetLoops(-1).SetEase(Ease.Linear);
+        //transform.DORotate(new Vector3(-90, 0, angle), duration, RotateMode.LocalAxisAdd).SetLoops(-1).SetEase(Ease.Linear);
+        transform.DORotateQuaternion(Quaternion.Euler(new Vector3(-90, 0, angle)), duration).SetLoops(-1).SetEase(Ease.Linear);
     }
 
 }

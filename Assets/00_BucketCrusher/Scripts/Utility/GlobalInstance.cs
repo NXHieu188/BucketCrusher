@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class GlobalInstance : Singleton<GlobalInstance>
 {
-    public BucketCrusher1 gameManagerInstance = BucketCrusher1.Instance;
+    public ATManager2 gameManagerInstance = ATManager2.Instance;
 }

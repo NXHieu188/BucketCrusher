@@ -1,0 +1,203 @@
+{
+    "BuildID": "9dcc948a-8a46-4c97-b259-75a3c9cbd2fc",
+    "Command": "project:deploy",
+    "ProjectID": "9b18bd58-01ec-4dc1-8077-7f305e1fd3f0",
+    "ProjectStateHash": "8862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b91408862b6db9663eb79a26aae8a6b7688a05a31b295ee2a3934c5849392d39b9140",
+    "StageCompletedAt": 2,
+    "EarliestFatalError": 0,
+    "StartTime": 1659510693704,
+    "EndTime": 1659510718051,
+    "PlaygroundUserID": 2611,
+    "OperatingSystem": "win32",
+    "UnityVersion": "2020.3.29f1",
+    "LunaVersion": "3.12.0",
+    "LogCount": 8,
+    "Logs": [
+        {
+            "LogID": "a69d9034-9533-470d-bf14-81c458570007",
+            "Order": 0,
+            "Timestamp": 1659510713093,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Unlit/Transparent: Tags: \"QUEUE\"=\"Transparent\" \"IGNOREPROJECTOR\"=\"true\" \"RENDERTYPE\"=\"Transparent\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Unlit/Transparent: Tags: \"QUEUE\"=\"Transparent\" \"IGNOREPROJECTOR\"=\"true\" \"RENDERTYPE\"=\"Transparent\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "54c882d8-d269-461f-a337-0faff7698a93",
+            "Order": 1,
+            "Timestamp": 1659510713164,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Standard: Tags: \"LIGHTMODE\"=\"FORWARDADD\" \"SHADOWSUPPORT\"=\"true\" \"RENDERTYPE\"=\"Opaque\" \"PERFORMANCECHECKS\"=\"False\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Standard: Tags: \"LIGHTMODE\"=\"FORWARDADD\" \"SHADOWSUPPORT\"=\"true\" \"RENDERTYPE\"=\"Opaque\" \"PERFORMANCECHECKS\"=\"False\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "e1da2bab-e651-4ee6-b353-8b812cdb5196",
+            "Order": 2,
+            "Timestamp": 1659510713164,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Standard: Tags: \"LIGHTMODE\"=\"SHADOWCASTER\" \"SHADOWSUPPORT\"=\"true\" \"RENDERTYPE\"=\"Opaque\" \"PERFORMANCECHECKS\"=\"False\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Standard: Tags: \"LIGHTMODE\"=\"SHADOWCASTER\" \"SHADOWSUPPORT\"=\"true\" \"RENDERTYPE\"=\"Opaque\" \"PERFORMANCECHECKS\"=\"False\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "69d92580-67ff-4c55-8218-929accf371df",
+            "Order": 3,
+            "Timestamp": 1659510713193,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"Vertex\" \"RENDERTYPE\"=\"Opaque\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"Vertex\" \"RENDERTYPE\"=\"Opaque\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "9177edb8-9264-4586-ad8d-12489c27afbd",
+            "Order": 4,
+            "Timestamp": 1659510713193,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"VertexLM\" \"RENDERTYPE\"=\"Opaque\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"VertexLM\" \"RENDERTYPE\"=\"Opaque\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "43b39f24-97f3-4f64-944a-5d7faabfd29d",
+            "Order": 5,
+            "Timestamp": 1659510713193,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"SHADOWCASTER\" \"SHADOWSUPPORT\"=\"true\" \"RENDERTYPE\"=\"Opaque\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"SHADOWCASTER\" \"SHADOWSUPPORT\"=\"true\" \"RENDERTYPE\"=\"Opaque\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "661c2da5-ef58-4254-86d1-a093ad5a0f9a",
+            "Order": 6,
+            "Timestamp": 1659510714617,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 7,
+            "ErrorSubType": 8,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Code > Runtime Analysis tab and hit \"Start Analysis\""
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "227a2809-e04d-4cff-b9dc-1d611287514c",
+            "Order": 7,
+            "Timestamp": 1659510714619,
+            "Stage": 1,
+            "Severity": 1,
+            "ErrorType": 4,
+            "ErrorSubType": 5,
+            "ErrorCode": "LP1010",
+            "Description": "Looks like a collider was scaled, this might affect performance.",
+            "Details": [
+                "Coin",
+                "Saw",
+                "Saw",
+                "Target",
+                "Top",
+                "Bottom",
+                "ass"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 7,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        }
+    ]
+}

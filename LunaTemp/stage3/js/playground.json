@@ -1,1 +1,1 @@
-{"title":"BucketCrusher-HieuNX-PLY3","icon":null,"fields":{},"assets":{},"sections":[],"buildId":"ccbed69a-9505-4ab0-82c8-44e3bbfafb1c"}
+{"title":"MonsterCrusher-HieuNX-PLY2","icon":null,"fields":{"ATManager2":{"typeShape":{"title":"TypeShape","type":"enum","defaultValue":0,"constraints":{},"section":"Game Config","order":12,"localization":0,"options":{"0":"QuaBo","1":"Donal","2":"Imposter"}}}},"assets":{},"sections":[],"buildId":"9dcc948a-8a46-4c97-b259-75a3c9cbd2fc"}
